@@ -18,11 +18,17 @@
       "name": "PLASTICA",
       "createdAt": "2025-10-05T23:08:26.322Z",
       "updatedAt": "2025-10-05T23:08:26.322Z"
+    },
+    {
+      "id": "1759705722024-kgk1mhsrf",
+      "name": "PRIMETTA",
+      "createdAt": "2025-10-05T23:08:42.024Z",
+      "updatedAt": "2025-10-05T23:08:42.024Z"
     }
   ],
   "orders": [],
   "metadata": {
-    "lastUpdated": "2025-10-05T23:08:26.323Z",
+    "lastUpdated": "2025-10-05T23:08:42.024Z",
     "version": "1.0.0"
   }
 }
