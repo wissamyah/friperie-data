@@ -12,11 +12,17 @@
       "name": "MIX II",
       "createdAt": "2025-10-05T22:55:34.903Z",
       "updatedAt": "2025-10-05T22:55:34.903Z"
+    },
+    {
+      "id": "1759705706322-r4av92s4t",
+      "name": "PLASTICA",
+      "createdAt": "2025-10-05T23:08:26.322Z",
+      "updatedAt": "2025-10-05T23:08:26.322Z"
     }
   ],
   "orders": [],
   "metadata": {
-    "lastUpdated": "2025-10-05T22:55:34.903Z",
+    "lastUpdated": "2025-10-05T23:08:26.323Z",
     "version": "1.0.0"
   }
 }
