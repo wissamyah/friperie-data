@@ -6,11 +6,17 @@
       "name": "MIX I",
       "createdAt": "2025-10-05T22:46:49.583Z",
       "updatedAt": "2025-10-05T22:46:49.583Z"
+    },
+    {
+      "id": "1759704934903-v0rw5xic5",
+      "name": "MIX II",
+      "createdAt": "2025-10-05T22:55:34.903Z",
+      "updatedAt": "2025-10-05T22:55:34.903Z"
     }
   ],
   "orders": [],
   "metadata": {
-    "lastUpdated": "2025-10-05T22:46:49.583Z",
+    "lastUpdated": "2025-10-05T22:55:34.903Z",
     "version": "1.0.0"
   }
 }
