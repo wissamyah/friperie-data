@@ -1,5 +1,4 @@
 {
-  "users": [],
   "products": [
     {
       "id": "1759704409583-lety0fd8l",
@@ -26,9 +25,16 @@
       "updatedAt": "2025-10-05T23:08:42.024Z"
     }
   ],
-  "orders": [],
+  "suppliers": [
+    {
+      "id": "1759706848827-yoi24oiss",
+      "name": "ID MONDO 2011",
+      "createdAt": "2025-10-05T23:27:28.827Z",
+      "updatedAt": "2025-10-05T23:27:28.827Z"
+    }
+  ],
   "metadata": {
-    "lastUpdated": "2025-10-05T23:08:42.024Z",
+    "lastUpdated": "2025-10-05T23:27:28.827Z",
     "version": "1.0.0"
   }
 }
