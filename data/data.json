@@ -1,5 +1,16 @@
 {
-       "users": [],
-       "products": [],
-       "orders": []
+  "users": [],
+  "products": [
+    {
+      "id": "1759704409583-lety0fd8l",
+      "name": "MIX I",
+      "createdAt": "2025-10-05T22:46:49.583Z",
+      "updatedAt": "2025-10-05T22:46:49.583Z"
+    }
+  ],
+  "orders": [],
+  "metadata": {
+    "lastUpdated": "2025-10-05T22:46:49.583Z",
+    "version": "1.0.0"
+  }
 }
