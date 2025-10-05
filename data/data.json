@@ -25,9 +25,16 @@
       "updatedAt": "2025-10-05T23:08:42.024Z"
     }
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "id": "1759707083459-gqk9a557f",
+      "name": "ID MONDO 2011",
+      "createdAt": "2025-10-05T23:31:23.459Z",
+      "updatedAt": "2025-10-05T23:31:23.459Z"
+    }
+  ],
   "metadata": {
-    "lastUpdated": "2025-10-05T23:31:14.244Z",
+    "lastUpdated": "2025-10-05T23:31:23.459Z",
     "version": "1.0.0"
   }
 }
