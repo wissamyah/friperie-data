@@ -40,13 +40,13 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-06T18:24:13.793Z",
+    "lastUpdated": "2025-10-06T18:30:23.049Z",
     "version": "1.0.0"
   },
   "containers": [
     {
-      "id": "1759775052962-kvxd1wi3v",
-      "containerNumber": "1",
+      "id": "1759775422950-njwd3rmps",
+      "containerNumber": "CONT1",
       "date": "2025-10-06",
       "supplierId": "1759707083459-gqk9a557f",
       "supplierName": "ID MONDO 2011",
@@ -61,22 +61,22 @@
       ],
       "freightCostEUR": 4900,
       "grandTotal": 39900,
-      "createdAt": "2025-10-06T18:24:12.962Z",
-      "updatedAt": "2025-10-06T18:24:12.962Z"
+      "createdAt": "2025-10-06T18:30:22.950Z",
+      "updatedAt": "2025-10-06T18:30:22.950Z"
     }
   ],
   "supplierLedger": [
     {
-      "id": "1759775053793-69sy6zkba",
+      "id": "1759775423006-jgh5v998n",
       "supplierId": "1759707083459-gqk9a557f",
       "supplierName": "ID MONDO 2011",
       "type": "container",
       "amount": -39900,
       "balance": -39900,
-      "description": "Container 1 purchase",
-      "relatedContainerId": "1759775052962-kvxd1wi3v",
+      "description": "Container CONT1 purchase",
+      "relatedContainerId": "1759775422950-njwd3rmps",
       "date": "2025-10-06",
-      "createdAt": "2025-10-06T18:24:13.793Z"
+      "createdAt": "2025-10-06T18:30:23.006Z"
     }
   ]
 }
