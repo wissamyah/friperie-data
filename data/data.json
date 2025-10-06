@@ -1,10 +1,18 @@
 {
-  "products": [],
+  "products": [
+    {
+      "id": "1759792370250-oh7332yyy",
+      "name": "MIX I",
+      "quantity": 0,
+      "createdAt": "2025-10-06T23:12:50.250Z",
+      "updatedAt": "2025-10-06T23:12:50.250Z"
+    }
+  ],
   "suppliers": [],
   "containers": [],
   "supplierLedger": [],
   "metadata": {
-    "lastUpdated": "2025-10-06T23:10:23.328Z",
+    "lastUpdated": "2025-10-06T23:12:50.288Z",
     "version": "1.0.0"
   }
 }
