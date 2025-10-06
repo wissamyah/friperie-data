@@ -40,7 +40,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-06T14:51:37.876Z",
+    "lastUpdated": "2025-10-06T14:51:39.281Z",
     "version": "1.0.0"
   },
   "containers": [
@@ -63,6 +63,20 @@
       "grandTotal": 9900,
       "createdAt": "2025-10-06T14:51:37.875Z",
       "updatedAt": "2025-10-06T14:51:37.875Z"
+    }
+  ],
+  "supplierLedger": [
+    {
+      "id": "1759762299281-wungpzhly",
+      "supplierId": "1759707083459-gqk9a557f",
+      "supplierName": "ID MONDO 2011",
+      "type": "container",
+      "amount": -9900,
+      "balance": -9900,
+      "description": "Container CONT-001 purchase",
+      "relatedContainerId": "1759762297875-ih5w2tzg3",
+      "date": "2025-10-06",
+      "createdAt": "2025-10-06T14:51:39.281Z"
     }
   ]
 }
