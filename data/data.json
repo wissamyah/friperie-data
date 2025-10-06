@@ -40,7 +40,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-06T18:23:03.102Z",
+    "lastUpdated": "2025-10-06T18:23:24.848Z",
     "version": "1.0.0"
   },
   "containers": [
@@ -77,6 +77,17 @@
       "relatedContainerId": "1759774982059-bjbfnsyhx",
       "date": "2025-10-06",
       "createdAt": "2025-10-06T18:23:03.102Z"
+    },
+    {
+      "id": "1759775004848-hd50hk5ph",
+      "supplierId": "1759707083459-gqk9a557f",
+      "supplierName": "ID MONDO 2011",
+      "type": "payment",
+      "amount": 30000,
+      "balance": -14900,
+      "description": "TR",
+      "date": "2025-10-06",
+      "createdAt": "2025-10-06T18:23:24.848Z"
     }
   ]
 }
