@@ -40,13 +40,13 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-06T18:23:24.848Z",
+    "lastUpdated": "2025-10-06T18:24:12.962Z",
     "version": "1.0.0"
   },
   "containers": [
     {
-      "id": "1759774982059-bjbfnsyhx",
-      "containerNumber": "CONT-001",
+      "id": "1759775052962-kvxd1wi3v",
+      "containerNumber": "1",
       "date": "2025-10-06",
       "supplierId": "1759707083459-gqk9a557f",
       "supplierName": "ID MONDO 2011",
@@ -55,39 +55,14 @@
           "productId": "1759704409583-lety0fd8l",
           "productName": "MIX I",
           "quantityBags": 500,
-          "priceEUR": 80,
-          "lineTotal": 40000
+          "priceEUR": 70,
+          "lineTotal": 35000
         }
       ],
       "freightCostEUR": 4900,
-      "grandTotal": 44900,
-      "createdAt": "2025-10-06T18:23:02.059Z",
-      "updatedAt": "2025-10-06T18:23:02.059Z"
-    }
-  ],
-  "supplierLedger": [
-    {
-      "id": "1759774983102-ywb5fs7ld",
-      "supplierId": "1759707083459-gqk9a557f",
-      "supplierName": "ID MONDO 2011",
-      "type": "container",
-      "amount": -44900,
-      "balance": -44900,
-      "description": "Container CONT-001 purchase",
-      "relatedContainerId": "1759774982059-bjbfnsyhx",
-      "date": "2025-10-06",
-      "createdAt": "2025-10-06T18:23:03.102Z"
-    },
-    {
-      "id": "1759775004848-hd50hk5ph",
-      "supplierId": "1759707083459-gqk9a557f",
-      "supplierName": "ID MONDO 2011",
-      "type": "payment",
-      "amount": 30000,
-      "balance": -14900,
-      "description": "TR",
-      "date": "2025-10-06",
-      "createdAt": "2025-10-06T18:23:24.848Z"
+      "grandTotal": 39900,
+      "createdAt": "2025-10-06T18:24:12.962Z",
+      "updatedAt": "2025-10-06T18:24:12.962Z"
     }
   ]
 }
