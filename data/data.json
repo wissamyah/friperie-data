@@ -40,13 +40,13 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-06T18:45:28.388Z",
+    "lastUpdated": "2025-10-06T18:56:17.933Z",
     "version": "1.0.0"
   },
   "containers": [
     {
-      "id": "1759776328293-1stiaugek",
-      "containerNumber": "Cont",
+      "id": "1759776977730-pk916g5k1",
+      "containerNumber": "001",
       "date": "2025-10-06",
       "supplierId": "1759707083459-gqk9a557f",
       "supplierName": "ID MONDO 2011",
@@ -61,22 +61,22 @@
       ],
       "freightCostEUR": 4900,
       "grandTotal": 29900,
-      "createdAt": "2025-10-06T18:45:28.293Z",
-      "updatedAt": "2025-10-06T18:45:28.293Z"
+      "createdAt": "2025-10-06T18:56:17.730Z",
+      "updatedAt": "2025-10-06T18:56:17.730Z"
     }
   ],
   "supplierLedger": [
     {
-      "id": "1759776328352-91xswqwcu",
+      "id": "1759776977833-st18unzpi",
       "supplierId": "1759707083459-gqk9a557f",
       "supplierName": "ID MONDO 2011",
       "type": "container",
       "amount": -29900,
       "balance": -29900,
-      "description": "Container Cont purchase",
-      "relatedContainerId": "1759776328293-1stiaugek",
+      "description": "Container 001 purchase",
+      "relatedContainerId": "1759776977730-pk916g5k1",
       "date": "2025-10-06",
-      "createdAt": "2025-10-06T18:45:28.352Z"
+      "createdAt": "2025-10-06T18:56:17.833Z"
     }
   ]
 }
