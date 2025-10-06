@@ -13,13 +13,20 @@
       "quantity": 0,
       "createdAt": "2025-10-06T23:13:40.604Z",
       "updatedAt": "2025-10-06T23:13:40.604Z"
+    },
+    {
+      "id": "1759792740581-s779nwdlf",
+      "name": "PRIMETTA",
+      "quantity": 0,
+      "createdAt": "2025-10-06T23:19:00.581Z",
+      "updatedAt": "2025-10-06T23:19:00.581Z"
     }
   ],
   "suppliers": [],
   "containers": [],
   "supplierLedger": [],
   "metadata": {
-    "lastUpdated": "2025-10-06T23:13:40.633Z",
+    "lastUpdated": "2025-10-06T23:19:01.304Z",
     "version": "1.0.0"
   }
 }
