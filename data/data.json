@@ -20,9 +20,9 @@
     },
     {
       "id": "1759705722024-kgk1mhsrf",
-      "name": "PRIMET",
+      "name": "PRIMETTA",
       "createdAt": "2025-10-05T23:08:42.024Z",
-      "updatedAt": "2025-10-06T14:52:02.638Z"
+      "updatedAt": "2025-10-06T14:52:15.550Z"
     }
   ],
   "suppliers": [
@@ -40,7 +40,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-06T14:52:02.638Z",
+    "lastUpdated": "2025-10-06T14:52:15.550Z",
     "version": "1.0.0"
   },
   "containers": [
