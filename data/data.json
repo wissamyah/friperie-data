@@ -40,7 +40,29 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-05T23:31:27.215Z",
+    "lastUpdated": "2025-10-06T14:51:37.876Z",
     "version": "1.0.0"
-  }
+  },
+  "containers": [
+    {
+      "id": "1759762297875-ih5w2tzg3",
+      "containerNumber": "CONT-001",
+      "date": "2025-10-06",
+      "supplierId": "1759707083459-gqk9a557f",
+      "supplierName": "ID MONDO 2011",
+      "products": [
+        {
+          "productId": "1759704409583-lety0fd8l",
+          "productName": "MIX I",
+          "quantityBags": 100,
+          "priceEUR": 50,
+          "lineTotal": 5000
+        }
+      ],
+      "freightCostEUR": 4900,
+      "grandTotal": 9900,
+      "createdAt": "2025-10-06T14:51:37.875Z",
+      "updatedAt": "2025-10-06T14:51:37.875Z"
+    }
+  ]
 }
