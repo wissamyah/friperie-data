@@ -73,31 +73,24 @@
           "productId": "1759853760140-faohtluhc",
           "productName": "MIX I",
           "quantityBags": 800,
-          "priceEUR": 50,
-          "lineTotal": 40000
+          "priceEUR": 25,
+          "lineTotal": 20000
         }
       ],
       "freightCostEUR": 5000,
-      "paymentAllocations": [
-        {
-          "containerId": "",
-          "containerNumber": "CONT2",
-          "amountEUR": 5000,
-          "amountUSD": 5610
-        }
-      ],
+      "paymentAllocations": [],
       "customsDutiesUSD": 18500,
-      "productsTotalEUR": 40000,
-      "grandTotalEUR": 45000,
-      "totalEURPaid": 5000,
-      "totalUSDPaid": 5610,
-      "totalCostUSD": 24110,
-      "costPerBagUSD": 30.1375,
-      "paymentStatus": "partial",
+      "productsTotalEUR": 20000,
+      "grandTotalEUR": 25000,
+      "totalEURPaid": 0,
+      "totalUSDPaid": 0,
+      "totalCostUSD": 18500,
+      "costPerBagUSD": 23.125,
+      "paymentStatus": "unpaid",
       "customsStatus": "paid",
       "containerStatus": "open",
       "createdAt": "2025-10-07T16:21:55.197Z",
-      "updatedAt": "2025-10-07T16:22:03.681Z"
+      "updatedAt": "2025-10-07T16:22:30.329Z"
     }
   ],
   "supplierLedger": [
@@ -186,22 +179,16 @@
           "containerNumber": "CONT1",
           "amountEUR": 5000,
           "amountUSD": 5610
-        },
-        {
-          "containerId": "1759854115197-rwf6zt8k2",
-          "containerNumber": "CONT2",
-          "amountEUR": 5000,
-          "amountUSD": 5610
         }
       ],
-      "unallocatedEUR": 0,
+      "unallocatedEUR": 5000,
       "notes": "",
       "createdAt": "2025-10-07T16:18:36.979Z",
-      "updatedAt": "2025-10-07T16:22:03.747Z"
+      "updatedAt": "2025-10-07T16:22:30.393Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T16:22:04.451Z",
+    "lastUpdated": "2025-10-07T16:22:31.092Z",
     "version": "1.0.0"
   }
 }
