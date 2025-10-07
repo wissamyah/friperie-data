@@ -9,12 +9,20 @@
       "updatedAt": "2025-10-07T00:30:38.132Z"
     }
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "id": "1759797057081-5jpzfiee7",
+      "name": "ID MONDO 2011",
+      "balance": 0,
+      "createdAt": "2025-10-07T00:30:57.081Z",
+      "updatedAt": "2025-10-07T00:30:57.081Z"
+    }
+  ],
   "containers": [],
   "supplierLedger": [],
   "payments": [],
   "metadata": {
-    "lastUpdated": "2025-10-07T00:30:39.221Z",
+    "lastUpdated": "2025-10-07T00:30:57.758Z",
     "version": "1.0.0"
   }
 }
