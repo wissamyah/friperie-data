@@ -3,10 +3,10 @@
     {
       "id": "1759838587127-wwbbojuml",
       "name": "MIX I",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 500,
+      "costPerBagUSD": 104.32,
       "createdAt": "2025-10-07T12:03:07.127Z",
-      "updatedAt": "2025-10-07T12:03:07.127Z"
+      "updatedAt": "2025-10-07T12:07:38.489Z"
     }
   ],
   "suppliers": [
@@ -44,18 +44,18 @@
           "amountUSD": 33660
         }
       ],
-      "customsDutiesUSD": 0,
+      "customsDutiesUSD": 18500,
       "productsTotalEUR": 25000,
       "grandTotalEUR": 30000,
       "totalEURPaid": 30000,
       "totalUSDPaid": 33660,
-      "totalCostUSD": 33660,
-      "costPerBagUSD": 67.32,
+      "totalCostUSD": 52160,
+      "costPerBagUSD": 104.32,
       "paymentStatus": "paid",
-      "customsStatus": "pending",
-      "containerStatus": "open",
+      "customsStatus": "paid",
+      "containerStatus": "closed",
       "createdAt": "2025-10-07T12:06:18.736Z",
-      "updatedAt": "2025-10-07T12:06:57.854Z"
+      "updatedAt": "2025-10-07T12:07:38.419Z"
     }
   ],
   "supplierLedger": [
@@ -90,7 +90,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T12:06:58.694Z",
+    "lastUpdated": "2025-10-07T12:07:39.296Z",
     "version": "1.0.0"
   }
 }
