@@ -78,19 +78,26 @@
         }
       ],
       "freightCostEUR": 5000,
-      "paymentAllocations": [],
+      "paymentAllocations": [
+        {
+          "containerId": "",
+          "containerNumber": "CONT2",
+          "amountEUR": 5000,
+          "amountUSD": 5610
+        }
+      ],
       "customsDutiesUSD": 18500,
       "productsTotalEUR": 40000,
       "grandTotalEUR": 45000,
-      "totalEURPaid": 0,
-      "totalUSDPaid": 0,
-      "totalCostUSD": 18500,
-      "costPerBagUSD": 23.125,
-      "paymentStatus": "unpaid",
+      "totalEURPaid": 5000,
+      "totalUSDPaid": 5610,
+      "totalCostUSD": 24110,
+      "costPerBagUSD": 30.1375,
+      "paymentStatus": "partial",
       "customsStatus": "paid",
       "containerStatus": "open",
       "createdAt": "2025-10-07T16:21:55.197Z",
-      "updatedAt": "2025-10-07T16:21:55.197Z"
+      "updatedAt": "2025-10-07T16:22:03.681Z"
     }
   ],
   "supplierLedger": [
@@ -179,16 +186,22 @@
           "containerNumber": "CONT1",
           "amountEUR": 5000,
           "amountUSD": 5610
+        },
+        {
+          "containerId": "1759854115197-rwf6zt8k2",
+          "containerNumber": "CONT2",
+          "amountEUR": 5000,
+          "amountUSD": 5610
         }
       ],
-      "unallocatedEUR": 5000,
+      "unallocatedEUR": 0,
       "notes": "",
       "createdAt": "2025-10-07T16:18:36.979Z",
-      "updatedAt": "2025-10-07T16:20:17.486Z"
+      "updatedAt": "2025-10-07T16:22:03.747Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T16:21:56.424Z",
+    "lastUpdated": "2025-10-07T16:22:04.451Z",
     "version": "1.0.0"
   }
 }
