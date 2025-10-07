@@ -1,107 +1,11 @@
 {
-  "products": [
-    {
-      "id": "1759792370250-oh7332yyy",
-      "name": "MIX I",
-      "quantity": 1000,
-      "createdAt": "2025-10-06T23:12:50.250Z",
-      "updatedAt": "2025-10-06T23:22:12.785Z",
-      "costPerBag": 37.5
-    },
-    {
-      "id": "1759792420604-pk5qwzxi1",
-      "name": "MIX II",
-      "quantity": 0,
-      "createdAt": "2025-10-06T23:13:40.604Z",
-      "updatedAt": "2025-10-06T23:13:40.604Z"
-    },
-    {
-      "id": "1759792740581-s779nwdlf",
-      "name": "PRIMETTA",
-      "quantity": 0,
-      "createdAt": "2025-10-06T23:19:00.581Z",
-      "updatedAt": "2025-10-06T23:19:00.581Z"
-    }
-  ],
-  "suppliers": [
-    {
-      "id": "1759792778757-yj2n7uk65",
-      "name": "ID MONDO 2011",
-      "balance": 0,
-      "createdAt": "2025-10-06T23:19:38.757Z",
-      "updatedAt": "2025-10-06T23:19:38.757Z"
-    }
-  ],
-  "containers": [
-    {
-      "id": "1759792845910-lzr5hsee3",
-      "containerNumber": "CONT1",
-      "date": "2025-10-07",
-      "supplierId": "1759792778757-yj2n7uk65",
-      "supplierName": "ID MONDO 2011",
-      "products": [
-        {
-          "productId": "1759792370250-oh7332yyy",
-          "productName": "MIX I",
-          "quantityBags": 500,
-          "priceEUR": 50,
-          "lineTotal": 25000
-        }
-      ],
-      "freightCostEUR": 5000,
-      "grandTotal": 30000,
-      "createdAt": "2025-10-06T23:20:45.910Z",
-      "updatedAt": "2025-10-06T23:20:45.910Z"
-    },
-    {
-      "id": "1759792932568-2h8s40cm8",
-      "containerNumber": "CONT2",
-      "date": "2025-10-08",
-      "supplierId": "1759792778757-yj2n7uk65",
-      "supplierName": "ID MONDO 2011",
-      "products": [
-        {
-          "productId": "1759792370250-oh7332yyy",
-          "productName": "MIX I",
-          "quantityBags": 500,
-          "priceEUR": 25,
-          "lineTotal": 12500
-        }
-      ],
-      "freightCostEUR": 5000,
-      "grandTotal": 17500,
-      "createdAt": "2025-10-06T23:22:12.568Z",
-      "updatedAt": "2025-10-06T23:22:12.568Z"
-    }
-  ],
-  "supplierLedger": [
-    {
-      "id": "1759792845996-y2u7gxwsz",
-      "supplierId": "1759792778757-yj2n7uk65",
-      "supplierName": "ID MONDO 2011",
-      "type": "container",
-      "amount": -30000,
-      "balance": -30000,
-      "description": "Container CONT1 purchase",
-      "relatedContainerId": "1759792845910-lzr5hsee3",
-      "date": "2025-10-07",
-      "createdAt": "2025-10-06T23:20:45.996Z"
-    },
-    {
-      "id": "1759792932682-bbkdakwm0",
-      "supplierId": "1759792778757-yj2n7uk65",
-      "supplierName": "ID MONDO 2011",
-      "type": "container",
-      "amount": -17500,
-      "balance": -47500,
-      "description": "Container CONT2 purchase",
-      "relatedContainerId": "1759792932568-2h8s40cm8",
-      "date": "2025-10-08",
-      "createdAt": "2025-10-06T23:22:12.682Z"
-    }
-  ],
+  "products": [],
+  "suppliers": [],
+  "containers": [],
+  "supplierLedger": [],
+  "payments": [],
   "metadata": {
-    "lastUpdated": "2025-10-06T23:22:13.581Z",
+    "lastUpdated": "2025-10-07T00:27:12.349Z",
     "version": "1.0.0"
   }
 }
