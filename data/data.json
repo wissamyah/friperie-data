@@ -102,10 +102,25 @@
       "notes": "",
       "createdAt": "2025-10-07T00:44:39.681Z",
       "updatedAt": "2025-10-07T00:44:39.681Z"
+    },
+    {
+      "id": "payment-1759798065153-4eo1kjex5",
+      "date": "2025-10-11",
+      "supplierId": "1759797057081-5jpzfiee7",
+      "supplierName": "ID MONDO 2011",
+      "amountEUR": 10000,
+      "exchangeRate": 1.1,
+      "commissionPercent": 2,
+      "amountUSD": 11220,
+      "allocations": [],
+      "unallocatedEUR": 10000,
+      "notes": "",
+      "createdAt": "2025-10-07T00:47:45.153Z",
+      "updatedAt": "2025-10-07T00:47:45.153Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T00:44:40.440Z",
+    "lastUpdated": "2025-10-07T00:47:46.188Z",
     "version": "1.0.0"
   }
 }
