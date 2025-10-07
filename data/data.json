@@ -18,11 +18,55 @@
       "updatedAt": "2025-10-07T12:20:55.918Z"
     }
   ],
-  "containers": [],
-  "supplierLedger": [],
+  "containers": [
+    {
+      "id": "1759839745256-ovle8ltfj",
+      "containerNumber": "001",
+      "date": "2025-10-07",
+      "supplierId": "1759839655918-oiochfkt6",
+      "supplierName": "ID MONDO 2011",
+      "products": [
+        {
+          "productId": "1759839644887-55myqucbz",
+          "productName": "MIX I",
+          "quantityBags": 100,
+          "priceEUR": 50,
+          "lineTotal": 5000
+        }
+      ],
+      "freightCostEUR": 5000,
+      "paymentAllocations": [],
+      "customsDutiesUSD": 500,
+      "productsTotalEUR": 5000,
+      "grandTotalEUR": 10000,
+      "totalEURPaid": 0,
+      "totalUSDPaid": 0,
+      "totalCostUSD": 500,
+      "costPerBagUSD": 5,
+      "paymentStatus": "unpaid",
+      "customsStatus": "paid",
+      "containerStatus": "open",
+      "createdAt": "2025-10-07T12:22:25.256Z",
+      "updatedAt": "2025-10-07T12:22:25.256Z"
+    }
+  ],
+  "supplierLedger": [
+    {
+      "id": "1759839745299-fjara3l2f",
+      "supplierId": "1759839655918-oiochfkt6",
+      "supplierName": "ID MONDO 2011",
+      "type": "container",
+      "amount": -10000,
+      "balance": -10000,
+      "description": "Container 001 purchase",
+      "relatedContainerId": "1759839745256-ovle8ltfj",
+      "date": "2025-10-07",
+      "createdAt": "2025-10-07T12:22:25.299Z"
+    }
+  ],
   "payments": [],
   "metadata": {
-    "lastUpdated": "2025-10-07T12:21:09.730Z",
+    "lastUpdated": "2025-10-07T12:22:26.500Z",
     "version": "1.0.0"
   }
 }
