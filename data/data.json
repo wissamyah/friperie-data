@@ -3,10 +3,10 @@
     {
       "id": "1759868762953-487j7zvjn",
       "name": "MIX I",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 800,
+      "costPerBagUSD": 70.6425,
       "createdAt": "2025-10-07T20:26:02.953Z",
-      "updatedAt": "2025-10-07T20:26:02.953Z"
+      "updatedAt": "2025-10-07T20:28:19.046Z"
     }
   ],
   "suppliers": [
@@ -46,9 +46,15 @@
       "paymentStatus": "unpaid",
       "customsStatus": "paid",
       "containerStatus": "open",
-      "quantityAddedToStock": {},
+      "quantityAddedToStock": {
+        "1759868762953-487j7zvjn": {
+          "quantityAdded": 800,
+          "stockBefore": 0,
+          "costBefore": 0
+        }
+      },
       "createdAt": "2025-10-07T20:26:28.569Z",
-      "updatedAt": "2025-10-07T20:26:28.569Z"
+      "updatedAt": "2025-10-07T20:28:19.102Z"
     }
   ],
   "supplierLedger": [
@@ -86,16 +92,23 @@
       "exchangeRate": 1.1,
       "commissionPercent": 2,
       "amountUSD": 44880,
-      "allocations": [],
-      "unallocatedEUR": 40000,
+      "allocations": [
+        {
+          "containerId": "1759868788569-h8y2l9hzu",
+          "containerNumber": "1",
+          "amountEUR": 37000,
+          "amountUSD": 41514
+        }
+      ],
+      "unallocatedEUR": 3000,
       "notes": "",
       "createdAt": "2025-10-07T20:27:16.457Z",
-      "updatedAt": "2025-10-07T20:27:16.457Z"
+      "updatedAt": "2025-10-07T20:28:19.046Z"
     }
   ],
   "sales": [],
   "metadata": {
-    "lastUpdated": "2025-10-07T20:27:17.571Z",
+    "lastUpdated": "2025-10-07T20:28:20.228Z",
     "version": "1.0.0"
   }
 }
