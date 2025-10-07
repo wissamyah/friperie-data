@@ -146,6 +146,17 @@
       "relatedContainerId": "1759854115197-rwf6zt8k2",
       "date": "2025-10-07",
       "createdAt": "2025-10-07T16:21:55.264Z"
+    },
+    {
+      "id": "1759854197378-vta922lkc",
+      "supplierId": "1759853766806-m1omzltis",
+      "supplierName": "JAVEED",
+      "type": "payment",
+      "amount": 20000,
+      "balance": -25000,
+      "description": "Payment received - No notes",
+      "date": "2025-10-07",
+      "createdAt": "2025-10-07T16:23:17.378Z"
     }
   ],
   "payments": [
@@ -198,10 +209,25 @@
       "notes": "",
       "createdAt": "2025-10-07T16:18:36.979Z",
       "updatedAt": "2025-10-07T16:22:46.433Z"
+    },
+    {
+      "id": "payment-1759854197353-lazelbd5z",
+      "date": "2025-10-07",
+      "supplierId": "1759853766806-m1omzltis",
+      "supplierName": "JAVEED",
+      "amountEUR": 20000,
+      "exchangeRate": 1.1,
+      "commissionPercent": 2,
+      "amountUSD": 22440,
+      "allocations": [],
+      "unallocatedEUR": 20000,
+      "notes": "",
+      "createdAt": "2025-10-07T16:23:17.353Z",
+      "updatedAt": "2025-10-07T16:23:17.353Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T16:22:47.117Z",
+    "lastUpdated": "2025-10-07T16:23:18.082Z",
     "version": "1.0.0"
   }
 }
