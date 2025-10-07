@@ -82,22 +82,22 @@
         {
           "containerId": "",
           "containerNumber": "CONT2",
-          "amountEUR": 20000,
-          "amountUSD": 22440
+          "amountEUR": 5000,
+          "amountUSD": 5610
         }
       ],
       "customsDutiesUSD": 18500,
       "productsTotalEUR": 20000,
       "grandTotalEUR": 25000,
-      "totalEURPaid": 20000,
-      "totalUSDPaid": 22440,
-      "totalCostUSD": 40940,
-      "costPerBagUSD": 51.175,
+      "totalEURPaid": 5000,
+      "totalUSDPaid": 5610,
+      "totalCostUSD": 24110,
+      "costPerBagUSD": 30.1375,
       "paymentStatus": "partial",
       "customsStatus": "paid",
       "containerStatus": "open",
       "createdAt": "2025-10-07T16:21:55.197Z",
-      "updatedAt": "2025-10-07T16:23:54.308Z"
+      "updatedAt": "2025-10-07T16:24:04.844Z"
     }
   ],
   "supplierLedger": [
@@ -197,12 +197,18 @@
           "containerNumber": "CONT1",
           "amountEUR": 5000,
           "amountUSD": 5610
+        },
+        {
+          "containerId": "1759854115197-rwf6zt8k2",
+          "containerNumber": "CONT2",
+          "amountEUR": 5000,
+          "amountUSD": 5610
         }
       ],
-      "unallocatedEUR": 5000,
+      "unallocatedEUR": 0,
       "notes": "",
       "createdAt": "2025-10-07T16:18:36.979Z",
-      "updatedAt": "2025-10-07T16:23:54.377Z"
+      "updatedAt": "2025-10-07T16:24:04.912Z"
     },
     {
       "id": "payment-1759854197353-lazelbd5z",
@@ -213,22 +219,15 @@
       "exchangeRate": 1.1,
       "commissionPercent": 2,
       "amountUSD": 22440,
-      "allocations": [
-        {
-          "containerId": "1759854115197-rwf6zt8k2",
-          "containerNumber": "CONT2",
-          "amountEUR": 20000,
-          "amountUSD": 22440
-        }
-      ],
-      "unallocatedEUR": 0,
+      "allocations": [],
+      "unallocatedEUR": 20000,
       "notes": "",
       "createdAt": "2025-10-07T16:23:17.353Z",
-      "updatedAt": "2025-10-07T16:23:54.377Z"
+      "updatedAt": "2025-10-07T16:24:04.912Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T16:23:55.094Z",
+    "lastUpdated": "2025-10-07T16:24:05.576Z",
     "version": "1.0.0"
   }
 }
