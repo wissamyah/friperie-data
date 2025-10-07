@@ -1,84 +1,8 @@
 {
-  "products": [
-    {
-      "id": "1759797038132-3yjrq4ni8",
-      "name": "MIX I",
-      "quantity": 0,
-      "costPerBagUSD": 0,
-      "createdAt": "2025-10-07T00:30:38.132Z",
-      "updatedAt": "2025-10-07T00:30:38.132Z"
-    }
-  ],
-  "suppliers": [
-    {
-      "id": "1759797057081-5jpzfiee7",
-      "name": "ID MONDO 2011",
-      "balance": 0,
-      "createdAt": "2025-10-07T00:30:57.081Z",
-      "updatedAt": "2025-10-07T00:30:57.081Z"
-    }
-  ],
-  "containers": [
-    {
-      "id": "1759797102010-4wh9epjux",
-      "containerNumber": "CONT1",
-      "date": "2025-10-07",
-      "supplierId": "1759797057081-5jpzfiee7",
-      "supplierName": "ID MONDO 2011",
-      "products": [
-        {
-          "productId": "1759797038132-3yjrq4ni8",
-          "productName": "MIX I",
-          "quantityBags": 500,
-          "priceEUR": 50,
-          "lineTotal": 25000
-        }
-      ],
-      "freightCostEUR": 5000,
-      "paymentAllocations": [
-        {
-          "containerId": "",
-          "containerNumber": "CONT1",
-          "paymentId": "payment-1759797837099-gup0xupr1",
-          "amountEUR": 20000,
-          "amountUSD": 22440
-        },
-        {
-          "containerId": "",
-          "containerNumber": "CONT1",
-          "paymentId": "payment-1759798065153-4eo1kjex5",
-          "amountEUR": 10000,
-          "amountUSD": 11220
-        }
-      ],
-      "customsDutiesUSD": 18500,
-      "productsTotalEUR": 25000,
-      "grandTotalEUR": 30000,
-      "totalEURPaid": 30000,
-      "totalUSDPaid": 33660,
-      "totalCostUSD": 52160,
-      "costPerBagUSD": 104.32,
-      "paymentStatus": "unpaid",
-      "customsStatus": "pending",
-      "containerStatus": "open",
-      "createdAt": "2025-10-07T00:31:42.011Z",
-      "updatedAt": "2025-10-07T00:48:30.771Z"
-    }
-  ],
-  "supplierLedger": [
-    {
-      "id": "1759797102056-77msgolxc",
-      "supplierId": "1759797057081-5jpzfiee7",
-      "supplierName": "ID MONDO 2011",
-      "type": "container",
-      "amount": -30000,
-      "balance": -30000,
-      "description": "Container CONT1 purchase",
-      "relatedContainerId": "1759797102010-4wh9epjux",
-      "date": "2025-10-07",
-      "createdAt": "2025-10-07T00:31:42.056Z"
-    }
-  ],
+  "products": [],
+  "suppliers": [],
+  "containers": [],
+  "supplierLedger": [],
   "payments": [
     {
       "id": "payment-1759797837099-gup0xupr1",
@@ -127,7 +51,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T00:48:31.968Z",
+    "lastUpdated": "2025-10-07T00:54:56.308Z",
     "version": "1.0.0"
   }
 }
