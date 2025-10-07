@@ -1,77 +1,8 @@
 {
-  "products": [
-    {
-      "id": "1759838587127-wwbbojuml",
-      "name": "MIX I",
-      "quantity": 500,
-      "costPerBagUSD": 104.32,
-      "createdAt": "2025-10-07T12:03:07.127Z",
-      "updatedAt": "2025-10-07T12:07:38.489Z"
-    }
-  ],
-  "suppliers": [
-    {
-      "id": "1759838744270-t68xhj8yk",
-      "name": "ID MONDO",
-      "balance": 0,
-      "createdAt": "2025-10-07T12:05:44.270Z",
-      "updatedAt": "2025-10-07T12:05:44.270Z"
-    }
-  ],
-  "containers": [
-    {
-      "id": "1759838778736-598vuz72f",
-      "containerNumber": "CONT1",
-      "date": "2025-10-07",
-      "supplierId": "1759838744270-t68xhj8yk",
-      "supplierName": "ID MONDO",
-      "products": [
-        {
-          "productId": "1759838587127-wwbbojuml",
-          "productName": "MIX I",
-          "quantityBags": 500,
-          "priceEUR": 50,
-          "lineTotal": 25000
-        }
-      ],
-      "freightCostEUR": 5000,
-      "paymentAllocations": [
-        {
-          "containerId": "",
-          "containerNumber": "CONT1",
-          "paymentId": "payment-1759838806467-zcb7jb6vs",
-          "amountEUR": 30000,
-          "amountUSD": 33660
-        }
-      ],
-      "customsDutiesUSD": 18500,
-      "productsTotalEUR": 25000,
-      "grandTotalEUR": 30000,
-      "totalEURPaid": 30000,
-      "totalUSDPaid": 33660,
-      "totalCostUSD": 52160,
-      "costPerBagUSD": 104.32,
-      "paymentStatus": "paid",
-      "customsStatus": "paid",
-      "containerStatus": "closed",
-      "createdAt": "2025-10-07T12:06:18.736Z",
-      "updatedAt": "2025-10-07T12:07:38.419Z"
-    }
-  ],
-  "supplierLedger": [
-    {
-      "id": "1759838778785-skciv3c9d",
-      "supplierId": "1759838744270-t68xhj8yk",
-      "supplierName": "ID MONDO",
-      "type": "container",
-      "amount": -30000,
-      "balance": -30000,
-      "description": "Container CONT1 purchase",
-      "relatedContainerId": "1759838778736-598vuz72f",
-      "date": "2025-10-07",
-      "createdAt": "2025-10-07T12:06:18.785Z"
-    }
-  ],
+  "products": [],
+  "suppliers": [],
+  "containers": [],
+  "supplierLedger": [],
   "payments": [
     {
       "id": "payment-1759838806467-zcb7jb6vs",
@@ -90,7 +21,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T12:07:39.296Z",
+    "lastUpdated": "2025-10-07T12:15:57.778Z",
     "version": "1.0.0"
   }
 }
