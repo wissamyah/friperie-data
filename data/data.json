@@ -237,6 +237,15 @@
       "description": "Diesel",
       "createdAt": "2025-10-07T21:43:03.292Z",
       "updatedAt": "2025-10-07T21:43:03.292Z"
+    },
+    {
+      "id": "expense-1759873431719-d12yto6tc",
+      "date": "2025-10-07",
+      "category": "Salaries",
+      "amountUSD": 3000,
+      "description": "Test",
+      "createdAt": "2025-10-07T21:43:51.719Z",
+      "updatedAt": "2025-10-07T21:43:51.719Z"
     }
   ],
   "cashTransactions": [
@@ -269,10 +278,20 @@
       "description": "Utilities: Diesel",
       "relatedExpenseId": "expense-1759873383292-e72gst8n2",
       "createdAt": "2025-10-07T21:43:03.292Z"
+    },
+    {
+      "id": "cash-1759873431719-ws3d28woe",
+      "date": "2025-10-07",
+      "type": "expense",
+      "amount": -3000,
+      "balance": 36925,
+      "description": "Salaries: Test",
+      "relatedExpenseId": "expense-1759873431719-d12yto6tc",
+      "createdAt": "2025-10-07T21:43:51.719Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T21:43:03.965Z",
+    "lastUpdated": "2025-10-07T21:43:52.401Z",
     "version": "1.0.0"
   }
 }
