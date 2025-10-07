@@ -9,7 +9,15 @@
       "updatedAt": "2025-10-07T19:48:49.844Z"
     }
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "id": "1759866537476-9fcjnvier",
+      "name": "JAVEED",
+      "balance": 0,
+      "createdAt": "2025-10-07T19:48:57.476Z",
+      "updatedAt": "2025-10-07T19:48:57.476Z"
+    }
+  ],
   "containers": [],
   "supplierLedger": [],
   "payments": [],
@@ -32,7 +40,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T19:48:50.533Z",
+    "lastUpdated": "2025-10-07T19:48:58.135Z",
     "version": "1.0.0"
   }
 }
