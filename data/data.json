@@ -18,11 +18,55 @@
       "updatedAt": "2025-10-07T00:30:57.081Z"
     }
   ],
-  "containers": [],
-  "supplierLedger": [],
+  "containers": [
+    {
+      "id": "1759797102010-4wh9epjux",
+      "containerNumber": "CONT1",
+      "date": "2025-10-07",
+      "supplierId": "1759797057081-5jpzfiee7",
+      "supplierName": "ID MONDO 2011",
+      "products": [
+        {
+          "productId": "1759797038132-3yjrq4ni8",
+          "productName": "MIX I",
+          "quantityBags": 500,
+          "priceEUR": 50,
+          "lineTotal": 25000
+        }
+      ],
+      "freightCostEUR": 5000,
+      "paymentAllocations": [],
+      "customsDutiesUSD": 0,
+      "productsTotalEUR": 25000,
+      "grandTotalEUR": 30000,
+      "totalEURPaid": 0,
+      "totalUSDPaid": 0,
+      "totalCostUSD": 0,
+      "costPerBagUSD": 0,
+      "paymentStatus": "unpaid",
+      "customsStatus": "pending",
+      "containerStatus": "open",
+      "createdAt": "2025-10-07T00:31:42.011Z",
+      "updatedAt": "2025-10-07T00:31:42.011Z"
+    }
+  ],
+  "supplierLedger": [
+    {
+      "id": "1759797102056-77msgolxc",
+      "supplierId": "1759797057081-5jpzfiee7",
+      "supplierName": "ID MONDO 2011",
+      "type": "container",
+      "amount": -30000,
+      "balance": -30000,
+      "description": "Container CONT1 purchase",
+      "relatedContainerId": "1759797102010-4wh9epjux",
+      "date": "2025-10-07",
+      "createdAt": "2025-10-07T00:31:42.056Z"
+    }
+  ],
   "payments": [],
   "metadata": {
-    "lastUpdated": "2025-10-07T00:30:57.758Z",
+    "lastUpdated": "2025-10-07T00:31:43.366Z",
     "version": "1.0.0"
   }
 }
