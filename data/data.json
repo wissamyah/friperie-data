@@ -5,21 +5,6 @@
   "supplierLedger": [],
   "payments": [
     {
-      "id": "payment-1759797879681-dei6qnufa",
-      "date": "2025-10-09",
-      "supplierId": "1759797057081-5jpzfiee7",
-      "supplierName": "ID MONDO 2011",
-      "amountEUR": 25000,
-      "exchangeRate": 1.1,
-      "commissionPercent": 2,
-      "amountUSD": 28050.000000000004,
-      "allocations": [],
-      "unallocatedEUR": 25000,
-      "notes": "",
-      "createdAt": "2025-10-07T00:44:39.681Z",
-      "updatedAt": "2025-10-07T00:44:39.681Z"
-    },
-    {
       "id": "payment-1759798065153-4eo1kjex5",
       "date": "2025-10-11",
       "supplierId": "1759797057081-5jpzfiee7",
@@ -36,7 +21,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T00:55:11.890Z",
+    "lastUpdated": "2025-10-07T00:55:20.534Z",
     "version": "1.0.0"
   }
 }
