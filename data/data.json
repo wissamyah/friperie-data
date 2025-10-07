@@ -220,19 +220,30 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T20:52:02.263Z",
+    "lastUpdated": "2025-10-07T21:04:19.134Z",
     "version": "1.0.0"
   },
+  "expenses": [
+    {
+      "id": "expense-1759871058084-7hagi0o9e",
+      "date": "2025-10-07",
+      "category": "Salaries",
+      "amountUSD": 25,
+      "description": "Daily labors",
+      "createdAt": "2025-10-07T21:04:18.084Z",
+      "updatedAt": "2025-10-07T21:04:18.084Z"
+    }
+  ],
   "cashTransactions": [
     {
-      "id": "cash-1759870321266-oia6i2sg7",
+      "id": "cash-1759871058084-lyvx1yvzo",
       "date": "2025-10-07",
-      "type": "sale",
-      "amount": 60000,
-      "balance": 60000,
-      "description": "Sale: MIX I",
-      "relatedSaleId": "sale-1759870321253-pyncox1tm",
-      "createdAt": "2025-10-07T20:52:01.266Z"
+      "type": "expense",
+      "amount": -25,
+      "balance": -25,
+      "description": "Salaries: Daily labors",
+      "relatedExpenseId": "expense-1759871058084-7hagi0o9e",
+      "createdAt": "2025-10-07T21:04:18.084Z"
     }
   ]
 }
