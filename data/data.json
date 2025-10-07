@@ -219,7 +219,17 @@
       "updatedAt": "2025-10-07T21:45:12.620Z"
     }
   ],
-  "expenses": [],
+  "expenses": [
+    {
+      "id": "expense-1759873528927-y5a53ov5h",
+      "date": "2025-10-07",
+      "category": "Rent",
+      "amountUSD": 10000,
+      "description": "t",
+      "createdAt": "2025-10-07T21:45:28.928Z",
+      "updatedAt": "2025-10-07T21:45:28.928Z"
+    }
+  ],
   "cashTransactions": [
     {
       "id": "cash-1759873346060-bkkobzhro",
@@ -230,10 +240,20 @@
       "description": "Sale: MIX I",
       "relatedSaleId": "sale-1759873346048-ojpl13t27",
       "createdAt": "2025-10-07T21:42:26.060Z"
+    },
+    {
+      "id": "cash-1759873528928-x0akfva6q",
+      "date": "2025-10-07",
+      "type": "expense",
+      "amount": -10000,
+      "balance": 10000,
+      "description": "Rent: t",
+      "relatedExpenseId": "expense-1759873528927-y5a53ov5h",
+      "createdAt": "2025-10-07T21:45:28.928Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T21:45:13.293Z",
+    "lastUpdated": "2025-10-07T21:45:29.615Z",
     "version": "1.0.0"
   }
 }
