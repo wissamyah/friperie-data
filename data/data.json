@@ -42,20 +42,27 @@
           "paymentId": "payment-1759797837099-gup0xupr1",
           "amountEUR": 20000,
           "amountUSD": 22440
+        },
+        {
+          "containerId": "",
+          "containerNumber": "CONT1",
+          "paymentId": "payment-1759798065153-4eo1kjex5",
+          "amountEUR": 10000,
+          "amountUSD": 11220
         }
       ],
       "customsDutiesUSD": 18499.98,
       "productsTotalEUR": 25000,
       "grandTotalEUR": 30000,
-      "totalEURPaid": 20000,
-      "totalUSDPaid": 22440,
-      "totalCostUSD": 40939.979999999996,
-      "costPerBagUSD": 81.87996,
+      "totalEURPaid": 30000,
+      "totalUSDPaid": 33660,
+      "totalCostUSD": 52159.979999999996,
+      "costPerBagUSD": 104.31996,
       "paymentStatus": "unpaid",
       "customsStatus": "pending",
       "containerStatus": "open",
       "createdAt": "2025-10-07T00:31:42.011Z",
-      "updatedAt": "2025-10-07T00:44:09.309Z"
+      "updatedAt": "2025-10-07T00:47:50.814Z"
     }
   ],
   "supplierLedger": [
@@ -120,7 +127,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T00:47:46.188Z",
+    "lastUpdated": "2025-10-07T00:47:51.619Z",
     "version": "1.0.0"
   }
 }
