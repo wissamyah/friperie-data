@@ -4,26 +4,9 @@
   "containers": [],
   "supplierLedger": [],
   "payments": [],
-  "sales": [
-    {
-      "id": "sale-1759856678842-38j04kobo",
-      "date": "2025-10-07",
-      "products": [
-        {
-          "productId": "1759853760140-faohtluhc",
-          "productName": "MIX I",
-          "quantityBags": 600,
-          "sellingPriceUSD": 120,
-          "lineTotal": 72000
-        }
-      ],
-      "totalAmountUSD": 72000,
-      "createdAt": "2025-10-07T17:04:38.842Z",
-      "updatedAt": "2025-10-07T17:04:38.842Z"
-    }
-  ],
+  "sales": [],
   "metadata": {
-    "lastUpdated": "2025-10-07T20:05:06.291Z",
+    "lastUpdated": "2025-10-07T20:22:48.245Z",
     "version": "1.0.0"
   }
 }
