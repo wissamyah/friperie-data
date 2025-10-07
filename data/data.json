@@ -18,11 +18,55 @@
       "updatedAt": "2025-10-07T15:52:48.627Z"
     }
   ],
-  "containers": [],
-  "supplierLedger": [],
+  "containers": [
+    {
+      "id": "1759852393948-zcink8mbh",
+      "containerNumber": "CONT1",
+      "date": "2025-10-07",
+      "supplierId": "1759852368627-xg3b7w61a",
+      "supplierName": "JAVEED",
+      "products": [
+        {
+          "productId": "1759852361699-zwfhok6tl",
+          "productName": "MIX I",
+          "quantityBags": 800,
+          "priceEUR": 50,
+          "lineTotal": 40000
+        }
+      ],
+      "freightCostEUR": 5000,
+      "paymentAllocations": [],
+      "customsDutiesUSD": 18500,
+      "productsTotalEUR": 40000,
+      "grandTotalEUR": 45000,
+      "totalEURPaid": 0,
+      "totalUSDPaid": 0,
+      "totalCostUSD": 18500,
+      "costPerBagUSD": 23.125,
+      "paymentStatus": "unpaid",
+      "customsStatus": "paid",
+      "containerStatus": "open",
+      "createdAt": "2025-10-07T15:53:13.948Z",
+      "updatedAt": "2025-10-07T15:53:13.948Z"
+    }
+  ],
+  "supplierLedger": [
+    {
+      "id": "1759852393990-u87bgtb2r",
+      "supplierId": "1759852368627-xg3b7w61a",
+      "supplierName": "JAVEED",
+      "type": "container",
+      "amount": -45000,
+      "balance": -45000,
+      "description": "Container CONT1 purchase",
+      "relatedContainerId": "1759852393948-zcink8mbh",
+      "date": "2025-10-07",
+      "createdAt": "2025-10-07T15:53:13.990Z"
+    }
+  ],
   "payments": [],
   "metadata": {
-    "lastUpdated": "2025-10-07T15:52:49.338Z",
+    "lastUpdated": "2025-10-07T15:53:14.812Z",
     "version": "1.0.0"
   }
 }
