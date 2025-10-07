@@ -228,15 +228,6 @@
       "description": "Daily labors",
       "createdAt": "2025-10-07T21:04:18.084Z",
       "updatedAt": "2025-10-07T21:04:18.084Z"
-    },
-    {
-      "id": "expense-1759873383292-e72gst8n2",
-      "date": "2025-10-07",
-      "category": "Utilities",
-      "amountUSD": 50,
-      "description": "Diesel",
-      "createdAt": "2025-10-07T21:43:03.292Z",
-      "updatedAt": "2025-10-07T21:43:03.292Z"
     }
   ],
   "cashTransactions": [
@@ -259,20 +250,10 @@
       "description": "Sale: MIX I",
       "relatedSaleId": "sale-1759873346048-ojpl13t27",
       "createdAt": "2025-10-07T21:42:26.060Z"
-    },
-    {
-      "id": "cash-1759873383292-9dpmk09t8",
-      "date": "2025-10-07",
-      "type": "expense",
-      "amount": -50,
-      "balance": 39925,
-      "description": "Utilities: Diesel",
-      "relatedExpenseId": "expense-1759873383292-e72gst8n2",
-      "createdAt": "2025-10-07T21:43:03.292Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T21:44:45.299Z",
+    "lastUpdated": "2025-10-07T21:44:51.730Z",
     "version": "1.0.0"
   }
 }
