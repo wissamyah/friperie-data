@@ -1,43 +1,11 @@
 {
-  "products": [
-    {
-      "id": "1759848051546-ib3k0wcl1",
-      "name": "MIX I",
-      "quantity": 0,
-      "costPerBagUSD": 0,
-      "createdAt": "2025-10-07T14:40:51.546Z",
-      "updatedAt": "2025-10-07T14:40:51.546Z"
-    }
-  ],
+  "products": [],
   "suppliers": [],
   "containers": [],
   "supplierLedger": [],
-  "payments": [
-    {
-      "id": "payment-1759839784207-h2231gnwf",
-      "date": "2025-10-07",
-      "supplierId": "1759839655918-oiochfkt6",
-      "supplierName": "ID MONDO 2011",
-      "amountEUR": 5000,
-      "exchangeRate": 1.1,
-      "commissionPercent": 2,
-      "amountUSD": 5610,
-      "allocations": [
-        {
-          "containerId": "1759839745256-ovle8ltfj",
-          "containerNumber": "001",
-          "amountEUR": 5000,
-          "amountUSD": 5610
-        }
-      ],
-      "unallocatedEUR": 0,
-      "notes": "",
-      "createdAt": "2025-10-07T12:23:04.207Z",
-      "updatedAt": "2025-10-07T12:24:12.961Z"
-    }
-  ],
+  "payments": [],
   "metadata": {
-    "lastUpdated": "2025-10-07T14:40:52.231Z",
+    "lastUpdated": "2025-10-07T14:44:43.846Z",
     "version": "1.0.0"
   }
 }
