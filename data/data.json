@@ -3,10 +3,10 @@
     {
       "id": "1759868762953-487j7zvjn",
       "name": "MIX I",
-      "quantity": 600,
+      "quantity": 850,
       "costPerBagUSD": 78.82727272727273,
       "createdAt": "2025-10-07T20:26:02.953Z",
-      "updatedAt": "2025-10-07T21:42:26.060Z"
+      "updatedAt": "2025-10-07T21:45:12.635Z"
     }
   ],
   "suppliers": [
@@ -209,14 +209,14 @@
         {
           "productId": "1759868762953-487j7zvjn",
           "productName": "MIX I",
-          "quantityBags": 500,
+          "quantityBags": 250,
           "sellingPriceUSD": 80,
-          "lineTotal": 40000
+          "lineTotal": 20000
         }
       ],
-      "totalAmountUSD": 40000,
+      "totalAmountUSD": 20000,
       "createdAt": "2025-10-07T21:42:26.048Z",
-      "updatedAt": "2025-10-07T21:42:26.048Z"
+      "updatedAt": "2025-10-07T21:45:12.620Z"
     }
   ],
   "expenses": [],
@@ -225,15 +225,15 @@
       "id": "cash-1759873346060-bkkobzhro",
       "date": "2025-10-07",
       "type": "sale",
-      "amount": 40000,
-      "balance": 39975,
+      "amount": 20000,
+      "balance": 20000,
       "description": "Sale: MIX I",
       "relatedSaleId": "sale-1759873346048-ojpl13t27",
       "createdAt": "2025-10-07T21:42:26.060Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T21:44:54.509Z",
+    "lastUpdated": "2025-10-07T21:45:13.293Z",
     "version": "1.0.0"
   }
 }
