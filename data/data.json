@@ -219,28 +219,8 @@
       "updatedAt": "2025-10-07T21:42:26.048Z"
     }
   ],
-  "expenses": [
-    {
-      "id": "expense-1759871058084-7hagi0o9e",
-      "date": "2025-10-07",
-      "category": "Salaries",
-      "amountUSD": 25,
-      "description": "Daily labors",
-      "createdAt": "2025-10-07T21:04:18.084Z",
-      "updatedAt": "2025-10-07T21:04:18.084Z"
-    }
-  ],
+  "expenses": [],
   "cashTransactions": [
-    {
-      "id": "cash-1759871058084-lyvx1yvzo",
-      "date": "2025-10-07",
-      "type": "expense",
-      "amount": -25,
-      "balance": -25,
-      "description": "Salaries: Daily labors",
-      "relatedExpenseId": "expense-1759871058084-7hagi0o9e",
-      "createdAt": "2025-10-07T21:04:18.084Z"
-    },
     {
       "id": "cash-1759873346060-bkkobzhro",
       "date": "2025-10-07",
@@ -253,7 +233,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T21:44:51.730Z",
+    "lastUpdated": "2025-10-07T21:44:54.509Z",
     "version": "1.0.0"
   }
 }
