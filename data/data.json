@@ -64,9 +64,25 @@
       "createdAt": "2025-10-07T12:06:18.785Z"
     }
   ],
-  "payments": [],
+  "payments": [
+    {
+      "id": "payment-1759838806467-zcb7jb6vs",
+      "date": "2025-10-07",
+      "supplierId": "1759838744270-t68xhj8yk",
+      "supplierName": "ID MONDO",
+      "amountEUR": 30000,
+      "exchangeRate": 1.1,
+      "commissionPercent": 2,
+      "amountUSD": 33660,
+      "allocations": [],
+      "unallocatedEUR": 30000,
+      "notes": "",
+      "createdAt": "2025-10-07T12:06:46.467Z",
+      "updatedAt": "2025-10-07T12:06:46.467Z"
+    }
+  ],
   "metadata": {
-    "lastUpdated": "2025-10-07T12:06:19.567Z",
+    "lastUpdated": "2025-10-07T12:06:47.291Z",
     "version": "1.0.0"
   }
 }
