@@ -3,10 +3,10 @@
     {
       "id": "1759853760140-faohtluhc",
       "name": "MIX I",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 800,
+      "costPerBagUSD": 86.2375,
       "createdAt": "2025-10-07T16:16:00.140Z",
-      "updatedAt": "2025-10-07T16:16:00.140Z"
+      "updatedAt": "2025-10-07T16:20:17.486Z"
     }
   ],
   "suppliers": [
@@ -35,19 +35,32 @@
         }
       ],
       "freightCostEUR": 5000,
-      "paymentAllocations": [],
+      "paymentAllocations": [
+        {
+          "containerId": "",
+          "containerNumber": "CONT1",
+          "amountEUR": 40000,
+          "amountUSD": 44880
+        },
+        {
+          "containerId": "",
+          "containerNumber": "CONT1",
+          "amountEUR": 5000,
+          "amountUSD": 5610
+        }
+      ],
       "customsDutiesUSD": 18500,
       "productsTotalEUR": 40000,
       "grandTotalEUR": 45000,
-      "totalEURPaid": 0,
-      "totalUSDPaid": 0,
-      "totalCostUSD": 18500,
-      "costPerBagUSD": 23.125,
-      "paymentStatus": "unpaid",
+      "totalEURPaid": 45000,
+      "totalUSDPaid": 50490,
+      "totalCostUSD": 68990,
+      "costPerBagUSD": 86.2375,
+      "paymentStatus": "paid",
       "customsStatus": "paid",
-      "containerStatus": "open",
+      "containerStatus": "closed",
       "createdAt": "2025-10-07T16:18:06.106Z",
-      "updatedAt": "2025-10-07T16:18:06.106Z"
+      "updatedAt": "2025-10-07T16:20:17.419Z"
     }
   ],
   "supplierLedger": [
@@ -96,11 +109,18 @@
       "exchangeRate": 1.1,
       "commissionPercent": 2,
       "amountUSD": 44880,
-      "allocations": [],
-      "unallocatedEUR": 40000,
+      "allocations": [
+        {
+          "containerId": "1759853886106-vw1vubgr6",
+          "containerNumber": "CONT1",
+          "amountEUR": 40000,
+          "amountUSD": 44880
+        }
+      ],
+      "unallocatedEUR": 0,
       "notes": "",
       "createdAt": "2025-10-07T16:18:27.358Z",
-      "updatedAt": "2025-10-07T16:18:27.358Z"
+      "updatedAt": "2025-10-07T16:20:17.486Z"
     },
     {
       "id": "payment-1759853916979-qjw022zyb",
@@ -111,15 +131,22 @@
       "exchangeRate": 1.1,
       "commissionPercent": 2,
       "amountUSD": 11220,
-      "allocations": [],
-      "unallocatedEUR": 10000,
+      "allocations": [
+        {
+          "containerId": "1759853886106-vw1vubgr6",
+          "containerNumber": "CONT1",
+          "amountEUR": 5000,
+          "amountUSD": 5610
+        }
+      ],
+      "unallocatedEUR": 5000,
       "notes": "",
       "createdAt": "2025-10-07T16:18:36.979Z",
-      "updatedAt": "2025-10-07T16:18:36.979Z"
+      "updatedAt": "2025-10-07T16:20:17.486Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T16:18:37.675Z",
+    "lastUpdated": "2025-10-07T16:20:18.663Z",
     "version": "1.0.0"
   }
 }
