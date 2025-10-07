@@ -18,12 +18,57 @@
       "updatedAt": "2025-10-07T20:26:10.482Z"
     }
   ],
-  "containers": [],
-  "supplierLedger": [],
+  "containers": [
+    {
+      "id": "1759868788569-h8y2l9hzu",
+      "containerNumber": "1",
+      "date": "2025-10-07",
+      "supplierId": "1759868770482-pxfuz7cet",
+      "supplierName": "JAVEED",
+      "products": [
+        {
+          "productId": "1759868762953-487j7zvjn",
+          "productName": "MIX I",
+          "quantityBags": 800,
+          "priceEUR": 40,
+          "lineTotal": 32000
+        }
+      ],
+      "freightCostEUR": 5000,
+      "paymentAllocations": [],
+      "customsDutiesUSD": 15000,
+      "productsTotalEUR": 32000,
+      "grandTotalEUR": 37000,
+      "totalEURPaid": 0,
+      "totalUSDPaid": 0,
+      "totalCostUSD": 15000,
+      "costPerBagUSD": 18.75,
+      "paymentStatus": "unpaid",
+      "customsStatus": "paid",
+      "containerStatus": "open",
+      "quantityAddedToStock": {},
+      "createdAt": "2025-10-07T20:26:28.569Z",
+      "updatedAt": "2025-10-07T20:26:28.569Z"
+    }
+  ],
+  "supplierLedger": [
+    {
+      "id": "1759868788613-ynorx9gf7",
+      "supplierId": "1759868770482-pxfuz7cet",
+      "supplierName": "JAVEED",
+      "type": "container",
+      "amount": -37000,
+      "balance": -37000,
+      "description": "Container 1 purchase",
+      "relatedContainerId": "1759868788569-h8y2l9hzu",
+      "date": "2025-10-07",
+      "createdAt": "2025-10-07T20:26:28.613Z"
+    }
+  ],
   "payments": [],
   "sales": [],
   "metadata": {
-    "lastUpdated": "2025-10-07T20:26:11.328Z",
+    "lastUpdated": "2025-10-07T20:26:29.348Z",
     "version": "1.0.0"
   }
 }
