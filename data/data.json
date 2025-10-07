@@ -1,5 +1,14 @@
 {
-  "products": [],
+  "products": [
+    {
+      "id": "1759848051546-ib3k0wcl1",
+      "name": "MIX I",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-07T14:40:51.546Z",
+      "updatedAt": "2025-10-07T14:40:51.546Z"
+    }
+  ],
   "suppliers": [],
   "containers": [],
   "supplierLedger": [],
@@ -28,7 +37,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T12:33:04.394Z",
+    "lastUpdated": "2025-10-07T14:40:52.231Z",
     "version": "1.0.0"
   }
 }
