@@ -224,10 +224,10 @@
       "id": "expense-1759873528927-y5a53ov5h",
       "date": "2025-10-07",
       "category": "Rent",
-      "amountUSD": 10000,
+      "amountUSD": 15000,
       "description": "t",
       "createdAt": "2025-10-07T21:45:28.928Z",
-      "updatedAt": "2025-10-07T21:45:28.928Z"
+      "updatedAt": "2025-10-07T21:45:37.897Z"
     }
   ],
   "cashTransactions": [
@@ -245,15 +245,15 @@
       "id": "cash-1759873528928-x0akfva6q",
       "date": "2025-10-07",
       "type": "expense",
-      "amount": -10000,
-      "balance": 10000,
+      "amount": -15000,
+      "balance": 5000,
       "description": "Rent: t",
       "relatedExpenseId": "expense-1759873528927-y5a53ov5h",
       "createdAt": "2025-10-07T21:45:28.928Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-07T21:45:29.615Z",
+    "lastUpdated": "2025-10-07T21:45:38.645Z",
     "version": "1.0.0"
   }
 }
