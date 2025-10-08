@@ -42,15 +42,80 @@
       "updatedAt": "2025-10-08T21:27:32.292Z"
     }
   ],
-  "containers": [],
+  "containers": [
+    {
+      "id": "1759959179754-647khg3jx",
+      "containerNumber": "MRKU589627-5",
+      "date": "2025-05-01",
+      "supplierId": "1759958852292-a5vyyp8ac",
+      "supplierName": "ID MONDO 2011",
+      "products": [
+        {
+          "productId": "1759958832220-bxpxomnz4",
+          "productName": "MIX I",
+          "quantityBags": 400,
+          "priceEUR": 75,
+          "lineTotal": 30000
+        },
+        {
+          "productId": "1759958835524-9a93dnvfy",
+          "productName": "MIX II",
+          "quantityBags": 318,
+          "priceEUR": 25,
+          "lineTotal": 7950
+        },
+        {
+          "productId": "1759958840373-det8d6s52",
+          "productName": "PRIMETTA",
+          "quantityBags": 60,
+          "priceEUR": 22.5,
+          "lineTotal": 1350
+        },
+        {
+          "productId": "1759958843786-o0mibohui",
+          "productName": "PLASTICA",
+          "quantityBags": 60,
+          "priceEUR": 18,
+          "lineTotal": 1080
+        }
+      ],
+      "freightCostEUR": 4315,
+      "paymentAllocations": [],
+      "customsDutiesUSD": 18500,
+      "productsTotalEUR": 40380,
+      "grandTotalEUR": 44695,
+      "totalEURPaid": 0,
+      "totalUSDPaid": 0,
+      "totalCostUSD": 18500,
+      "costPerBagUSD": 22.0763723150358,
+      "paymentStatus": "unpaid",
+      "customsStatus": "paid",
+      "containerStatus": "open",
+      "quantityAddedToStock": {},
+      "createdAt": "2025-10-08T21:32:59.754Z",
+      "updatedAt": "2025-10-08T21:32:59.754Z"
+    }
+  ],
   "supplierLedger": [
+    {
+      "id": "1759959179831-rk1fhb8xn",
+      "supplierId": "1759958852292-a5vyyp8ac",
+      "supplierName": "ID MONDO 2011",
+      "type": "container",
+      "amount": -44695,
+      "balance": -44695,
+      "description": "Container MRKU589627-5 purchase",
+      "relatedContainerId": "1759959179754-647khg3jx",
+      "date": "2025-05-01",
+      "createdAt": "2025-10-08T21:32:59.831Z"
+    },
     {
       "id": "1759959035172-286a3pbmr",
       "supplierId": "1759958852292-a5vyyp8ac",
       "supplierName": "ID MONDO 2011",
       "type": "payment",
       "amount": 44965,
-      "balance": 44965,
+      "balance": 270,
       "description": "Payment received - No notes",
       "relatedPaymentId": "payment-1759959035153-n5y9enztu",
       "date": "2025-05-30",
@@ -78,7 +143,7 @@
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-08T21:30:35.854Z",
+    "lastUpdated": "2025-10-08T21:33:01.139Z",
     "version": "1.0.0"
   }
 }
