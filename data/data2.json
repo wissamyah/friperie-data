@@ -1,87 +1,14 @@
 {
-  "products": [
-    {
-      "id": "1759955845237-eofcg4asl",
-      "name": "MIX I",
-      "quantity": 0,
-      "costPerBagUSD": 0,
-      "createdAt": "2025-10-08T20:37:25.237Z",
-      "updatedAt": "2025-10-08T20:37:25.237Z"
-    },
-    {
-      "id": "1759955848452-l9daxz79f",
-      "name": "MIX II",
-      "quantity": 0,
-      "costPerBagUSD": 0,
-      "createdAt": "2025-10-08T20:37:28.452Z",
-      "updatedAt": "2025-10-08T20:37:28.452Z"
-    },
-    {
-      "id": "1759955852161-wxiyx8huy",
-      "name": "PRIMETTA",
-      "quantity": 0,
-      "costPerBagUSD": 0,
-      "createdAt": "2025-10-08T20:37:32.161Z",
-      "updatedAt": "2025-10-08T20:37:32.161Z"
-    }
-  ],
-  "suppliers": [
-    {
-      "id": "1759955866995-q33g590uy",
-      "name": "ID MONDO 2011",
-      "balance": 0,
-      "createdAt": "2025-10-08T20:37:46.995Z",
-      "updatedAt": "2025-10-08T20:37:46.995Z"
-    }
-  ],
+  "products": [],
+  "suppliers": [],
   "containers": [],
-  "supplierLedger": [
-    {
-      "id": "1759956110716-w93qxsfok",
-      "supplierId": "1759955866995-q33g590uy",
-      "supplierName": "ID MONDO 2011",
-      "type": "container",
-      "amount": -44965,
-      "balance": -44965,
-      "description": "Container MRKU589627-5 purchase",
-      "relatedContainerId": "1759956110639-s76w6qldd",
-      "date": "2025-05-16",
-      "createdAt": "2025-10-08T20:41:50.716Z"
-    },
-    {
-      "id": "1759956554437-xomls5woy",
-      "supplierId": "1759955866995-q33g590uy",
-      "supplierName": "ID MONDO 2011",
-      "type": "payment",
-      "amount": 45883.67,
-      "balance": 918.6699999999983,
-      "description": "Payment received - No notes",
-      "date": "2025-05-30",
-      "createdAt": "2025-10-08T20:49:14.437Z"
-    }
-  ],
-  "payments": [
-    {
-      "id": "payment-1759956554419-je91u1kh5",
-      "date": "2025-05-30",
-      "supplierId": "1759955866995-q33g590uy",
-      "supplierName": "ID MONDO 2011",
-      "amountEUR": 44965,
-      "exchangeRate": 1.16,
-      "commissionPercent": 2,
-      "amountUSD": 53202.587999999996,
-      "allocations": [],
-      "unallocatedEUR": 44965,
-      "notes": "",
-      "createdAt": "2025-10-08T20:49:14.419Z",
-      "updatedAt": "2025-10-08T21:05:40.776Z"
-    }
-  ],
+  "supplierLedger": [],
+  "payments": [],
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-08T21:11:14.384Z",
+    "lastUpdated": "2025-10-08T21:20:36.582Z",
     "version": "1.0.0"
   }
 }
