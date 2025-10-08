@@ -127,22 +127,22 @@
       "date": "2025-05-30",
       "supplierId": "1759955866995-q33g590uy",
       "supplierName": "ID MONDO 2011",
-      "amountEUR": 44083.33,
+      "amountEUR": 44965,
       "exchangeRate": 1.136,
       "commissionPercent": 2,
-      "amountUSD": 51080.2361376,
+      "amountUSD": 52101.8448,
       "allocations": [],
-      "unallocatedEUR": 44083.33,
+      "unallocatedEUR": 44965,
       "notes": "",
       "createdAt": "2025-10-08T20:49:14.419Z",
-      "updatedAt": "2025-10-08T20:53:19.981Z"
+      "updatedAt": "2025-10-08T20:53:45.615Z"
     }
   ],
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-08T20:53:21.072Z",
+    "lastUpdated": "2025-10-08T20:53:46.512Z",
     "version": "1.0.0"
   }
 }
