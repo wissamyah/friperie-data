@@ -23,6 +23,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-08T20:10:25.494Z",
       "updatedAt": "2025-10-08T20:10:25.494Z"
+    },
+    {
+      "id": "1759954238075-6dvfufk5b",
+      "name": "PLASTICA",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-08T20:10:38.075Z",
+      "updatedAt": "2025-10-08T20:10:38.075Z"
     }
   ],
   "suppliers": [],
@@ -33,7 +41,7 @@
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-08T20:10:26.160Z",
+    "lastUpdated": "2025-10-08T20:10:38.725Z",
     "version": "1.0.0"
   }
 }
