@@ -1,0 +1,14 @@
+{
+  "products": [],
+  "suppliers": [],
+  "containers": [],
+  "supplierLedger": [],
+  "payments": [],
+  "sales": [],
+  "expenses": [],
+  "cashTransactions": [],
+  "metadata": {
+    "lastUpdated": "2025-10-08T20:29:32.547Z",
+    "version": "1.0.0"
+  }
+}
