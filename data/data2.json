@@ -27,10 +27,10 @@
     {
       "id": "1759958843786-o0mibohui",
       "name": "PLASTICA",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 60,
+      "costPerBagUSD": 28.748097818547937,
       "createdAt": "2025-10-08T21:27:23.786Z",
-      "updatedAt": "2025-10-08T21:27:23.786Z"
+      "updatedAt": "2025-10-08T21:33:09.058Z"
     }
   ],
   "suppliers": [
@@ -91,9 +91,30 @@
       "paymentStatus": "unpaid",
       "customsStatus": "paid",
       "containerStatus": "open",
-      "quantityAddedToStock": {},
+      "quantityAddedToStock": {
+        "1759958832220-bxpxomnz4": {
+          "quantityAdded": 400,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1759958835524-9a93dnvfy": {
+          "quantityAdded": 318,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1759958840373-det8d6s52": {
+          "quantityAdded": 60,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1759958843786-o0mibohui": {
+          "quantityAdded": 60,
+          "stockBefore": 0,
+          "costBefore": 0
+        }
+      },
       "createdAt": "2025-10-08T21:32:59.754Z",
-      "updatedAt": "2025-10-08T21:32:59.754Z"
+      "updatedAt": "2025-10-08T21:33:09.130Z"
     }
   ],
   "supplierLedger": [
@@ -132,18 +153,25 @@
       "exchangeRate": 1.16,
       "commissionPercent": 2,
       "amountUSD": 53202.587999999996,
-      "allocations": [],
-      "unallocatedEUR": 44965,
+      "allocations": [
+        {
+          "containerId": "1759959179754-647khg3jx",
+          "containerNumber": "MRKU589627-5",
+          "amountEUR": 44695,
+          "amountUSD": 52883.123999999996
+        }
+      ],
+      "unallocatedEUR": 270,
       "notes": "",
       "createdAt": "2025-10-08T21:30:35.153Z",
-      "updatedAt": "2025-10-08T21:30:35.153Z"
+      "updatedAt": "2025-10-08T21:33:08.827Z"
     }
   ],
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-08T21:33:01.139Z",
+    "lastUpdated": "2025-10-08T21:33:09.798Z",
     "version": "1.0.0"
   }
 }
