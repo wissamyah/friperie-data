@@ -42,14 +42,80 @@
       "updatedAt": "2025-10-08T20:37:46.995Z"
     }
   ],
-  "containers": [],
-  "supplierLedger": [],
+  "containers": [
+    {
+      "id": "1759956110639-s76w6qldd",
+      "containerNumber": "MRKU589627-5",
+      "date": "2025-05-16",
+      "supplierId": "1759955866995-q33g590uy",
+      "supplierName": "ID MONDO 2011",
+      "products": [
+        {
+          "productId": "1759955845237-eofcg4asl",
+          "productName": "MIX I",
+          "quantityBags": 400,
+          "priceEUR": 75,
+          "lineTotal": 30000
+        },
+        {
+          "productId": "1759955848452-l9daxz79f",
+          "productName": "MIX II",
+          "quantityBags": 318,
+          "priceEUR": 25,
+          "lineTotal": 7950
+        },
+        {
+          "productId": "1759955852161-wxiyx8huy",
+          "productName": "PRIMETTA",
+          "quantityBags": 60,
+          "priceEUR": 22.5,
+          "lineTotal": 1350
+        },
+        {
+          "productId": "1759955856141-47e2wbz04",
+          "productName": "PLASTICA",
+          "quantityBags": 60,
+          "priceEUR": 22.5,
+          "lineTotal": 1350
+        }
+      ],
+      "freightCostEUR": 4315,
+      "paymentAllocations": [],
+      "customsDutiesUSD": 18500,
+      "productsTotalEUR": 40650,
+      "grandTotalEUR": 44965,
+      "totalEURPaid": 0,
+      "totalUSDPaid": 0,
+      "totalCostUSD": 18500,
+      "costPerBagUSD": 22.0763723150358,
+      "paymentStatus": "unpaid",
+      "customsStatus": "paid",
+      "containerStatus": "open",
+      "quantityAddedToStock": {},
+      "createdAt": "2025-10-08T20:41:50.639Z",
+      "updatedAt": "2025-10-08T20:41:50.639Z"
+    }
+  ],
+  "supplierLedger": [
+    {
+      "id": "1759956110716-w93qxsfok",
+      "supplierId": "1759955866995-q33g590uy",
+      "supplierName": "ID MONDO 2011",
+      "type": "container",
+      "amount": -44965,
+      "balance": -44965,
+      "description": "Container MRKU589627-5 purchase",
+      "relatedContainerId": "1759956110639-s76w6qldd",
+      "date": "2025-05-16",
+      "createdAt": "2025-10-08T20:41:50.716Z"
+    }
+  ],
   "payments": [],
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-08T20:37:47.639Z",
+    "lastUpdated": "2025-10-08T20:41:51.874Z",
     "version": "1.0.0"
   }
 }
