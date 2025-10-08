@@ -15,6 +15,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-08T20:37:28.452Z",
       "updatedAt": "2025-10-08T20:37:28.452Z"
+    },
+    {
+      "id": "1759955852161-wxiyx8huy",
+      "name": "PRIMETTA",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-08T20:37:32.161Z",
+      "updatedAt": "2025-10-08T20:37:32.161Z"
     }
   ],
   "suppliers": [],
@@ -25,7 +33,7 @@
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-08T20:37:29.121Z",
+    "lastUpdated": "2025-10-08T20:37:32.873Z",
     "version": "1.0.0"
   }
 }
