@@ -170,7 +170,7 @@
   "sales": [
     {
       "id": "sale-1760009455030-cvd1djru7",
-      "date": "2025-10-09",
+      "date": "2025-09-22",
       "products": [
         {
           "productId": "1760008924502-481bnessy",
@@ -189,7 +189,7 @@
       ],
       "totalAmountUSD": 4035,
       "createdAt": "2025-10-09T11:30:55.030Z",
-      "updatedAt": "2025-10-09T11:30:55.030Z"
+      "updatedAt": "2025-10-09T11:32:38.810Z"
     }
   ],
   "expenses": [
@@ -206,7 +206,7 @@
   "cashTransactions": [
     {
       "id": "cash-1760009455030-c4svlsbvk",
-      "date": "2025-10-09",
+      "date": "2025-09-22",
       "type": "sale",
       "amount": 4035,
       "balance": 4035,
@@ -226,7 +226,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:32:29.718Z",
+    "lastUpdated": "2025-10-09T11:32:39.653Z",
     "version": "1.0.0"
   }
 }
