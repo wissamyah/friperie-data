@@ -195,12 +195,12 @@
   "expenses": [
     {
       "id": "expense-1760009524984-m3yfdv7xl",
-      "date": "2025-10-09",
+      "date": "2025-09-22",
       "category": "Other",
       "amountUSD": 200,
       "description": "DGDA + ANR + Security + Cont. Driver + Offloading charges",
       "createdAt": "2025-10-09T11:32:04.984Z",
-      "updatedAt": "2025-10-09T11:32:04.984Z"
+      "updatedAt": "2025-10-09T11:32:29.144Z"
     }
   ],
   "cashTransactions": [
@@ -216,17 +216,17 @@
     },
     {
       "id": "cash-1760009524984-vaowqg99j",
-      "date": "2025-10-09",
+      "date": "2025-09-22",
       "type": "expense",
       "amount": -200,
-      "balance": 3835,
+      "balance": -200,
       "description": "Other: DGDA + ANR + Security + Cont. Driver + Offloading charges",
       "relatedExpenseId": "expense-1760009524984-m3yfdv7xl",
       "createdAt": "2025-10-09T11:32:04.984Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:32:05.598Z",
+    "lastUpdated": "2025-10-09T11:32:29.718Z",
     "version": "1.0.0"
   }
 }
