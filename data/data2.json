@@ -42,7 +42,60 @@
       "updatedAt": "2025-10-09T11:22:25.517Z"
     }
   ],
-  "containers": [],
+  "containers": [
+    {
+      "id": "1760009030854-5jjjfa2kf",
+      "containerNumber": "MRKU589627-5",
+      "date": "2025-05-01",
+      "supplierId": "1760008945517-glx01zcy2",
+      "supplierName": "ID MONDO 2011",
+      "products": [
+        {
+          "productId": "1760008924502-481bnessy",
+          "productName": "MIX I",
+          "quantityBags": 400,
+          "priceEUR": 75,
+          "lineTotal": 30000
+        },
+        {
+          "productId": "1760008927867-h39e3rzcl",
+          "productName": "MIX II",
+          "quantityBags": 318,
+          "priceEUR": 25,
+          "lineTotal": 7950
+        },
+        {
+          "productId": "1760008931338-42tc3kk9v",
+          "productName": "PRIMETTA",
+          "quantityBags": 60,
+          "priceEUR": 22.5,
+          "lineTotal": 1350
+        },
+        {
+          "productId": "1760008935084-8finxp9la",
+          "productName": "PLASTICA",
+          "quantityBags": 60,
+          "priceEUR": 18,
+          "lineTotal": 1080
+        }
+      ],
+      "freightCostEUR": 4315,
+      "paymentAllocations": [],
+      "customsDutiesUSD": 18500,
+      "productsTotalEUR": 40380,
+      "grandTotalEUR": 44695,
+      "totalEURPaid": 0,
+      "totalUSDPaid": 0,
+      "totalCostUSD": 18500,
+      "costPerBagUSD": 22.0763723150358,
+      "paymentStatus": "unpaid",
+      "customsStatus": "paid",
+      "containerStatus": "open",
+      "quantityAddedToStock": {},
+      "createdAt": "2025-10-09T11:23:50.854Z",
+      "updatedAt": "2025-10-09T11:23:50.854Z"
+    }
+  ],
   "supplierLedger": [
     {
       "id": "1760008964019-9mht9lk4b",
@@ -55,6 +108,18 @@
       "relatedPaymentId": "payment-1760008964011-venn0zqbx",
       "date": "2025-05-01",
       "createdAt": "2025-10-09T11:22:44.019Z"
+    },
+    {
+      "id": "1760009030871-3n3awzyfs",
+      "supplierId": "1760008945517-glx01zcy2",
+      "supplierName": "ID MONDO 2011",
+      "type": "container",
+      "amount": -44695,
+      "balance": 0,
+      "description": "Container MRKU589627-5 purchase",
+      "relatedContainerId": "1760009030854-5jjjfa2kf",
+      "date": "2025-05-01",
+      "createdAt": "2025-10-09T11:23:50.871Z"
     }
   ],
   "payments": [
@@ -78,7 +143,7 @@
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:22:44.716Z",
+    "lastUpdated": "2025-10-09T11:23:51.912Z",
     "version": "1.0.0"
   }
 }
