@@ -240,6 +240,15 @@
       "description": "Casuals",
       "createdAt": "2025-10-09T11:35:20.418Z",
       "updatedAt": "2025-10-09T11:35:20.418Z"
+    },
+    {
+      "id": "expense-1760009949772-e2qvyovpb",
+      "date": "2025-09-23",
+      "category": "Other",
+      "amountUSD": 280,
+      "description": "Company setup fees",
+      "createdAt": "2025-10-09T11:39:09.772Z",
+      "updatedAt": "2025-10-09T11:39:09.772Z"
     }
   ],
   "cashTransactions": [
@@ -282,10 +291,20 @@
       "description": "Sale: MIX I, MIX II, PLASTICA",
       "relatedSaleId": "sale-1760009770296-t3mfmxj1o",
       "createdAt": "2025-10-09T11:36:10.296Z"
+    },
+    {
+      "id": "cash-1760009949772-f3u6g9r6e",
+      "date": "2025-09-23",
+      "type": "expense",
+      "amount": -280,
+      "balance": 16579,
+      "description": "Other: Company setup fees",
+      "relatedExpenseId": "expense-1760009949772-e2qvyovpb",
+      "createdAt": "2025-10-09T11:39:09.772Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:36:10.945Z",
+    "lastUpdated": "2025-10-09T11:39:10.488Z",
     "version": "1.0.0"
   }
 }
