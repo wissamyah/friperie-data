@@ -233,6 +233,15 @@
       "updatedAt": "2025-10-09T11:39:09.772Z"
     },
     {
+      "id": "expense-1760009960771-hue7amd1c",
+      "date": "2025-09-23",
+      "category": "Utilities",
+      "amountUSD": 30,
+      "description": "Diesel + Office expenses",
+      "createdAt": "2025-10-09T11:39:20.771Z",
+      "updatedAt": "2025-10-09T11:39:53.144Z"
+    },
+    {
       "id": "expense-1760009524984-m3yfdv7xl",
       "date": "2025-09-22",
       "category": "Other",
@@ -249,15 +258,6 @@
       "description": "Casuals",
       "createdAt": "2025-10-09T11:35:20.418Z",
       "updatedAt": "2025-10-09T11:35:20.418Z"
-    },
-    {
-      "id": "expense-1760009960771-hue7amd1c",
-      "date": "2025-09-23",
-      "category": "Utilities",
-      "amountUSD": 25,
-      "description": "Diesel",
-      "createdAt": "2025-10-09T11:39:20.771Z",
-      "updatedAt": "2025-10-09T11:39:20.771Z"
     }
   ],
   "cashTransactions": [
@@ -315,15 +315,15 @@
       "id": "cash-1760009960771-0o4ooo34n",
       "date": "2025-09-23",
       "type": "expense",
-      "amount": -25,
-      "balance": 16554,
-      "description": "Utilities: Diesel",
+      "amount": -30,
+      "balance": 16549,
+      "description": "Utilities: Diesel + Office expenses",
       "relatedExpenseId": "expense-1760009960771-hue7amd1c",
       "createdAt": "2025-10-09T11:39:20.771Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:39:21.400Z",
+    "lastUpdated": "2025-10-09T11:39:54.383Z",
     "version": "1.0.0"
   }
 }
