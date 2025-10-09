@@ -19,10 +19,10 @@
     {
       "id": "1760008931338-42tc3kk9v",
       "name": "PRIMETTA",
-      "quantity": 50,
+      "quantity": 57,
       "costPerBagUSD": 54.149403341288775,
       "createdAt": "2025-10-09T11:22:11.338Z",
-      "updatedAt": "2025-10-09T11:59:23.715Z"
+      "updatedAt": "2025-10-09T12:42:32.443Z"
     },
     {
       "id": "1760008935084-8finxp9la",
@@ -233,13 +233,6 @@
           "lineTotal": 1305
         },
         {
-          "productId": "1760008931338-42tc3kk9v",
-          "productName": "PRIMETTA",
-          "quantityBags": 7,
-          "sellingPriceUSD": 110,
-          "lineTotal": 770
-        },
-        {
           "productId": "1760008935084-8finxp9la",
           "productName": "PLASTICA",
           "quantityBags": 4,
@@ -254,9 +247,9 @@
           "lineTotal": 210
         }
       ],
-      "totalAmountUSD": 2565,
+      "totalAmountUSD": 1795,
       "createdAt": "2025-10-09T11:49:29.851Z",
-      "updatedAt": "2025-10-09T11:49:29.851Z"
+      "updatedAt": "2025-10-09T12:42:32.443Z"
     },
     {
       "id": "sale-1760011045562-b29cxtxal",
@@ -430,7 +423,7 @@
       "date": "2025-09-22",
       "type": "expense",
       "amount": -200,
-      "balance": -200,
+      "balance": 3835,
       "description": "Other: DGDA + ANR + Security + Cont. Driver + Offloading charges",
       "relatedExpenseId": "expense-1760009524984-m3yfdv7xl",
       "createdAt": "2025-10-09T11:32:04.984Z"
@@ -489,9 +482,9 @@
       "id": "cash-1760010569851-k9x1ugwql",
       "date": "2025-09-24",
       "type": "sale",
-      "amount": 2565,
-      "balance": 19089,
-      "description": "Sale: MIX I, PRIMETTA, PLASTICA, MIX II",
+      "amount": 1795,
+      "balance": 18319,
+      "description": "Sale: MIX I, PLASTICA, MIX II",
       "relatedSaleId": "sale-1760010569851-ui7yeffua",
       "createdAt": "2025-10-09T11:49:29.851Z"
     },
@@ -500,7 +493,7 @@
       "date": "2025-09-24",
       "type": "expense",
       "amount": -125,
-      "balance": 18964,
+      "balance": 18194,
       "description": "Salaries: 100$ Advance + 25$ Casuals",
       "relatedExpenseId": "expense-1760010630954-erypevr8z",
       "createdAt": "2025-10-09T11:50:30.954Z"
@@ -510,7 +503,7 @@
       "date": "2025-09-25",
       "type": "sale",
       "amount": 1890,
-      "balance": 20854,
+      "balance": 20084,
       "description": "Sale: MIX I, MIX II, PRIMETTA, PLASTICA",
       "relatedSaleId": "sale-1760011045562-b29cxtxal",
       "createdAt": "2025-10-09T11:57:25.562Z"
@@ -520,7 +513,7 @@
       "date": "2025-09-25",
       "type": "expense",
       "amount": -20,
-      "balance": 20834,
+      "balance": 20064,
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1760011086767-cv6whh4vb",
       "createdAt": "2025-10-09T11:58:06.767Z"
@@ -530,7 +523,7 @@
       "date": "2025-09-26",
       "type": "expense",
       "amount": -20,
-      "balance": 20814,
+      "balance": 20044,
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1760011109614-5rw25rdiq",
       "createdAt": "2025-10-09T11:58:29.614Z"
@@ -540,14 +533,14 @@
       "date": "2025-09-26",
       "type": "sale",
       "amount": 2430,
-      "balance": 23244,
+      "balance": 22474,
       "description": "Sale: MIX I, MIX I, PRIMETTA, MIX II, PLASTICA",
       "relatedSaleId": "sale-1760011163715-79n85dx1c",
       "createdAt": "2025-10-09T11:59:23.715Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-09T12:08:11.511Z",
+    "lastUpdated": "2025-10-09T12:42:33.027Z",
     "version": "1.0.0"
   }
 }
