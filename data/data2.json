@@ -224,6 +224,15 @@
   ],
   "expenses": [
     {
+      "id": "expense-1760009949772-e2qvyovpb",
+      "date": "2025-09-23",
+      "category": "Other",
+      "amountUSD": 280,
+      "description": "Company setup fees",
+      "createdAt": "2025-10-09T11:39:09.772Z",
+      "updatedAt": "2025-10-09T11:39:09.772Z"
+    },
+    {
       "id": "expense-1760009524984-m3yfdv7xl",
       "date": "2025-09-22",
       "category": "Other",
@@ -242,13 +251,13 @@
       "updatedAt": "2025-10-09T11:35:20.418Z"
     },
     {
-      "id": "expense-1760009949772-e2qvyovpb",
+      "id": "expense-1760009960771-hue7amd1c",
       "date": "2025-09-23",
-      "category": "Other",
-      "amountUSD": 280,
-      "description": "Company setup fees",
-      "createdAt": "2025-10-09T11:39:09.772Z",
-      "updatedAt": "2025-10-09T11:39:09.772Z"
+      "category": "Utilities",
+      "amountUSD": 25,
+      "description": "Diesel",
+      "createdAt": "2025-10-09T11:39:20.771Z",
+      "updatedAt": "2025-10-09T11:39:20.771Z"
     }
   ],
   "cashTransactions": [
@@ -301,10 +310,20 @@
       "description": "Other: Company setup fees",
       "relatedExpenseId": "expense-1760009949772-e2qvyovpb",
       "createdAt": "2025-10-09T11:39:09.772Z"
+    },
+    {
+      "id": "cash-1760009960771-0o4ooo34n",
+      "date": "2025-09-23",
+      "type": "expense",
+      "amount": -25,
+      "balance": 16554,
+      "description": "Utilities: Diesel",
+      "relatedExpenseId": "expense-1760009960771-hue7amd1c",
+      "createdAt": "2025-10-09T11:39:20.771Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:39:10.488Z",
+    "lastUpdated": "2025-10-09T11:39:21.400Z",
     "version": "1.0.0"
   }
 }
