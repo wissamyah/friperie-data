@@ -192,7 +192,17 @@
       "updatedAt": "2025-10-09T11:30:55.030Z"
     }
   ],
-  "expenses": [],
+  "expenses": [
+    {
+      "id": "expense-1760009524984-m3yfdv7xl",
+      "date": "2025-10-09",
+      "category": "Other",
+      "amountUSD": 200,
+      "description": "DGDA + ANR + Security + Cont. Driver + Offloading charges",
+      "createdAt": "2025-10-09T11:32:04.984Z",
+      "updatedAt": "2025-10-09T11:32:04.984Z"
+    }
+  ],
   "cashTransactions": [
     {
       "id": "cash-1760009455030-c4svlsbvk",
@@ -203,10 +213,20 @@
       "description": "Sale: MIX I, PLASTICA",
       "relatedSaleId": "sale-1760009455030-cvd1djru7",
       "createdAt": "2025-10-09T11:30:55.030Z"
+    },
+    {
+      "id": "cash-1760009524984-vaowqg99j",
+      "date": "2025-10-09",
+      "type": "expense",
+      "amount": -200,
+      "balance": 3835,
+      "description": "Other: DGDA + ANR + Security + Cont. Driver + Offloading charges",
+      "relatedExpenseId": "expense-1760009524984-m3yfdv7xl",
+      "createdAt": "2025-10-09T11:32:04.984Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:30:56.213Z",
+    "lastUpdated": "2025-10-09T11:32:05.598Z",
     "version": "1.0.0"
   }
 }
