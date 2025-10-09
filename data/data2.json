@@ -43,13 +43,42 @@
     }
   ],
   "containers": [],
-  "supplierLedger": [],
-  "payments": [],
+  "supplierLedger": [
+    {
+      "id": "1760008964019-9mht9lk4b",
+      "supplierId": "1760008945517-glx01zcy2",
+      "supplierName": "ID MONDO 2011",
+      "type": "payment",
+      "amount": 44695,
+      "balance": 44695,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1760008964011-venn0zqbx",
+      "date": "2025-05-01",
+      "createdAt": "2025-10-09T11:22:44.019Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "payment-1760008964011-venn0zqbx",
+      "date": "2025-05-01",
+      "supplierId": "1760008945517-glx01zcy2",
+      "supplierName": "ID MONDO 2011",
+      "amountEUR": 44695,
+      "exchangeRate": 1.16,
+      "commissionPercent": 2,
+      "amountUSD": 52883.123999999996,
+      "allocations": [],
+      "unallocatedEUR": 44695,
+      "notes": "",
+      "createdAt": "2025-10-09T11:22:44.011Z",
+      "updatedAt": "2025-10-09T11:22:44.011Z"
+    }
+  ],
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:22:26.067Z",
+    "lastUpdated": "2025-10-09T11:22:44.716Z",
     "version": "1.0.0"
   }
 }
