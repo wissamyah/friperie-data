@@ -258,6 +258,15 @@
       "description": "Casuals",
       "createdAt": "2025-10-09T11:35:20.418Z",
       "updatedAt": "2025-10-09T11:35:20.418Z"
+    },
+    {
+      "id": "expense-1760010008860-ey3ndcncc",
+      "date": "2025-09-23",
+      "category": "Salaries",
+      "amountUSD": 25,
+      "description": "Casuals",
+      "createdAt": "2025-10-09T11:40:08.860Z",
+      "updatedAt": "2025-10-09T11:40:08.860Z"
     }
   ],
   "cashTransactions": [
@@ -320,10 +329,20 @@
       "description": "Utilities: Diesel + Office expenses",
       "relatedExpenseId": "expense-1760009960771-hue7amd1c",
       "createdAt": "2025-10-09T11:39:20.771Z"
+    },
+    {
+      "id": "cash-1760010008860-svmjkul6y",
+      "date": "2025-09-23",
+      "type": "expense",
+      "amount": -25,
+      "balance": 16524,
+      "description": "Salaries: Casuals",
+      "relatedExpenseId": "expense-1760010008860-ey3ndcncc",
+      "createdAt": "2025-10-09T11:40:08.860Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-09T11:39:54.383Z",
+    "lastUpdated": "2025-10-09T11:40:09.478Z",
     "version": "1.0.0"
   }
 }
