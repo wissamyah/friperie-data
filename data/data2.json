@@ -1774,8 +1774,18 @@
       "createdAt": "2025-10-12T23:01:44.072Z"
     }
   ],
+  "partners": [
+    {
+      "id": "partner-1760312126737-z1qeg7pd1",
+      "name": "Haj Hussein",
+      "balance": 0,
+      "createdAt": "2025-10-12T23:35:26.737Z",
+      "updatedAt": "2025-10-12T23:35:26.737Z"
+    }
+  ],
+  "partnerTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-12T23:01:44.881Z",
+    "lastUpdated": "2025-10-12T23:35:27.857Z",
     "version": "1.0.0"
   }
 }
