@@ -1155,6 +1155,15 @@
   ],
   "expenses": [
     {
+      "id": "expense-1760309867148-j34fscj05",
+      "date": "2025-10-03",
+      "category": "Salaries",
+      "amountUSD": 25,
+      "description": "Casuals",
+      "createdAt": "2025-10-12T22:57:47.148Z",
+      "updatedAt": "2025-10-12T22:57:47.148Z"
+    },
+    {
       "id": "expense-1760309754991-tot1j2w6f",
       "date": "2025-10-02",
       "category": "Salaries",
@@ -1281,13 +1290,13 @@
       "updatedAt": "2025-10-12T22:28:45.018Z"
     },
     {
-      "id": "expense-1760309867148-j34fscj05",
-      "date": "2025-10-03",
+      "id": "expense-1760309954134-03po7cu79",
+      "date": "2025-10-04",
       "category": "Salaries",
-      "amountUSD": 25,
+      "amountUSD": 26,
       "description": "Casuals",
-      "createdAt": "2025-10-12T22:57:47.148Z",
-      "updatedAt": "2025-10-12T22:57:47.148Z"
+      "createdAt": "2025-10-12T22:59:14.134Z",
+      "updatedAt": "2025-10-12T22:59:14.134Z"
     }
   ],
   "cashTransactions": [
@@ -1620,10 +1629,20 @@
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1760309867148-j34fscj05",
       "createdAt": "2025-10-12T22:57:47.148Z"
+    },
+    {
+      "id": "cash-1760309954134-1vvf9t2fz",
+      "date": "2025-10-04",
+      "type": "expense",
+      "amount": -26,
+      "balance": 47901,
+      "description": "Salaries: Casuals",
+      "relatedExpenseId": "expense-1760309954134-03po7cu79",
+      "createdAt": "2025-10-12T22:59:14.134Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T22:57:48.345Z",
+    "lastUpdated": "2025-10-12T22:59:15.391Z",
     "version": "1.0.0"
   }
 }
