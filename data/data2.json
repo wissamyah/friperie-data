@@ -3,34 +3,34 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 281,
+      "quantity": 276,
       "costPerBagUSD": 112.97919642857144,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-10-12T22:04:38.507Z"
+      "updatedAt": "2025-10-12T22:05:39.280Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 314,
+      "quantity": 300,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-10-12T22:04:38.507Z"
+      "updatedAt": "2025-10-12T22:05:39.280Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
       "name": "PRIMETTA",
-      "quantity": 53,
+      "quantity": 52,
       "costPerBagUSD": 53.391696428571436,
       "createdAt": "2025-10-12T20:52:09.315Z",
-      "updatedAt": "2025-10-12T22:04:38.507Z"
+      "updatedAt": "2025-10-12T22:05:39.280Z"
     },
     {
       "id": "1760302332961-9tftv3xug",
       "name": "PLASTICA",
-      "quantity": 43,
+      "quantity": 42,
       "costPerBagUSD": 48.284196428571434,
       "createdAt": "2025-10-12T20:52:12.961Z",
-      "updatedAt": "2025-10-12T22:04:38.507Z"
+      "updatedAt": "2025-10-12T22:05:39.280Z"
     }
   ],
   "suppliers": [
@@ -291,6 +291,77 @@
       "totalAmountUSD": 2565,
       "createdAt": "2025-10-12T22:04:38.507Z",
       "updatedAt": "2025-10-12T22:04:38.507Z"
+    },
+    {
+      "id": "sale-1760306739280-980p7yem8",
+      "date": "2025-09-25",
+      "products": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 5,
+          "sellingPriceUSD": 145,
+          "lineTotal": 725
+        },
+        {
+          "productId": "1760302329315-0kr1e0aar",
+          "productName": "PRIMETTA",
+          "quantityBags": 1,
+          "sellingPriceUSD": 110,
+          "lineTotal": 110
+        },
+        {
+          "productId": "1760302332961-9tftv3xug",
+          "productName": "PLASTICA",
+          "quantityBags": 1,
+          "sellingPriceUSD": 75,
+          "lineTotal": 75
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 14,
+          "sellingPriceUSD": 70,
+          "lineTotal": 980
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "totalQuantity": 5,
+          "averagePrice": 145,
+          "totalAmount": 725,
+          "priceVariations": 1
+        },
+        {
+          "productId": "1760302329315-0kr1e0aar",
+          "productName": "PRIMETTA",
+          "totalQuantity": 1,
+          "averagePrice": 110,
+          "totalAmount": 110,
+          "priceVariations": 1
+        },
+        {
+          "productId": "1760302332961-9tftv3xug",
+          "productName": "PLASTICA",
+          "totalQuantity": 1,
+          "averagePrice": 75,
+          "totalAmount": 75,
+          "priceVariations": 1
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 14,
+          "averagePrice": 70,
+          "totalAmount": 980,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 1890,
+      "createdAt": "2025-10-12T22:05:39.280Z",
+      "updatedAt": "2025-10-12T22:05:39.280Z"
     }
   ],
   "expenses": [],
@@ -324,10 +395,20 @@
       "description": "Sale: PLASTICA, MIX II, PRIMETTA, MIX I",
       "relatedSaleId": "sale-1760306678507-xxxtvbnhg",
       "createdAt": "2025-10-12T22:04:38.507Z"
+    },
+    {
+      "id": "cash-1760306739280-vhyyf5gs8",
+      "date": "2025-09-25",
+      "type": "sale",
+      "amount": 1890,
+      "balance": 21540,
+      "description": "Sale: MIX I, PRIMETTA, PLASTICA, MIX II",
+      "relatedSaleId": "sale-1760306739280-980p7yem8",
+      "createdAt": "2025-10-12T22:05:39.280Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T22:04:39.643Z",
+    "lastUpdated": "2025-10-12T22:05:40.349Z",
     "version": "1.0.0"
   }
 }
