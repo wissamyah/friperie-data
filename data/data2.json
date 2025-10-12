@@ -102,8 +102,8 @@
       "supplierId": "1760302254334-norr5icpv",
       "supplierName": "ID MONDO 2011",
       "type": "payment",
-      "amount": 44695,
-      "balance": 44695,
+      "amount": 44745,
+      "balance": 44745,
       "description": "Payment received - No notes",
       "relatedPaymentId": "payment-1760302278580-dgrld7anv",
       "date": "2025-05-01",
@@ -115,7 +115,7 @@
       "supplierName": "ID MONDO 2011",
       "type": "container",
       "amount": -44745,
-      "balance": -50,
+      "balance": 0,
       "description": "Container MRKU589627-5 purchase",
       "relatedContainerId": "1760302675605-vhl9f9d00",
       "date": "2025-05-01",
@@ -143,7 +143,7 @@
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-12T20:58:13.242Z",
+    "lastUpdated": "2025-10-12T20:58:14.975Z",
     "version": "1.0.0"
   }
 }
