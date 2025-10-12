@@ -3,18 +3,18 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 377,
+      "quantity": 290,
       "costPerBagUSD": 112.97919642857144,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-10-12T21:08:06.878Z"
+      "updatedAt": "2025-10-12T21:08:43.942Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 320,
+      "quantity": 317,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-10-12T21:07:19.000Z"
+      "updatedAt": "2025-10-12T21:08:43.942Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -27,10 +27,10 @@
     {
       "id": "1760302332961-9tftv3xug",
       "name": "PLASTICA",
-      "quantity": 50,
+      "quantity": 47,
       "costPerBagUSD": 48.284196428571434,
       "createdAt": "2025-10-12T20:52:12.961Z",
-      "updatedAt": "2025-10-12T21:08:06.878Z"
+      "updatedAt": "2025-10-12T21:08:43.942Z"
     }
   ],
   "suppliers": [
@@ -190,6 +190,36 @@
       "totalAmountUSD": 4035,
       "createdAt": "2025-10-12T21:08:06.878Z",
       "updatedAt": "2025-10-12T21:08:06.878Z"
+    },
+    {
+      "id": "sale-1760303323942-iaw4kxw4o",
+      "date": "2025-09-23",
+      "products": [
+        {
+          "productId": "1760302332961-9tftv3xug",
+          "productName": "PLASTICA",
+          "quantityBags": 3,
+          "sellingPriceUSD": 75,
+          "lineTotal": 225
+        },
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 87,
+          "sellingPriceUSD": 145,
+          "lineTotal": 12615
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 3,
+          "sellingPriceUSD": 70,
+          "lineTotal": 210
+        }
+      ],
+      "totalAmountUSD": 13050,
+      "createdAt": "2025-10-12T21:08:43.942Z",
+      "updatedAt": "2025-10-12T21:08:43.942Z"
     }
   ],
   "expenses": [],
@@ -203,10 +233,20 @@
       "description": "Sale: PLASTICA, MIX I",
       "relatedSaleId": "sale-1760303286878-ftc3jewvd",
       "createdAt": "2025-10-12T21:08:06.878Z"
+    },
+    {
+      "id": "cash-1760303323942-5i1cwd8s0",
+      "date": "2025-09-23",
+      "type": "sale",
+      "amount": 13050,
+      "balance": 17085,
+      "description": "Sale: PLASTICA, MIX I, MIX II",
+      "relatedSaleId": "sale-1760303323942-iaw4kxw4o",
+      "createdAt": "2025-10-12T21:08:43.942Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T21:08:07.997Z",
+    "lastUpdated": "2025-10-12T21:08:45.182Z",
     "version": "1.0.0"
   }
 }
