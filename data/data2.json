@@ -129,21 +129,21 @@
       "supplierId": "1760302254334-norr5icpv",
       "supplierName": "ID MONDO 2011",
       "amountEUR": 44745,
-      "exchangeRate": 1.16,
+      "exchangeRate": 1.135,
       "commissionPercent": 2,
-      "amountUSD": 52942.284,
+      "amountUSD": 51801.286499999995,
       "allocations": [],
       "unallocatedEUR": 44745,
       "notes": "",
       "createdAt": "2025-10-12T20:51:18.580Z",
-      "updatedAt": "2025-10-12T20:58:12.637Z"
+      "updatedAt": "2025-10-12T20:59:42.925Z"
     }
   ],
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-12T20:58:14.975Z",
+    "lastUpdated": "2025-10-12T20:59:43.913Z",
     "version": "1.0.0"
   }
 }
