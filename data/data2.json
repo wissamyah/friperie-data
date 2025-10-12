@@ -3,18 +3,18 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 176,
+      "quantity": 169,
       "costPerBagUSD": 112.97919642857144,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-10-12T22:17:20.849Z"
+      "updatedAt": "2025-10-12T22:17:56.126Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 226,
+      "quantity": 223,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-10-12T22:17:20.849Z"
+      "updatedAt": "2025-10-12T22:17:56.126Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -999,6 +999,54 @@
       "totalAmountUSD": 1110,
       "createdAt": "2025-10-12T22:17:20.849Z",
       "updatedAt": "2025-10-12T22:17:20.849Z"
+    },
+    {
+      "id": "sale-1760307476126-nyclwhvkf",
+      "date": "2025-10-09",
+      "products": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 2,
+          "sellingPriceUSD": 145,
+          "lineTotal": 290
+        },
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 5,
+          "sellingPriceUSD": 140,
+          "lineTotal": 700
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 3,
+          "sellingPriceUSD": 65,
+          "lineTotal": 195
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "totalQuantity": 7,
+          "averagePrice": 141.42857142857142,
+          "totalAmount": 990,
+          "priceVariations": 2
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 3,
+          "averagePrice": 65,
+          "totalAmount": 195,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 1185,
+      "createdAt": "2025-10-12T22:17:56.126Z",
+      "updatedAt": "2025-10-12T22:17:56.126Z"
     }
   ],
   "expenses": [],
@@ -1152,10 +1200,20 @@
       "description": "Sale: MIX I, PRIMETTA, MIX II",
       "relatedSaleId": "sale-1760307440849-da0js73c8",
       "createdAt": "2025-10-12T22:17:20.849Z"
+    },
+    {
+      "id": "cash-1760307476126-j9rj4th9c",
+      "date": "2025-10-09",
+      "type": "sale",
+      "amount": 1185,
+      "balance": 46470,
+      "description": "Sale: MIX I, MIX I, MIX II",
+      "relatedSaleId": "sale-1760307476126-nyclwhvkf",
+      "createdAt": "2025-10-12T22:17:56.126Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T22:17:21.946Z",
+    "lastUpdated": "2025-10-12T22:17:57.556Z",
     "version": "1.0.0"
   }
 }
