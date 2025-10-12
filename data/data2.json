@@ -1164,6 +1164,15 @@
       "updatedAt": "2025-10-12T22:47:19.779Z"
     },
     {
+      "id": "expense-1760309252878-fjf4ofpd3",
+      "date": "2025-09-29",
+      "category": "Utilities",
+      "amountUSD": 35,
+      "description": "Diesel",
+      "createdAt": "2025-10-12T22:47:32.878Z",
+      "updatedAt": "2025-10-12T22:47:32.878Z"
+    },
+    {
       "id": "expense-1760309066174-6ywo35g0x",
       "date": "2025-09-27",
       "category": "Salaries",
@@ -1227,13 +1236,13 @@
       "updatedAt": "2025-10-12T22:28:45.018Z"
     },
     {
-      "id": "expense-1760309252878-fjf4ofpd3",
-      "date": "2025-09-29",
-      "category": "Utilities",
-      "amountUSD": 35,
-      "description": "Diesel",
-      "createdAt": "2025-10-12T22:47:32.878Z",
-      "updatedAt": "2025-10-12T22:47:32.878Z"
+      "id": "expense-1760309360254-1smdv4u39",
+      "date": "2025-09-30",
+      "category": "Salaries",
+      "amountUSD": 325,
+      "description": "Casuals and salaries",
+      "createdAt": "2025-10-12T22:49:20.254Z",
+      "updatedAt": "2025-10-12T22:49:20.254Z"
     }
   ],
   "cashTransactions": [
@@ -1506,10 +1515,20 @@
       "description": "Utilities: Diesel",
       "relatedExpenseId": "expense-1760309252878-fjf4ofpd3",
       "createdAt": "2025-10-12T22:47:32.878Z"
+    },
+    {
+      "id": "cash-1760309360254-83rgedzxr",
+      "date": "2025-09-30",
+      "type": "expense",
+      "amount": -325,
+      "balance": 48339,
+      "description": "Salaries: Casuals and salaries",
+      "relatedExpenseId": "expense-1760309360254-1smdv4u39",
+      "createdAt": "2025-10-12T22:49:20.254Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T22:47:33.726Z",
+    "lastUpdated": "2025-10-12T22:49:21.404Z",
     "version": "1.0.0"
   }
 }
