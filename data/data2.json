@@ -1781,11 +1781,18 @@
       "balance": 0,
       "createdAt": "2025-10-12T23:35:26.737Z",
       "updatedAt": "2025-10-12T23:35:26.737Z"
+    },
+    {
+      "id": "partner-1760312137563-1yt75ha4n",
+      "name": "Haj Nader",
+      "balance": 0,
+      "createdAt": "2025-10-12T23:35:37.563Z",
+      "updatedAt": "2025-10-12T23:35:37.563Z"
     }
   ],
   "partnerTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-12T23:35:27.857Z",
+    "lastUpdated": "2025-10-12T23:35:38.338Z",
     "version": "1.0.0"
   }
 }
