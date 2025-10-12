@@ -1,6 +1,14 @@
 {
   "products": [],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "id": "1760302254334-norr5icpv",
+      "name": "ID MONDO 2011",
+      "balance": 0,
+      "createdAt": "2025-10-12T20:50:54.334Z",
+      "updatedAt": "2025-10-12T20:50:54.334Z"
+    }
+  ],
   "containers": [],
   "supplierLedger": [],
   "payments": [],
@@ -8,7 +16,7 @@
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-09T13:58:53.416Z",
+    "lastUpdated": "2025-10-12T20:50:55.350Z",
     "version": "1.0.0"
   }
 }
