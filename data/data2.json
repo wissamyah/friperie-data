@@ -3,34 +3,34 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 400,
+      "costPerBagUSD": 112.97919642857144,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-10-12T20:52:01.311Z"
+      "updatedAt": "2025-10-12T21:07:19.000Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 320,
+      "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-10-12T20:52:05.092Z"
+      "updatedAt": "2025-10-12T21:07:19.000Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
       "name": "PRIMETTA",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 60,
+      "costPerBagUSD": 53.391696428571436,
       "createdAt": "2025-10-12T20:52:09.315Z",
-      "updatedAt": "2025-10-12T20:52:09.315Z"
+      "updatedAt": "2025-10-12T21:07:19.000Z"
     },
     {
       "id": "1760302332961-9tftv3xug",
       "name": "PLASTICA",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 60,
+      "costPerBagUSD": 48.284196428571434,
       "createdAt": "2025-10-12T20:52:12.961Z",
-      "updatedAt": "2025-10-12T20:52:12.961Z"
+      "updatedAt": "2025-10-12T21:07:19.000Z"
     }
   ],
   "suppliers": [
@@ -91,9 +91,30 @@
       "paymentStatus": "unpaid",
       "customsStatus": "paid",
       "containerStatus": "open",
-      "quantityAddedToStock": {},
+      "quantityAddedToStock": {
+        "1760302321311-58x5mwug9": {
+          "quantityAdded": 400,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1760302325092-evg1qwqzw": {
+          "quantityAdded": 320,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1760302329315-0kr1e0aar": {
+          "quantityAdded": 60,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1760302332961-9tftv3xug": {
+          "quantityAdded": 60,
+          "stockBefore": 0,
+          "costBefore": 0
+        }
+      },
       "createdAt": "2025-10-12T20:57:55.605Z",
-      "updatedAt": "2025-10-12T20:57:55.605Z"
+      "updatedAt": "2025-10-12T21:07:19.000Z"
     }
   ],
   "supplierLedger": [
@@ -132,18 +153,25 @@
       "exchangeRate": 1.135,
       "commissionPercent": 2,
       "amountUSD": 51801.286499999995,
-      "allocations": [],
-      "unallocatedEUR": 44745,
+      "allocations": [
+        {
+          "containerId": "1760302675605-vhl9f9d00",
+          "containerNumber": "MRKU589627-5",
+          "amountEUR": 44745,
+          "amountUSD": 51801.286499999995
+        }
+      ],
+      "unallocatedEUR": 0,
       "notes": "",
       "createdAt": "2025-10-12T20:51:18.580Z",
-      "updatedAt": "2025-10-12T20:59:42.925Z"
+      "updatedAt": "2025-10-12T21:07:18.999Z"
     }
   ],
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-12T20:59:45.104Z",
+    "lastUpdated": "2025-10-12T21:07:20.340Z",
     "version": "1.0.0"
   }
 }
