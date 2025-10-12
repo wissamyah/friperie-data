@@ -3,18 +3,18 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 169,
+      "quantity": 163,
       "costPerBagUSD": 112.97919642857144,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-10-12T22:17:56.126Z"
+      "updatedAt": "2025-10-12T22:18:31.058Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 223,
+      "quantity": 208,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-10-12T22:17:56.126Z"
+      "updatedAt": "2025-10-12T22:18:31.058Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -1047,6 +1047,54 @@
       "totalAmountUSD": 1185,
       "createdAt": "2025-10-12T22:17:56.126Z",
       "updatedAt": "2025-10-12T22:17:56.126Z"
+    },
+    {
+      "id": "sale-1760307511058-qfidkhmjs",
+      "date": "2025-10-10",
+      "products": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 2,
+          "sellingPriceUSD": 145,
+          "lineTotal": 290
+        },
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 4,
+          "sellingPriceUSD": 140,
+          "lineTotal": 560
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 15,
+          "sellingPriceUSD": 65,
+          "lineTotal": 975
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "totalQuantity": 6,
+          "averagePrice": 141.66666666666666,
+          "totalAmount": 850,
+          "priceVariations": 2
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 15,
+          "averagePrice": 65,
+          "totalAmount": 975,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 1825,
+      "createdAt": "2025-10-12T22:18:31.058Z",
+      "updatedAt": "2025-10-12T22:18:31.058Z"
     }
   ],
   "expenses": [],
@@ -1210,10 +1258,20 @@
       "description": "Sale: MIX I, MIX I, MIX II",
       "relatedSaleId": "sale-1760307476126-nyclwhvkf",
       "createdAt": "2025-10-12T22:17:56.126Z"
+    },
+    {
+      "id": "cash-1760307511058-f035j3e6q",
+      "date": "2025-10-10",
+      "type": "sale",
+      "amount": 1825,
+      "balance": 48295,
+      "description": "Sale: MIX I, MIX I, MIX II",
+      "relatedSaleId": "sale-1760307511058-qfidkhmjs",
+      "createdAt": "2025-10-12T22:18:31.058Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T22:17:57.556Z",
+    "lastUpdated": "2025-10-12T22:18:32.327Z",
     "version": "1.0.0"
   }
 }
