@@ -1153,7 +1153,17 @@
       "updatedAt": "2025-10-12T22:19:23.755Z"
     }
   ],
-  "expenses": [],
+  "expenses": [
+    {
+      "id": "expense-1760308125018-dvao2yyhl",
+      "date": "2025-09-22",
+      "category": "Other",
+      "amountUSD": 226,
+      "description": "Dechargement, ANR, DGDA, Securite, Chauffeur Camion, Journaliers",
+      "createdAt": "2025-10-12T22:28:45.018Z",
+      "updatedAt": "2025-10-12T22:28:45.018Z"
+    }
+  ],
   "cashTransactions": [
     {
       "id": "cash-1760303286878-quhhjtroo",
@@ -1334,10 +1344,20 @@
       "description": "Sale: MIX I, PLASTICA, MIX II",
       "relatedSaleId": "sale-1760307563755-p1tzwva3d",
       "createdAt": "2025-10-12T22:19:23.755Z"
+    },
+    {
+      "id": "cash-1760308125018-knplxb6z8",
+      "date": "2025-09-22",
+      "type": "expense",
+      "amount": -226,
+      "balance": 49269,
+      "description": "Other: Dechargement, ANR, DGDA, Securite, Chauffeur Camion, Journaliers",
+      "relatedExpenseId": "expense-1760308125018-dvao2yyhl",
+      "createdAt": "2025-10-12T22:28:45.018Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T22:19:24.966Z",
+    "lastUpdated": "2025-10-12T22:28:46.283Z",
     "version": "1.0.0"
   }
 }
