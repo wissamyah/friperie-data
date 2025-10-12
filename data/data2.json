@@ -1162,6 +1162,15 @@
       "description": "Dechargement, ANR, DGDA, Securite, Chauffeur Camion, Journaliers",
       "createdAt": "2025-10-12T22:28:45.018Z",
       "updatedAt": "2025-10-12T22:28:45.018Z"
+    },
+    {
+      "id": "expense-1760308193533-igkwiy176",
+      "date": "2025-10-12",
+      "category": "Other",
+      "amountUSD": 335,
+      "description": "Documents entreprise, Diesel, Journaliers, Marqueurs",
+      "createdAt": "2025-10-12T22:29:53.533Z",
+      "updatedAt": "2025-10-12T22:29:53.533Z"
     }
   ],
   "cashTransactions": [
@@ -1354,10 +1363,20 @@
       "description": "Other: Dechargement, ANR, DGDA, Securite, Chauffeur Camion, Journaliers",
       "relatedExpenseId": "expense-1760308125018-dvao2yyhl",
       "createdAt": "2025-10-12T22:28:45.018Z"
+    },
+    {
+      "id": "cash-1760308193533-3orc2ezaw",
+      "date": "2025-10-12",
+      "type": "expense",
+      "amount": -335,
+      "balance": 48934,
+      "description": "Other: Documents entreprise, Diesel, Journaliers, Marqueurs",
+      "relatedExpenseId": "expense-1760308193533-igkwiy176",
+      "createdAt": "2025-10-12T22:29:53.533Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T22:28:46.283Z",
+    "lastUpdated": "2025-10-12T22:29:54.632Z",
     "version": "1.0.0"
   }
 }
