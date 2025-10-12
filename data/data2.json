@@ -1155,6 +1155,15 @@
   ],
   "expenses": [
     {
+      "id": "expense-1760309954134-03po7cu79",
+      "date": "2025-10-04",
+      "category": "Salaries",
+      "amountUSD": 26,
+      "description": "Casuals",
+      "createdAt": "2025-10-12T22:59:14.134Z",
+      "updatedAt": "2025-10-12T22:59:14.134Z"
+    },
+    {
       "id": "expense-1760309867148-j34fscj05",
       "date": "2025-10-03",
       "category": "Salaries",
@@ -1290,13 +1299,13 @@
       "updatedAt": "2025-10-12T22:28:45.018Z"
     },
     {
-      "id": "expense-1760309954134-03po7cu79",
+      "id": "expense-1760309977760-yah5uhuvv",
       "date": "2025-10-04",
-      "category": "Salaries",
-      "amountUSD": 26,
-      "description": "Casuals",
-      "createdAt": "2025-10-12T22:59:14.134Z",
-      "updatedAt": "2025-10-12T22:59:14.134Z"
+      "category": "Rent",
+      "amountUSD": 1000,
+      "description": "Warehouse Shaumba",
+      "createdAt": "2025-10-12T22:59:37.760Z",
+      "updatedAt": "2025-10-12T22:59:37.760Z"
     }
   ],
   "cashTransactions": [
@@ -1639,10 +1648,20 @@
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1760309954134-03po7cu79",
       "createdAt": "2025-10-12T22:59:14.134Z"
+    },
+    {
+      "id": "cash-1760309977760-q75hysll9",
+      "date": "2025-10-04",
+      "type": "expense",
+      "amount": -1000,
+      "balance": 46901,
+      "description": "Rent: Warehouse Shaumba",
+      "relatedExpenseId": "expense-1760309977760-yah5uhuvv",
+      "createdAt": "2025-10-12T22:59:37.760Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-12T22:59:15.391Z",
+    "lastUpdated": "2025-10-12T22:59:38.720Z",
     "version": "1.0.0"
   }
 }
