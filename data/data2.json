@@ -1888,15 +1888,25 @@
       "description": "Haj Hussein - injection: Money returned to company",
       "relatedPartnerTransactionId": "partner-tx-1760396514941-c2qobeqaz",
       "createdAt": "2025-10-13T23:01:54.941Z"
+    },
+    {
+      "id": "cash-1760396580960-xxe9u0moz",
+      "date": "2025-10-05",
+      "type": "partner_withdrawal",
+      "amount": -2380,
+      "balance": 16425,
+      "description": "Haj Hussein - withdrawal: Personal expenses",
+      "relatedPartnerTransactionId": "partner-tx-1760396580960-2jiv58wqm",
+      "createdAt": "2025-10-13T23:03:00.960Z"
     }
   ],
   "partners": [
     {
       "id": "partner-1760312126737-z1qeg7pd1",
       "name": "Haj Hussein",
-      "balance": 11000,
+      "balance": 8620,
       "createdAt": "2025-10-12T23:35:26.737Z",
-      "updatedAt": "2025-10-13T23:01:54.941Z"
+      "updatedAt": "2025-10-13T23:03:00.960Z"
     },
     {
       "id": "partner-1760312137563-1yt75ha4n",
@@ -1930,10 +1940,22 @@
       "createdAt": "2025-10-13T23:01:54.941Z",
       "updatedAt": "2025-10-13T23:01:54.941Z",
       "relatedCashTransactionId": "cash-1760396514941-j5g8fu8mk"
+    },
+    {
+      "id": "partner-tx-1760396580960-2jiv58wqm",
+      "partnerId": "partner-1760312126737-z1qeg7pd1",
+      "partnerName": "Haj Hussein",
+      "date": "2025-10-05",
+      "type": "withdrawal",
+      "amountUSD": 2380,
+      "description": "Personal expenses",
+      "createdAt": "2025-10-13T23:03:00.960Z",
+      "updatedAt": "2025-10-13T23:03:00.960Z",
+      "relatedCashTransactionId": "cash-1760396580960-xxe9u0moz"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-13T23:01:56.404Z",
+    "lastUpdated": "2025-10-13T23:03:02.423Z",
     "version": "1.0.0"
   }
 }
