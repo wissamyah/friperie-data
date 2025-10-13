@@ -1878,15 +1878,25 @@
       "description": "Haj Nader - withdrawal: 2nd repayment, total withdrawn 83,000$",
       "relatedPartnerTransactionId": "partner-tx-1760396356289-i0u0n7frv",
       "createdAt": "2025-10-13T22:59:16.289Z"
+    },
+    {
+      "id": "cash-1760396514941-j5g8fu8mk",
+      "date": "2025-10-03",
+      "type": "partner_injection",
+      "amount": 11000,
+      "balance": 18805,
+      "description": "Haj Hussein - injection: Money returned to company",
+      "relatedPartnerTransactionId": "partner-tx-1760396514941-c2qobeqaz",
+      "createdAt": "2025-10-13T23:01:54.941Z"
     }
   ],
   "partners": [
     {
       "id": "partner-1760312126737-z1qeg7pd1",
       "name": "Haj Hussein",
-      "balance": 0,
+      "balance": 11000,
       "createdAt": "2025-10-12T23:35:26.737Z",
-      "updatedAt": "2025-10-12T23:35:26.737Z"
+      "updatedAt": "2025-10-13T23:01:54.941Z"
     },
     {
       "id": "partner-1760312137563-1yt75ha4n",
@@ -1908,10 +1918,22 @@
       "createdAt": "2025-10-13T22:59:16.289Z",
       "updatedAt": "2025-10-13T22:59:16.289Z",
       "relatedCashTransactionId": "cash-1760396356289-vsp8p0e2k"
+    },
+    {
+      "id": "partner-tx-1760396514941-c2qobeqaz",
+      "partnerId": "partner-1760312126737-z1qeg7pd1",
+      "partnerName": "Haj Hussein",
+      "date": "2025-10-03",
+      "type": "injection",
+      "amountUSD": 11000,
+      "description": "Money returned to company",
+      "createdAt": "2025-10-13T23:01:54.941Z",
+      "updatedAt": "2025-10-13T23:01:54.941Z",
+      "relatedCashTransactionId": "cash-1760396514941-j5g8fu8mk"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-13T22:59:16.937Z",
+    "lastUpdated": "2025-10-13T23:01:56.404Z",
     "version": "1.0.0"
   }
 }
