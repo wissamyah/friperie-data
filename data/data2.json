@@ -1868,6 +1868,16 @@
       "description": "Other: Commission on repayment (40k + 1k commission)",
       "relatedExpenseId": "expense-1760396325620-i1mcmwf7t",
       "createdAt": "2025-10-13T22:58:45.620Z"
+    },
+    {
+      "id": "cash-1760396356289-vsp8p0e2k",
+      "date": "2025-10-03",
+      "type": "partner_withdrawal",
+      "amount": -40000,
+      "balance": 7805,
+      "description": "Haj Nader - withdrawal: 2nd repayment, total withdrawn 83,000$",
+      "relatedPartnerTransactionId": "partner-tx-1760396356289-i0u0n7frv",
+      "createdAt": "2025-10-13T22:59:16.289Z"
     }
   ],
   "partners": [
@@ -1881,14 +1891,27 @@
     {
       "id": "partner-1760312137563-1yt75ha4n",
       "name": "Haj Nader",
-      "balance": 0,
+      "balance": -40000,
       "createdAt": "2025-10-12T23:35:37.563Z",
-      "updatedAt": "2025-10-12T23:35:37.563Z"
+      "updatedAt": "2025-10-13T22:59:16.289Z"
     }
   ],
-  "partnerTransactions": [],
+  "partnerTransactions": [
+    {
+      "id": "partner-tx-1760396356289-i0u0n7frv",
+      "partnerId": "partner-1760312137563-1yt75ha4n",
+      "partnerName": "Haj Nader",
+      "date": "2025-10-03",
+      "type": "withdrawal",
+      "amountUSD": 40000,
+      "description": "2nd repayment, total withdrawn 83,000$",
+      "createdAt": "2025-10-13T22:59:16.289Z",
+      "updatedAt": "2025-10-13T22:59:16.289Z",
+      "relatedCashTransactionId": "cash-1760396356289-vsp8p0e2k"
+    }
+  ],
   "metadata": {
-    "lastUpdated": "2025-10-13T22:58:46.948Z",
+    "lastUpdated": "2025-10-13T22:59:16.937Z",
     "version": "1.0.0"
   }
 }
