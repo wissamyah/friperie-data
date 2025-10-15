@@ -1474,6 +1474,15 @@
       "description": "Commission on repayment (40k + 1k commission)",
       "createdAt": "2025-10-13T22:58:45.620Z",
       "updatedAt": "2025-10-13T22:58:45.620Z"
+    },
+    {
+      "id": "expense-1760539625331-ah9rsrwls",
+      "date": "2025-10-14",
+      "category": "Salaries",
+      "amountUSD": 28,
+      "description": "Casuals",
+      "createdAt": "2025-10-15T14:47:05.331Z",
+      "updatedAt": "2025-10-15T14:47:05.331Z"
     }
   ],
   "cashTransactions": [
@@ -1956,6 +1965,16 @@
       "description": "Sale: MIX I, MIX I, MIX II",
       "relatedSaleId": "sale-1760539598385-pgnxu3aeo",
       "createdAt": "2025-10-15T14:46:38.385Z"
+    },
+    {
+      "id": "cash-1760539625331-sx77iy3x4",
+      "date": "2025-10-14",
+      "type": "expense",
+      "amount": -28,
+      "balance": 18907,
+      "description": "Salaries: Casuals",
+      "relatedExpenseId": "expense-1760539625331-ah9rsrwls",
+      "createdAt": "2025-10-15T14:47:05.331Z"
     }
   ],
   "partners": [
@@ -2013,7 +2032,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-15T14:46:39.870Z",
+    "lastUpdated": "2025-10-15T14:47:06.064Z",
     "version": "1.0.0"
   }
 }
