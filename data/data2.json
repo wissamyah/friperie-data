@@ -3,18 +3,18 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 148,
+      "quantity": 132,
       "costPerBagUSD": 112.97919642857144,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-10-13T22:57:05.211Z"
+      "updatedAt": "2025-10-15T14:46:38.385Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 198,
+      "quantity": 195,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-10-13T22:57:05.211Z"
+      "updatedAt": "2025-10-15T14:46:38.385Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -1199,6 +1199,54 @@
       "totalAmountUSD": 2090,
       "createdAt": "2025-10-13T22:57:05.211Z",
       "updatedAt": "2025-10-13T22:57:05.211Z"
+    },
+    {
+      "id": "sale-1760539598385-pgnxu3aeo",
+      "date": "2025-10-14",
+      "products": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 15,
+          "sellingPriceUSD": 145,
+          "lineTotal": 2175
+        },
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 1,
+          "sellingPriceUSD": 140,
+          "lineTotal": 140
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 3,
+          "sellingPriceUSD": 65,
+          "lineTotal": 195
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "totalQuantity": 16,
+          "averagePrice": 144.6875,
+          "totalAmount": 2315,
+          "priceVariations": 2
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 3,
+          "averagePrice": 65,
+          "totalAmount": 195,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 2510,
+      "createdAt": "2025-10-15T14:46:38.385Z",
+      "updatedAt": "2025-10-15T14:46:38.385Z"
     }
   ],
   "expenses": [
@@ -1898,6 +1946,16 @@
       "description": "Haj Hussein - withdrawal: Personal expenses",
       "relatedPartnerTransactionId": "partner-tx-1760396580960-2jiv58wqm",
       "createdAt": "2025-10-13T23:03:00.960Z"
+    },
+    {
+      "id": "cash-1760539598385-cdmzw8xk2",
+      "date": "2025-10-14",
+      "type": "sale",
+      "amount": 2510,
+      "balance": 18935,
+      "description": "Sale: MIX I, MIX I, MIX II",
+      "relatedSaleId": "sale-1760539598385-pgnxu3aeo",
+      "createdAt": "2025-10-15T14:46:38.385Z"
     }
   ],
   "partners": [
@@ -1955,7 +2013,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-13T23:03:02.423Z",
+    "lastUpdated": "2025-10-15T14:46:39.870Z",
     "version": "1.0.0"
   }
 }
