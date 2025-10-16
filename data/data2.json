@@ -1583,6 +1583,15 @@
       "description": "Casuals + other",
       "createdAt": "2025-10-16T17:09:48.605Z",
       "updatedAt": "2025-10-16T17:09:48.605Z"
+    },
+    {
+      "id": "expense-1760634607884-e4urdy5ix",
+      "date": "2025-10-16",
+      "category": "Utilities",
+      "amountUSD": 50,
+      "description": "Electricity",
+      "createdAt": "2025-10-16T17:10:07.884Z",
+      "updatedAt": "2025-10-16T17:10:07.884Z"
     }
   ],
   "cashTransactions": [
@@ -2115,6 +2124,16 @@
       "description": "Salaries: Casuals + other",
       "relatedExpenseId": "expense-1760634588605-cxm11l0r4",
       "createdAt": "2025-10-16T17:09:48.605Z"
+    },
+    {
+      "id": "cash-1760634607884-rsjo09vij",
+      "date": "2025-10-16",
+      "type": "expense",
+      "amount": -50,
+      "balance": 19916,
+      "description": "Utilities: Electricity",
+      "relatedExpenseId": "expense-1760634607884-e4urdy5ix",
+      "createdAt": "2025-10-16T17:10:07.884Z"
     }
   ],
   "partners": [
@@ -2172,7 +2191,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-16T17:09:49.236Z",
+    "lastUpdated": "2025-10-16T17:10:08.808Z",
     "version": "1.0.0"
   }
 }
