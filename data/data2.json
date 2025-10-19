@@ -2274,15 +2274,25 @@
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1760804940771-83djahhq1",
       "createdAt": "2025-10-18T16:29:00.771Z"
+    },
+    {
+      "id": "cash-1760881657043-1nwjptiio",
+      "date": "2025-10-19",
+      "type": "partner_withdrawal",
+      "amount": -781,
+      "balance": 20420,
+      "description": "Haj Hussein - withdrawal: Personal expenses",
+      "relatedPartnerTransactionId": "partner-tx-1760881657043-16sgzve4i",
+      "createdAt": "2025-10-19T13:47:37.043Z"
     }
   ],
   "partners": [
     {
       "id": "partner-1760312126737-z1qeg7pd1",
       "name": "Haj Hussein",
-      "balance": 8620,
+      "balance": 7839,
       "createdAt": "2025-10-12T23:35:26.737Z",
-      "updatedAt": "2025-10-13T23:03:00.960Z"
+      "updatedAt": "2025-10-19T13:47:37.043Z"
     },
     {
       "id": "partner-1760312137563-1yt75ha4n",
@@ -2328,10 +2338,22 @@
       "createdAt": "2025-10-13T23:03:00.960Z",
       "updatedAt": "2025-10-13T23:03:00.960Z",
       "relatedCashTransactionId": "cash-1760396580960-xxe9u0moz"
+    },
+    {
+      "id": "partner-tx-1760881657043-16sgzve4i",
+      "partnerId": "partner-1760312126737-z1qeg7pd1",
+      "partnerName": "Haj Hussein",
+      "date": "2025-10-19",
+      "type": "withdrawal",
+      "amountUSD": 781,
+      "description": "Personal expenses",
+      "createdAt": "2025-10-19T13:47:37.043Z",
+      "updatedAt": "2025-10-19T13:47:37.043Z",
+      "relatedCashTransactionId": "cash-1760881657043-1nwjptiio"
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-18T16:29:01.522Z",
+    "lastUpdated": "2025-10-19T13:47:38.349Z",
     "version": "1.0.0"
   }
 }
