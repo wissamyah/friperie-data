@@ -47,11 +47,18 @@
       "balance": 0,
       "createdAt": "2025-10-22T23:36:40.636Z",
       "updatedAt": "2025-10-22T23:36:40.636Z"
+    },
+    {
+      "id": "partner-1761176208109-c2kx6ac45",
+      "name": "Hussein Yahfoufi",
+      "balance": 0,
+      "createdAt": "2025-10-22T23:36:48.109Z",
+      "updatedAt": "2025-10-22T23:36:48.109Z"
     }
   ],
   "partnerTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-22T23:36:41.255Z",
+    "lastUpdated": "2025-10-22T23:36:48.732Z",
     "version": "1.0.0"
   }
 }
