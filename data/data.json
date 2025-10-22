@@ -41,12 +41,12 @@
   "expenses": [
     {
       "id": "expense-1761176384823-f74w95tkk",
-      "date": "2025-08-10",
+      "date": "2025-08-09",
       "category": "Other",
       "amountUSD": 22000,
       "description": "Custom duties 1st container ID MONDO 2011",
       "createdAt": "2025-10-22T23:39:44.823Z",
-      "updatedAt": "2025-10-22T23:39:44.823Z"
+      "updatedAt": "2025-10-22T23:40:44.141Z"
     }
   ],
   "cashTransactions": [
@@ -92,10 +92,10 @@
     },
     {
       "id": "cash-1761176384823-ifcw0hann",
-      "date": "2025-08-10",
+      "date": "2025-08-09",
       "type": "expense",
       "amount": -22000,
-      "balance": 116270,
+      "balance": -22000,
       "description": "Other: Custom duties 1st container ID MONDO 2011",
       "relatedExpenseId": "expense-1761176384823-f74w95tkk",
       "createdAt": "2025-10-22T23:39:44.823Z"
@@ -168,7 +168,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-22T23:39:45.927Z",
+    "lastUpdated": "2025-10-22T23:40:45.603Z",
     "version": "1.0.0"
   }
 }
