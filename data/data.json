@@ -38,7 +38,17 @@
   "supplierLedger": [],
   "payments": [],
   "sales": [],
-  "expenses": [],
+  "expenses": [
+    {
+      "id": "expense-1761176384823-f74w95tkk",
+      "date": "2025-08-10",
+      "category": "Other",
+      "amountUSD": 22000,
+      "description": "Custom duties 1st container ID MONDO 2011",
+      "createdAt": "2025-10-22T23:39:44.823Z",
+      "updatedAt": "2025-10-22T23:39:44.823Z"
+    }
+  ],
   "cashTransactions": [
     {
       "id": "cash-1761176264636-p9zskkd9m",
@@ -79,6 +89,16 @@
       "description": "Hussein Nachar - injection: Additional investment - 1st container custom duties",
       "relatedPartnerTransactionId": "partner-tx-1761176336276-4uo3zyxyi",
       "createdAt": "2025-10-22T23:38:56.276Z"
+    },
+    {
+      "id": "cash-1761176384823-ifcw0hann",
+      "date": "2025-08-10",
+      "type": "expense",
+      "amount": -22000,
+      "balance": 116270,
+      "description": "Other: Custom duties 1st container ID MONDO 2011",
+      "relatedExpenseId": "expense-1761176384823-f74w95tkk",
+      "createdAt": "2025-10-22T23:39:44.823Z"
     }
   ],
   "partners": [
@@ -148,7 +168,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-22T23:38:57.487Z",
+    "lastUpdated": "2025-10-22T23:39:45.927Z",
     "version": "1.0.0"
   }
 }
