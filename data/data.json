@@ -40,8 +40,18 @@
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
+  "partners": [
+    {
+      "id": "partner-1761176200636-9zml73in6",
+      "name": "Hussein Nachar",
+      "balance": 0,
+      "createdAt": "2025-10-22T23:36:40.636Z",
+      "updatedAt": "2025-10-22T23:36:40.636Z"
+    }
+  ],
+  "partnerTransactions": [],
   "metadata": {
-    "lastUpdated": "2025-10-08T20:10:38.725Z",
+    "lastUpdated": "2025-10-22T23:36:41.255Z",
     "version": "1.0.0"
   }
 }
