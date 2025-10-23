@@ -19,10 +19,10 @@
     {
       "id": "1760302329315-0kr1e0aar",
       "name": "PRIMETTA",
-      "quantity": 32,
+      "quantity": 28,
       "costPerBagUSD": 53.391696428571436,
       "createdAt": "2025-10-12T20:52:09.315Z",
-      "updatedAt": "2025-10-21T15:29:25.540Z"
+      "updatedAt": "2025-10-23T15:27:51.774Z"
     },
     {
       "id": "1760302332961-9tftv3xug",
@@ -1556,6 +1556,32 @@
       "totalAmountUSD": 1080,
       "createdAt": "2025-10-22T15:17:55.414Z",
       "updatedAt": "2025-10-22T15:17:55.414Z"
+    },
+    {
+      "id": "sale-1761233271774-z82lpq3bw",
+      "date": "2025-10-23",
+      "products": [
+        {
+          "productId": "1760302329315-0kr1e0aar",
+          "productName": "PRIMETTA",
+          "quantityBags": 4,
+          "sellingPriceUSD": 105,
+          "lineTotal": 420
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302329315-0kr1e0aar",
+          "productName": "PRIMETTA",
+          "totalQuantity": 4,
+          "averagePrice": 105,
+          "totalAmount": 420,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 420,
+      "createdAt": "2025-10-23T15:27:51.774Z",
+      "updatedAt": "2025-10-23T15:27:51.774Z"
     }
   ],
   "expenses": [
@@ -2516,6 +2542,16 @@
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1761146288446-5bzymn9k4",
       "createdAt": "2025-10-22T15:18:08.446Z"
+    },
+    {
+      "id": "cash-1761233271774-3geysa77d",
+      "date": "2025-10-23",
+      "type": "sale",
+      "amount": 420,
+      "balance": 24205,
+      "description": "Sale: PRIMETTA",
+      "relatedSaleId": "sale-1761233271774-z82lpq3bw",
+      "createdAt": "2025-10-23T15:27:51.774Z"
     }
   ],
   "partners": [
@@ -2585,7 +2621,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-22T15:18:09.388Z",
+    "lastUpdated": "2025-10-23T15:27:52.403Z",
     "version": "1.0.0"
   }
 }
