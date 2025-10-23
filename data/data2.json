@@ -1890,6 +1890,15 @@
       "description": "Casuals",
       "createdAt": "2025-10-22T15:18:08.446Z",
       "updatedAt": "2025-10-22T15:18:08.446Z"
+    },
+    {
+      "id": "expense-1761233294623-zuen1nlpm",
+      "date": "2025-10-23",
+      "category": "Salaries",
+      "amountUSD": 25,
+      "description": "Casuals",
+      "createdAt": "2025-10-23T15:28:14.623Z",
+      "updatedAt": "2025-10-23T15:28:14.623Z"
     }
   ],
   "cashTransactions": [
@@ -2552,6 +2561,16 @@
       "description": "Sale: PRIMETTA",
       "relatedSaleId": "sale-1761233271774-z82lpq3bw",
       "createdAt": "2025-10-23T15:27:51.774Z"
+    },
+    {
+      "id": "cash-1761233294623-lzmd13me6",
+      "date": "2025-10-23",
+      "type": "expense",
+      "amount": -25,
+      "balance": 24180,
+      "description": "Salaries: Casuals",
+      "relatedExpenseId": "expense-1761233294623-zuen1nlpm",
+      "createdAt": "2025-10-23T15:28:14.623Z"
     }
   ],
   "partners": [
@@ -2621,7 +2640,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-23T15:27:52.403Z",
+    "lastUpdated": "2025-10-23T15:28:15.608Z",
     "version": "1.0.0"
   }
 }
