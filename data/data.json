@@ -67,6 +67,18 @@
       "relatedPaymentId": "payment-1761179834458-plxqwnyxw",
       "date": "2025-07-21",
       "createdAt": "2025-10-23T00:37:14.479Z"
+    },
+    {
+      "id": "1761179874009-8n0z7f5pw",
+      "supplierId": "1761178149075-hj5g3efln",
+      "supplierName": "ID MONDO 2011",
+      "type": "payment",
+      "amount": 30000,
+      "balance": 100000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
+      "date": "2025-07-24",
+      "createdAt": "2025-10-23T00:37:54.009Z"
     }
   ],
   "payments": [
@@ -99,6 +111,21 @@
       "notes": "",
       "createdAt": "2025-10-23T00:37:14.458Z",
       "updatedAt": "2025-10-23T00:37:14.458Z"
+    },
+    {
+      "id": "payment-1761179873980-fckvv2ll9",
+      "date": "2025-07-24",
+      "supplierId": "1761178149075-hj5g3efln",
+      "supplierName": "ID MONDO 2011",
+      "amountEUR": 30000,
+      "exchangeRate": 1.158333333333333,
+      "commissionPercent": 0,
+      "amountUSD": 34749.99999999999,
+      "allocations": [],
+      "unallocatedEUR": 30000,
+      "notes": "",
+      "createdAt": "2025-10-23T00:37:53.980Z",
+      "updatedAt": "2025-10-23T00:37:53.981Z"
     }
   ],
   "sales": [],
@@ -183,6 +210,16 @@
       "description": "Payment to ID MONDO 2011",
       "relatedPaymentId": "payment-1761179834458-plxqwnyxw",
       "createdAt": "2025-10-23T00:37:14.501Z"
+    },
+    {
+      "id": "cash-1761179874040-5giiqrh3z",
+      "date": "2025-07-24",
+      "type": "payment",
+      "amount": -34749.99999999999,
+      "balance": 0,
+      "description": "Payment to ID MONDO 2011",
+      "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
+      "createdAt": "2025-10-23T00:37:54.040Z"
     }
   ],
   "partners": [
@@ -252,7 +289,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-23T00:37:15.656Z",
+    "lastUpdated": "2025-10-23T00:37:55.186Z",
     "version": "1.0.0"
   }
 }
