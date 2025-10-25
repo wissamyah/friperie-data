@@ -1929,11 +1929,11 @@
     {
       "id": "expense-1761433411274-5yu6g59iw",
       "date": "2025-10-24",
-      "category": "Daily Expenses on Casuals",
+      "category": "Salaries",
       "amountUSD": 26,
       "description": "Casuals",
       "createdAt": "2025-10-25T23:03:31.274Z",
-      "updatedAt": "2025-10-25T23:03:31.274Z"
+      "updatedAt": "2025-10-25T23:03:44.325Z"
     }
   ],
   "cashTransactions": [
@@ -2623,7 +2623,7 @@
       "type": "expense",
       "amount": -26,
       "balance": 24879,
-      "description": "Daily Expenses on Casuals: Casuals",
+      "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1761433411274-5yu6g59iw",
       "createdAt": "2025-10-25T23:03:31.274Z"
     }
@@ -2695,7 +2695,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-25T23:03:32.043Z",
+    "lastUpdated": "2025-10-25T23:03:45.091Z",
     "version": "1.0.0"
   }
 }
