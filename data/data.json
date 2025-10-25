@@ -39,6 +39,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-25T23:20:08.124Z",
       "updatedAt": "2025-10-25T23:20:08.124Z"
+    },
+    {
+      "id": "1761434412916-kb7b81eza",
+      "name": "CREMA FEMME",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-25T23:20:12.916Z",
+      "updatedAt": "2025-10-25T23:20:12.916Z"
     }
   ],
   "suppliers": [
@@ -297,7 +305,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-25T23:20:08.770Z",
+    "lastUpdated": "2025-10-25T23:20:13.569Z",
     "version": "1.0.0"
   }
 }
