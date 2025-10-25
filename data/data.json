@@ -47,6 +47,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-25T23:20:12.916Z",
       "updatedAt": "2025-10-25T23:20:12.916Z"
+    },
+    {
+      "id": "1761434417315-6oyyj7sfw",
+      "name": "CREMA ENFANT",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-25T23:20:17.315Z",
+      "updatedAt": "2025-10-25T23:20:17.315Z"
     }
   ],
   "suppliers": [
@@ -305,7 +313,7 @@
     }
   ],
   "metadata": {
-    "lastUpdated": "2025-10-25T23:20:13.569Z",
+    "lastUpdated": "2025-10-25T23:20:17.971Z",
     "version": "1.0.0"
   }
 }
