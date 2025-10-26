@@ -156,7 +156,7 @@
       "unallocatedEUR": 30000,
       "notes": "",
       "createdAt": "2025-10-23T00:37:53.980Z",
-      "updatedAt": "2025-10-23T00:37:53.981Z"
+      "updatedAt": "2025-10-26T19:18:06.368Z"
     }
   ],
   "sales": [],
@@ -237,8 +237,8 @@
       "date": "2025-07-24",
       "type": "payment",
       "amount": -34749.99999999999,
-      "balance": 0,
-      "description": "Payment to ID MONDO 2011",
+      "balance": -104603.33333333334,
+      "description": "Payment to JAVEED",
       "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
       "createdAt": "2025-10-23T00:37:54.040Z"
     },
@@ -321,7 +321,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:17:55.499Z",
+    "lastUpdated": "2025-10-26T19:18:07.144Z",
     "version": "1.0.0"
   }
 }
