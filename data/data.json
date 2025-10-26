@@ -171,118 +171,7 @@
       "updatedAt": "2025-10-23T00:56:56.254Z"
     }
   ],
-  "cashTransactions": [
-    {
-      "id": "cash-1761176264636-p9zskkd9m",
-      "date": "2025-08-21",
-      "type": "partner_injection",
-      "amount": 46520,
-      "balance": 46520,
-      "description": "Hussein Nachar - injection: Initial investment",
-      "relatedPartnerTransactionId": "partner-tx-1761176264636-xk21g4m16",
-      "createdAt": "2025-10-22T23:37:44.636Z"
-    },
-    {
-      "id": "cash-1761176284363-sd5vmsmw0",
-      "date": "2025-08-21",
-      "type": "partner_injection",
-      "amount": 35000,
-      "balance": 81520,
-      "description": "Hussein Nachar - injection: Additional investment",
-      "relatedPartnerTransactionId": "partner-tx-1761176284363-mxzsz7zxj",
-      "createdAt": "2025-10-22T23:38:04.363Z"
-    },
-    {
-      "id": "cash-1761176302408-st0n5e5fm",
-      "date": "2025-08-21",
-      "type": "partner_injection",
-      "amount": 34750,
-      "balance": 116270,
-      "description": "Hussein Nachar - injection: Additional investment",
-      "relatedPartnerTransactionId": "partner-tx-1761176302408-jo8mmoqwt",
-      "createdAt": "2025-10-22T23:38:22.408Z"
-    },
-    {
-      "id": "cash-1761176336276-8lbap4fg2",
-      "date": "2025-10-09",
-      "type": "partner_injection",
-      "amount": 22000,
-      "balance": 138270,
-      "description": "Hussein Nachar - injection: Additional investment - 1st container custom duties",
-      "relatedPartnerTransactionId": "partner-tx-1761176336276-4uo3zyxyi",
-      "createdAt": "2025-10-22T23:38:56.276Z"
-    },
-    {
-      "id": "cash-1761179596910-ka8am8uod",
-      "date": "2025-06-24",
-      "type": "payment",
-      "amount": -46520,
-      "balance": 69750,
-      "description": "Payment to ID MONDO 2011",
-      "relatedPaymentId": "payment-1761179596873-5jsz5t81l",
-      "createdAt": "2025-10-23T00:33:16.910Z"
-    },
-    {
-      "id": "cash-1761179834501-efnzd71af",
-      "date": "2025-07-21",
-      "type": "payment",
-      "amount": -23333.33333333334,
-      "balance": -69853.33333333334,
-      "description": "Payment to ID MONDO 2011",
-      "relatedPaymentId": "payment-1761179834458-plxqwnyxw",
-      "createdAt": "2025-10-23T00:37:14.501Z"
-    },
-    {
-      "id": "cash-1761179874040-5giiqrh3z",
-      "date": "2025-07-24",
-      "type": "payment",
-      "amount": -34749.99999999999,
-      "balance": -104603.33333333334,
-      "description": "Payment to ID MONDO 2011",
-      "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
-      "createdAt": "2025-10-23T00:37:54.040Z"
-    },
-    {
-      "id": "cash-1761181016254-k57uhxv7e",
-      "date": "2025-10-09",
-      "type": "expense",
-      "amount": -22000,
-      "balance": 0,
-      "description": "Custom Duties Payment: ID MONDO 1st container custom duties",
-      "relatedExpenseId": "expense-1761181016254-bw4kx8spo",
-      "createdAt": "2025-10-23T00:56:56.254Z"
-    },
-    {
-      "id": "cash-1761507377295-6f0zhofgr",
-      "date": "2025-06-24",
-      "type": "payment",
-      "amount": -46520,
-      "balance": -34853.333333333336,
-      "description": "Payment to ID MONDO 2011",
-      "relatedPaymentId": "payment-1761507377273-u83oiz3mg",
-      "createdAt": "2025-10-26T19:36:17.295Z"
-    },
-    {
-      "id": "cash-1761507423110-bi48ttj6v",
-      "date": "2025-07-21",
-      "type": "payment",
-      "amount": -23333.333333333336,
-      "balance": -58186.66666666667,
-      "description": "Payment to ID MONDO 2011",
-      "relatedPaymentId": "payment-1761507423082-8luyoi9u6",
-      "createdAt": "2025-10-26T19:37:03.110Z"
-    },
-    {
-      "id": "cash-1761507463597-wgyj231tp",
-      "date": "2025-07-24",
-      "type": "payment",
-      "amount": -34749.99999999999,
-      "balance": -92936.66666666666,
-      "description": "Payment to JAVEED",
-      "relatedPaymentId": "payment-1761507463563-562tyt8hh",
-      "createdAt": "2025-10-26T19:37:43.597Z"
-    }
-  ],
+  "cashTransactions": [],
   "partners": [
     {
       "id": "partner-1761176200636-9zml73in6",
@@ -351,7 +240,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:37:44.769Z",
+    "lastUpdated": "2025-10-26T19:38:31.762Z",
     "version": "1.0.0"
   }
 }
