@@ -64,6 +64,13 @@
       "balance": 0,
       "createdAt": "2025-10-23T00:09:09.075Z",
       "updatedAt": "2025-10-23T00:09:09.075Z"
+    },
+    {
+      "id": "1761506274816-0ig6lasck",
+      "name": "JAVEED",
+      "balance": 0,
+      "createdAt": "2025-10-26T19:17:54.816Z",
+      "updatedAt": "2025-10-26T19:17:54.816Z"
     }
   ],
   "containers": [],
@@ -314,7 +321,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:17:35.911Z",
+    "lastUpdated": "2025-10-26T19:17:55.499Z",
     "version": "1.0.0"
   }
 }
