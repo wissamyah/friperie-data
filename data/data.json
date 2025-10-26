@@ -110,6 +110,18 @@
       "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
       "date": "2025-07-24",
       "createdAt": "2025-10-23T00:37:54.009Z"
+    },
+    {
+      "id": "1761506864082-fhozob1kr",
+      "supplierId": "1761506274816-0ig6lasck",
+      "supplierName": "JAVEED",
+      "type": "payment",
+      "amount": 30000,
+      "balance": 30000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
+      "date": "2025-07-24",
+      "createdAt": "2025-10-26T19:27:44.082Z"
     }
   ],
   "payments": [
@@ -146,8 +158,8 @@
     {
       "id": "payment-1761179873980-fckvv2ll9",
       "date": "2025-07-24",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
+      "supplierId": "1761506274816-0ig6lasck",
+      "supplierName": "JAVEED",
       "amountEUR": 30000,
       "exchangeRate": 1.158333333333333,
       "commissionPercent": 0,
@@ -156,7 +168,7 @@
       "unallocatedEUR": 30000,
       "notes": "",
       "createdAt": "2025-10-23T00:37:53.980Z",
-      "updatedAt": "2025-10-26T19:19:00.920Z"
+      "updatedAt": "2025-10-26T19:27:43.995Z"
     }
   ],
   "sales": [],
@@ -321,7 +333,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:19:02.251Z",
+    "lastUpdated": "2025-10-26T19:27:44.808Z",
     "version": "1.0.0"
   }
 }
