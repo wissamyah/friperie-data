@@ -156,7 +156,7 @@
       "unallocatedEUR": 30000,
       "notes": "",
       "createdAt": "2025-10-23T00:37:53.980Z",
-      "updatedAt": "2025-10-26T19:18:06.368Z"
+      "updatedAt": "2025-10-26T19:19:00.920Z"
     }
   ],
   "sales": [],
@@ -321,7 +321,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:18:07.144Z",
+    "lastUpdated": "2025-10-26T19:19:02.251Z",
     "version": "1.0.0"
   }
 }
