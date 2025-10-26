@@ -74,51 +74,11 @@
     }
   ],
   "containers": [],
-  "supplierLedger": [
-    {
-      "id": "ledger-1761507789417-jgwyi3ia4",
-      "supplierId": "1761506274816-0ig6lasck",
-      "supplierName": "JAVEED",
-      "type": "payment",
-      "amount": 50000,
-      "balance": 50000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761507779971-91wm8srxg",
-      "date": "2025-08-01",
-      "createdAt": "2025-10-26T19:43:09.417Z"
-    }
-  ],
-  "payments": [
-    {
-      "id": "payment-1761507779971-91wm8srxg",
-      "date": "2025-08-01",
-      "supplierId": "1761506274816-0ig6lasck",
-      "supplierName": "JAVEED",
-      "amountEUR": 50000,
-      "exchangeRate": 1.1,
-      "commissionPercent": 0,
-      "amountUSD": 55000.00000000001,
-      "allocations": [],
-      "unallocatedEUR": 50000,
-      "notes": "",
-      "createdAt": "2025-10-26T19:42:59.971Z",
-      "updatedAt": "2025-10-26T19:43:09.387Z"
-    }
-  ],
+  "supplierLedger": [],
+  "payments": [],
   "sales": [],
   "expenses": [],
-  "cashTransactions": [
-    {
-      "id": "cash-1761507779997-h4jj2kknf",
-      "date": "2025-08-01",
-      "type": "payment",
-      "amount": -55000.00000000001,
-      "balance": -55000.00000000001,
-      "description": "Payment to JAVEED",
-      "relatedPaymentId": "payment-1761507779971-91wm8srxg",
-      "createdAt": "2025-10-26T19:42:59.997Z"
-    }
-  ],
+  "cashTransactions": [],
   "partners": [
     {
       "id": "partner-1761176200636-9zml73in6",
@@ -187,7 +147,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:43:10.122Z",
+    "lastUpdated": "2025-10-26T19:43:56.265Z",
     "version": "1.0.0"
   }
 }
