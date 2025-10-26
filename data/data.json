@@ -95,59 +95,10 @@
       "updatedAt": "2025-10-22T23:36:48.109Z"
     }
   ],
-  "partnerTransactions": [
-    {
-      "id": "partner-tx-1761176264636-xk21g4m16",
-      "partnerId": "partner-1761176200636-9zml73in6",
-      "partnerName": "Hussein Nachar",
-      "date": "2025-08-21",
-      "type": "injection",
-      "amountUSD": 46520,
-      "description": "Initial investment",
-      "createdAt": "2025-10-22T23:37:44.636Z",
-      "updatedAt": "2025-10-22T23:37:44.636Z",
-      "relatedCashTransactionId": "cash-1761176264636-p9zskkd9m"
-    },
-    {
-      "id": "partner-tx-1761176284363-mxzsz7zxj",
-      "partnerId": "partner-1761176200636-9zml73in6",
-      "partnerName": "Hussein Nachar",
-      "date": "2025-08-21",
-      "type": "injection",
-      "amountUSD": 35000,
-      "description": "Additional investment",
-      "createdAt": "2025-10-22T23:38:04.363Z",
-      "updatedAt": "2025-10-22T23:38:04.363Z",
-      "relatedCashTransactionId": "cash-1761176284363-sd5vmsmw0"
-    },
-    {
-      "id": "partner-tx-1761176302408-jo8mmoqwt",
-      "partnerId": "partner-1761176200636-9zml73in6",
-      "partnerName": "Hussein Nachar",
-      "date": "2025-08-21",
-      "type": "injection",
-      "amountUSD": 34750,
-      "description": "Additional investment",
-      "createdAt": "2025-10-22T23:38:22.408Z",
-      "updatedAt": "2025-10-22T23:38:22.408Z",
-      "relatedCashTransactionId": "cash-1761176302408-st0n5e5fm"
-    },
-    {
-      "id": "partner-tx-1761176336276-4uo3zyxyi",
-      "partnerId": "partner-1761176200636-9zml73in6",
-      "partnerName": "Hussein Nachar",
-      "date": "2025-10-09",
-      "type": "injection",
-      "amountUSD": 22000,
-      "description": "Additional investment - 1st container custom duties",
-      "createdAt": "2025-10-22T23:38:56.276Z",
-      "updatedAt": "2025-10-22T23:38:56.276Z",
-      "relatedCashTransactionId": "cash-1761176336276-8lbap4fg2"
-    }
-  ],
+  "partnerTransactions": [],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:43:56.265Z",
+    "lastUpdated": "2025-10-26T19:46:48.193Z",
     "version": "1.0.0"
   }
 }
