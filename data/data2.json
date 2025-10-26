@@ -3,34 +3,34 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 94,
-      "costPerBagUSD": 112.97919642857144,
+      "quantity": 494,
+      "costPerBagUSD": 112.97919642857146,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-10-25T23:04:15.635Z"
+      "updatedAt": "2025-10-26T18:18:09.310Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 175,
+      "quantity": 495,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-10-25T23:04:15.635Z"
+      "updatedAt": "2025-10-26T18:18:09.310Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
       "name": "PRIMETTA",
-      "quantity": 28,
+      "quantity": 88,
       "costPerBagUSD": 53.391696428571436,
       "createdAt": "2025-10-12T20:52:09.315Z",
-      "updatedAt": "2025-10-23T15:27:51.774Z"
+      "updatedAt": "2025-10-26T18:18:09.310Z"
     },
     {
       "id": "1760302332961-9tftv3xug",
       "name": "PLASTICA",
-      "quantity": 0,
+      "quantity": 60,
       "costPerBagUSD": 48.284196428571434,
       "createdAt": "2025-10-12T20:52:12.961Z",
-      "updatedAt": "2025-10-12T22:19:23.755Z"
+      "updatedAt": "2025-10-26T18:18:09.310Z"
     }
   ],
   "suppliers": [
@@ -94,27 +94,27 @@
       "quantityAddedToStock": {
         "1760302321311-58x5mwug9": {
           "quantityAdded": 400,
-          "stockBefore": 0,
-          "costBefore": 0
+          "stockBefore": 94,
+          "costBefore": 112.97919642857144
         },
         "1760302325092-evg1qwqzw": {
           "quantityAdded": 320,
-          "stockBefore": 0,
-          "costBefore": 0
+          "stockBefore": 175,
+          "costBefore": 56.22919642857143
         },
         "1760302329315-0kr1e0aar": {
           "quantityAdded": 60,
-          "stockBefore": 0,
-          "costBefore": 0
+          "stockBefore": 28,
+          "costBefore": 53.391696428571436
         },
         "1760302332961-9tftv3xug": {
           "quantityAdded": 60,
           "stockBefore": 0,
-          "costBefore": 0
+          "costBefore": 48.284196428571434
         }
       },
       "createdAt": "2025-10-12T20:57:55.605Z",
-      "updatedAt": "2025-10-12T21:07:19.000Z"
+      "updatedAt": "2025-10-26T18:18:09.310Z"
     }
   ],
   "supplierLedger": [
@@ -164,7 +164,7 @@
       "unallocatedEUR": 0,
       "notes": "",
       "createdAt": "2025-10-12T20:51:18.580Z",
-      "updatedAt": "2025-10-12T21:07:18.999Z"
+      "updatedAt": "2025-10-26T18:18:09.310Z"
     }
   ],
   "sales": [
@@ -2745,8 +2745,9 @@
       "relatedCashTransactionId": "cash-1760881657043-1nwjptiio"
     }
   ],
+  "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-25T23:04:16.425Z",
+    "lastUpdated": "2025-10-26T18:18:10.659Z",
     "version": "1.0.0"
   }
 }
