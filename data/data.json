@@ -74,68 +74,7 @@
     }
   ],
   "containers": [],
-  "supplierLedger": [
-    {
-      "id": "1761506864082-fhozob1kr",
-      "supplierId": "1761506274816-0ig6lasck",
-      "supplierName": "JAVEED",
-      "type": "payment",
-      "amount": 30000,
-      "balance": 30000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
-      "date": "2025-07-24",
-      "createdAt": "2025-10-26T19:27:44.082Z"
-    },
-    {
-      "id": "1761179596894-op2ckz2yk",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "type": "payment",
-      "amount": 40000,
-      "balance": 40000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761179596873-5jsz5t81l",
-      "date": "2025-06-24",
-      "createdAt": "2025-10-23T00:33:16.894Z"
-    },
-    {
-      "id": "1761179834479-3d43jvz7c",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "type": "payment",
-      "amount": 20000,
-      "balance": 60000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761179834458-plxqwnyxw",
-      "date": "2025-07-21",
-      "createdAt": "2025-10-23T00:37:14.479Z"
-    },
-    {
-      "id": "1761179874009-8n0z7f5pw",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "type": "payment",
-      "amount": 30000,
-      "balance": 90000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
-      "date": "2025-07-24",
-      "createdAt": "2025-10-23T00:37:54.009Z"
-    },
-    {
-      "id": "1761506991296-f6h96a9ks",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "type": "payment",
-      "amount": 30000,
-      "balance": 120000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761179873980-fckvv2ll9",
-      "date": "2025-07-24",
-      "createdAt": "2025-10-26T19:29:51.296Z"
-    }
-  ],
+  "supplierLedger": [],
   "payments": [],
   "sales": [],
   "expenses": [
@@ -299,7 +238,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:31:36.431Z",
+    "lastUpdated": "2025-10-26T19:32:17.630Z",
     "version": "1.0.0"
   }
 }
