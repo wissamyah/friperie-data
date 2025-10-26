@@ -79,26 +79,11 @@
   "sales": [],
   "expenses": [],
   "cashTransactions": [],
-  "partners": [
-    {
-      "id": "partner-1761176200636-9zml73in6",
-      "name": "Hussein Nachar",
-      "balance": 138270,
-      "createdAt": "2025-10-22T23:36:40.636Z",
-      "updatedAt": "2025-10-22T23:38:56.276Z"
-    },
-    {
-      "id": "partner-1761176208109-c2kx6ac45",
-      "name": "Hussein Yahfoufi",
-      "balance": 0,
-      "createdAt": "2025-10-22T23:36:48.109Z",
-      "updatedAt": "2025-10-22T23:36:48.109Z"
-    }
-  ],
+  "partners": [],
   "partnerTransactions": [],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:46:48.193Z",
+    "lastUpdated": "2025-10-26T19:47:25.087Z",
     "version": "1.0.0"
   }
 }
