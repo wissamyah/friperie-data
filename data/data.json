@@ -74,8 +74,37 @@
     }
   ],
   "containers": [],
-  "supplierLedger": [],
-  "payments": [],
+  "supplierLedger": [
+    {
+      "id": "ledger-1761507377295-1zy7zts3s",
+      "supplierId": "1761178149075-hj5g3efln",
+      "supplierName": "ID MONDO 2011",
+      "type": "payment",
+      "amount": 40000,
+      "balance": 40000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761507377273-u83oiz3mg",
+      "date": "2025-06-24",
+      "createdAt": "2025-10-26T19:36:17.295Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "payment-1761507377273-u83oiz3mg",
+      "date": "2025-06-24",
+      "supplierId": "1761178149075-hj5g3efln",
+      "supplierName": "ID MONDO 2011",
+      "amountEUR": 40000,
+      "exchangeRate": 1.163,
+      "commissionPercent": 0,
+      "amountUSD": 46520,
+      "allocations": [],
+      "unallocatedEUR": 40000,
+      "notes": "",
+      "createdAt": "2025-10-26T19:36:17.273Z",
+      "updatedAt": "2025-10-26T19:36:17.273Z"
+    }
+  ],
   "sales": [],
   "expenses": [
     {
@@ -168,6 +197,16 @@
       "description": "Custom Duties Payment: ID MONDO 1st container custom duties",
       "relatedExpenseId": "expense-1761181016254-bw4kx8spo",
       "createdAt": "2025-10-23T00:56:56.254Z"
+    },
+    {
+      "id": "cash-1761507377295-6f0zhofgr",
+      "date": "2025-06-24",
+      "type": "payment",
+      "amount": -46520,
+      "balance": -34853.333333333336,
+      "description": "Payment to ID MONDO 2011",
+      "relatedPaymentId": "payment-1761507377273-u83oiz3mg",
+      "createdAt": "2025-10-26T19:36:17.295Z"
     }
   ],
   "partners": [
@@ -238,7 +277,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:32:17.630Z",
+    "lastUpdated": "2025-10-26T19:36:18.362Z",
     "version": "1.0.0"
   }
 }
