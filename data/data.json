@@ -74,91 +74,8 @@
     }
   ],
   "containers": [],
-  "supplierLedger": [
-    {
-      "id": "ledger-1761507377295-1zy7zts3s",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "type": "payment",
-      "amount": 40000,
-      "balance": 40000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761507377273-u83oiz3mg",
-      "date": "2025-06-24",
-      "createdAt": "2025-10-26T19:36:17.295Z"
-    },
-    {
-      "id": "ledger-1761507423110-x903elrxg",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "type": "payment",
-      "amount": 20000,
-      "balance": 60000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761507423082-8luyoi9u6",
-      "date": "2025-07-21",
-      "createdAt": "2025-10-26T19:37:03.110Z"
-    },
-    {
-      "id": "ledger-1761507463597-1ktz01nki",
-      "supplierId": "1761506274816-0ig6lasck",
-      "supplierName": "JAVEED",
-      "type": "payment",
-      "amount": 30000,
-      "balance": 30000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761507463563-562tyt8hh",
-      "date": "2025-07-24",
-      "createdAt": "2025-10-26T19:37:43.597Z"
-    }
-  ],
-  "payments": [
-    {
-      "id": "payment-1761507377273-u83oiz3mg",
-      "date": "2025-06-24",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "amountEUR": 40000,
-      "exchangeRate": 1.163,
-      "commissionPercent": 0,
-      "amountUSD": 46520,
-      "allocations": [],
-      "unallocatedEUR": 40000,
-      "notes": "",
-      "createdAt": "2025-10-26T19:36:17.273Z",
-      "updatedAt": "2025-10-26T19:36:17.273Z"
-    },
-    {
-      "id": "payment-1761507423082-8luyoi9u6",
-      "date": "2025-07-21",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "amountEUR": 20000,
-      "exchangeRate": 1.1666666666666667,
-      "commissionPercent": 0,
-      "amountUSD": 23333.333333333336,
-      "allocations": [],
-      "unallocatedEUR": 20000,
-      "notes": "",
-      "createdAt": "2025-10-26T19:37:03.082Z",
-      "updatedAt": "2025-10-26T19:37:03.083Z"
-    },
-    {
-      "id": "payment-1761507463563-562tyt8hh",
-      "date": "2025-07-24",
-      "supplierId": "1761506274816-0ig6lasck",
-      "supplierName": "JAVEED",
-      "amountEUR": 30000,
-      "exchangeRate": 1.158333333333333,
-      "commissionPercent": 0,
-      "amountUSD": 34749.99999999999,
-      "allocations": [],
-      "unallocatedEUR": 30000,
-      "notes": "",
-      "createdAt": "2025-10-26T19:37:43.563Z",
-      "updatedAt": "2025-10-26T19:37:43.563Z"
-    }
-  ],
+  "supplierLedger": [],
+  "payments": [],
   "sales": [],
   "expenses": [
     {
@@ -240,7 +157,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:38:31.762Z",
+    "lastUpdated": "2025-10-26T19:38:47.386Z",
     "version": "1.0.0"
   }
 }
