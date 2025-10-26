@@ -77,17 +77,7 @@
   "supplierLedger": [],
   "payments": [],
   "sales": [],
-  "expenses": [
-    {
-      "id": "expense-1761181016254-bw4kx8spo",
-      "date": "2025-10-09",
-      "category": "Custom Duties Payment",
-      "amountUSD": 22000,
-      "description": "ID MONDO 1st container custom duties",
-      "createdAt": "2025-10-23T00:56:56.254Z",
-      "updatedAt": "2025-10-23T00:56:56.254Z"
-    }
-  ],
+  "expenses": [],
   "cashTransactions": [],
   "partners": [
     {
@@ -157,7 +147,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:38:47.386Z",
+    "lastUpdated": "2025-10-26T19:39:11.194Z",
     "version": "1.0.0"
   }
 }
