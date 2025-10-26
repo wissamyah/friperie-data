@@ -136,53 +136,7 @@
       "createdAt": "2025-10-26T19:29:51.296Z"
     }
   ],
-  "payments": [
-    {
-      "id": "payment-1761179596873-5jsz5t81l",
-      "date": "2025-06-24",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "amountEUR": 40000,
-      "exchangeRate": 1.163,
-      "commissionPercent": 0,
-      "amountUSD": 46520,
-      "allocations": [],
-      "unallocatedEUR": 40000,
-      "notes": "",
-      "createdAt": "2025-10-23T00:33:16.873Z",
-      "updatedAt": "2025-10-23T00:33:16.873Z"
-    },
-    {
-      "id": "payment-1761179834458-plxqwnyxw",
-      "date": "2025-07-21",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "amountEUR": 20000,
-      "exchangeRate": 1.166666666666667,
-      "commissionPercent": 0,
-      "amountUSD": 23333.33333333334,
-      "allocations": [],
-      "unallocatedEUR": 20000,
-      "notes": "",
-      "createdAt": "2025-10-23T00:37:14.458Z",
-      "updatedAt": "2025-10-26T19:17:34.631Z"
-    },
-    {
-      "id": "payment-1761179873980-fckvv2ll9",
-      "date": "2025-07-24",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "amountEUR": 30000,
-      "exchangeRate": 1.158333333333333,
-      "commissionPercent": 0,
-      "amountUSD": 34749.99999999999,
-      "allocations": [],
-      "unallocatedEUR": 30000,
-      "notes": "",
-      "createdAt": "2025-10-23T00:37:53.980Z",
-      "updatedAt": "2025-10-26T19:29:51.205Z"
-    }
-  ],
+  "payments": [],
   "sales": [],
   "expenses": [
     {
@@ -345,7 +299,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-26T19:29:52.700Z",
+    "lastUpdated": "2025-10-26T19:31:36.431Z",
     "version": "1.0.0"
   }
 }
