@@ -229,12 +229,24 @@
       "createdAt": "2025-10-27T12:16:06.619Z"
     },
     {
+      "id": "ledger-1761568549848-1wmuujasq",
+      "supplierId": "1761567155629-79r9goq8m",
+      "supplierName": "ID MONDO 2011",
+      "type": "payment",
+      "amount": 10000,
+      "balance": 70000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761568549815-nq1bapj4i",
+      "date": "2025-07-21",
+      "createdAt": "2025-10-27T12:35:49.848Z"
+    },
+    {
       "id": "1761568459461-ltbvy4xf8",
       "supplierId": "1761567155629-79r9goq8m",
       "supplierName": "ID MONDO 2011",
       "type": "container",
       "amount": -47056,
-      "balance": 12944,
+      "balance": 22944,
       "description": "Container MRKU522125-0 purchase",
       "relatedContainerId": "1761568459312-c4i7igwo9",
       "date": "2025-08-04",
@@ -300,6 +312,21 @@
       "notes": "",
       "createdAt": "2025-10-27T12:16:30.745Z",
       "updatedAt": "2025-10-27T12:16:30.745Z"
+    },
+    {
+      "id": "payment-1761568549815-nq1bapj4i",
+      "date": "2025-07-21",
+      "supplierId": "1761567155629-79r9goq8m",
+      "supplierName": "ID MONDO 2011",
+      "amountEUR": 10000,
+      "exchangeRate": 1.1666666666666667,
+      "commissionPercent": 0,
+      "amountUSD": 11666.666666666668,
+      "allocations": [],
+      "unallocatedEUR": 10000,
+      "notes": "",
+      "createdAt": "2025-10-27T12:35:49.815Z",
+      "updatedAt": "2025-10-27T12:35:49.815Z"
     }
   ],
   "sales": [],
@@ -394,6 +421,16 @@
       "description": "Payment to JAVEED",
       "relatedPaymentId": "payment-1761567390745-uy1wir9gm",
       "createdAt": "2025-10-27T12:16:30.771Z"
+    },
+    {
+      "id": "cash-1761568549848-2f05ptvv0",
+      "date": "2025-07-21",
+      "type": "payment",
+      "amount": -11666.666666666668,
+      "balance": -3.637978807091713e-12,
+      "description": "Payment to ID MONDO 2011",
+      "relatedPaymentId": "payment-1761568549815-nq1bapj4i",
+      "createdAt": "2025-10-27T12:35:49.848Z"
     }
   ],
   "partners": [
@@ -464,7 +501,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:35:00.034Z",
+    "lastUpdated": "2025-10-27T12:35:51.004Z",
     "version": "1.0.0"
   }
 }
