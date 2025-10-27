@@ -47,6 +47,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-27T12:13:09.686Z",
       "updatedAt": "2025-10-27T12:13:09.686Z"
+    },
+    {
+      "id": "1761567194457-hlro9xaik",
+      "name": "HOMME 1",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-27T12:13:14.457Z",
+      "updatedAt": "2025-10-27T12:13:14.457Z"
     }
   ],
   "suppliers": [
@@ -200,7 +208,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:13:10.262Z",
+    "lastUpdated": "2025-10-27T12:13:15.089Z",
     "version": "1.0.0"
   }
 }
