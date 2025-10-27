@@ -3,10 +3,10 @@
     {
       "id": "1761567170267-kmrb5dnfl",
       "name": "CREME DAMME",
-      "quantity": 19,
+      "quantity": 15,
       "costPerBagUSD": 133.45079299605752,
       "createdAt": "2025-10-27T12:12:50.267Z",
-      "updatedAt": "2025-10-27T12:48:22.621Z"
+      "updatedAt": "2025-10-27T22:46:47.785Z"
     },
     {
       "id": "1761567174914-fq8385i79",
@@ -43,10 +43,10 @@
     {
       "id": "1761567189686-8s0lbn3zj",
       "name": "PRIMETTA",
-      "quantity": 190,
+      "quantity": 168,
       "costPerBagUSD": 81.09105141156245,
       "createdAt": "2025-10-27T12:13:09.686Z",
-      "updatedAt": "2025-10-27T12:48:22.621Z"
+      "updatedAt": "2025-10-27T22:46:47.785Z"
     },
     {
       "id": "1761567194457-hlro9xaik",
@@ -59,10 +59,10 @@
     {
       "id": "1761567198527-7fobkjbib",
       "name": "PLASTICA",
-      "quantity": 21,
+      "quantity": 20,
       "costPerBagUSD": 64.21957912322515,
       "createdAt": "2025-10-27T12:13:18.527Z",
-      "updatedAt": "2025-10-27T12:48:47.524Z"
+      "updatedAt": "2025-10-27T22:46:47.785Z"
     },
     {
       "id": "1761567209950-ecgw41c46",
@@ -499,6 +499,76 @@
       "totalAmountUSD": 935,
       "createdAt": "2025-10-27T12:48:47.524Z",
       "updatedAt": "2025-10-27T12:48:47.524Z"
+    },
+    {
+      "id": "sale-1761605207785-xa3he5ydi",
+      "date": "2025-10-27",
+      "products": [
+        {
+          "productId": "1761567170267-kmrb5dnfl",
+          "productName": "CREME DAMME",
+          "quantityBags": 4,
+          "sellingPriceUSD": 150,
+          "lineTotal": 600
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 18,
+          "sellingPriceUSD": 107,
+          "lineTotal": 1926
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 1,
+          "sellingPriceUSD": 100,
+          "lineTotal": 100
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 3,
+          "sellingPriceUSD": 95,
+          "lineTotal": 285
+        },
+        {
+          "productId": "1761567198527-7fobkjbib",
+          "productName": "PLASTICA",
+          "quantityBags": 1,
+          "sellingPriceUSD": 85,
+          "lineTotal": 85
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1761567170267-kmrb5dnfl",
+          "productName": "CREME DAMME",
+          "totalQuantity": 4,
+          "averagePrice": 150,
+          "totalAmount": 600,
+          "priceVariations": 1
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "totalQuantity": 22,
+          "averagePrice": 105.04545454545455,
+          "totalAmount": 2311,
+          "priceVariations": 3
+        },
+        {
+          "productId": "1761567198527-7fobkjbib",
+          "productName": "PLASTICA",
+          "totalQuantity": 1,
+          "averagePrice": 85,
+          "totalAmount": 85,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 2996,
+      "createdAt": "2025-10-27T22:46:47.785Z",
+      "updatedAt": "2025-10-27T22:46:47.785Z"
     }
   ],
   "expenses": [
@@ -679,6 +749,16 @@
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1761605128395-mcgrtjuvl",
       "createdAt": "2025-10-27T22:45:28.395Z"
+    },
+    {
+      "id": "cash-1761605207785-iat84k7ay",
+      "date": "2025-10-27",
+      "type": "sale",
+      "amount": 2996,
+      "balance": 20367.499999999996,
+      "description": "Sale: CREME DAMME, PRIMETTA, PRIMETTA, PRIMETTA, PLASTICA",
+      "relatedSaleId": "sale-1761605207785-xa3he5ydi",
+      "createdAt": "2025-10-27T22:46:47.785Z"
     }
   ],
   "partners": [
@@ -749,7 +829,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T22:45:29.030Z",
+    "lastUpdated": "2025-10-27T22:46:48.434Z",
     "version": "1.0.0"
   }
 }
