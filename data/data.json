@@ -55,6 +55,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-25T23:20:17.315Z",
       "updatedAt": "2025-10-25T23:20:17.315Z"
+    },
+    {
+      "id": "1761563616187-7ykitbors",
+      "name": "BELTS",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-27T11:13:36.187Z",
+      "updatedAt": "2025-10-27T11:13:36.187Z"
     }
   ],
   "suppliers": [
@@ -340,7 +348,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:11:50.451Z",
+    "lastUpdated": "2025-10-27T11:13:37.640Z",
     "version": "1.0.0"
   }
 }
