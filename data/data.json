@@ -3,66 +3,66 @@
     {
       "id": "1759954207093-wn9m72r9j",
       "name": "MIX I",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 270,
+      "costPerBagUSD": 120.05224337403108,
       "createdAt": "2025-10-08T20:10:07.093Z",
-      "updatedAt": "2025-10-08T20:10:07.093Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "1759954216342-ar8gmvaph",
       "name": "MIX II",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 258,
+      "costPerBagUSD": 67.695937175603,
       "createdAt": "2025-10-08T20:10:16.342Z",
-      "updatedAt": "2025-10-08T20:10:16.342Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "1759954225494-akushsa9v",
       "name": "PRIMETTA",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 198,
+      "costPerBagUSD": 82.23935556405524,
       "createdAt": "2025-10-08T20:10:25.494Z",
-      "updatedAt": "2025-10-08T20:10:25.494Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "1759954238075-6dvfufk5b",
       "name": "PLASTICA",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 48,
+      "costPerBagUSD": 65.36899023345065,
       "createdAt": "2025-10-08T20:10:38.075Z",
-      "updatedAt": "2025-10-08T20:10:38.075Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "1761434408124-r3dvbxo6n",
       "name": "CREMA HOMME",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 14,
+      "costPerBagUSD": 134.59566176248333,
       "createdAt": "2025-10-25T23:20:08.124Z",
-      "updatedAt": "2025-10-25T23:20:08.124Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "1761434412916-kb7b81eza",
       "name": "CREMA FEMME",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 21,
+      "costPerBagUSD": 134.59566176248333,
       "createdAt": "2025-10-25T23:20:12.916Z",
-      "updatedAt": "2025-10-25T23:20:12.916Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "1761434417315-6oyyj7sfw",
       "name": "CREMA ENFANT",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 7,
+      "costPerBagUSD": 134.59566176248333,
       "createdAt": "2025-10-25T23:20:17.315Z",
-      "updatedAt": "2025-10-25T23:20:17.315Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "1761563616187-7ykitbors",
       "name": "BELTS",
-      "quantity": 0,
-      "costPerBagUSD": 0,
+      "quantity": 8,
+      "costPerBagUSD": 60.715096349145924,
       "createdAt": "2025-10-27T11:13:36.187Z",
-      "updatedAt": "2025-10-27T11:13:36.187Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "1761564873671-yruh8qipq",
@@ -166,9 +166,50 @@
       "paymentStatus": "unpaid",
       "customsStatus": "paid",
       "containerStatus": "open",
-      "quantityAddedToStock": {},
+      "quantityAddedToStock": {
+        "1761434408124-r3dvbxo6n": {
+          "quantityAdded": 14,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1761434412916-kb7b81eza": {
+          "quantityAdded": 21,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1761434417315-6oyyj7sfw": {
+          "quantityAdded": 7,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1759954207093-wn9m72r9j": {
+          "quantityAdded": 270,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1759954216342-ar8gmvaph": {
+          "quantityAdded": 258,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1759954225494-akushsa9v": {
+          "quantityAdded": 198,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1759954238075-6dvfufk5b": {
+          "quantityAdded": 48,
+          "stockBefore": 0,
+          "costBefore": 0
+        },
+        "1761563616187-7ykitbors": {
+          "quantityAdded": 8,
+          "stockBefore": 0,
+          "costBefore": 0
+        }
+      },
       "createdAt": "2025-10-27T11:34:21.021Z",
-      "updatedAt": "2025-10-27T11:48:09.382Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     }
   ],
   "supplierLedger": [
@@ -231,11 +272,18 @@
       "exchangeRate": 1.163,
       "commissionPercent": 0,
       "amountUSD": 46520,
-      "allocations": [],
-      "unallocatedEUR": 40000,
+      "allocations": [
+        {
+          "containerId": "1761564861021-mq8hi23y8",
+          "containerNumber": "MRKU522125-0",
+          "amountEUR": 40000,
+          "amountUSD": 46520
+        }
+      ],
+      "unallocatedEUR": 0,
       "notes": "",
       "createdAt": "2025-10-27T11:08:24.890Z",
-      "updatedAt": "2025-10-27T11:08:24.890Z"
+      "updatedAt": "2025-10-27T11:48:42.648Z"
     },
     {
       "id": "payment-1761563321186-pdgop7f7h",
@@ -246,11 +294,18 @@
       "exchangeRate": 1.1666666666666667,
       "commissionPercent": 0,
       "amountUSD": 23333.333333333336,
-      "allocations": [],
-      "unallocatedEUR": 20000,
+      "allocations": [
+        {
+          "containerId": "1761564861021-mq8hi23y8",
+          "containerNumber": "MRKU522125-0",
+          "amountEUR": 5931,
+          "amountUSD": 6919.5
+        }
+      ],
+      "unallocatedEUR": 14069,
       "notes": "",
       "createdAt": "2025-10-27T11:08:41.186Z",
-      "updatedAt": "2025-10-27T11:08:41.186Z"
+      "updatedAt": "2025-10-27T11:48:42.649Z"
     },
     {
       "id": "payment-1761563343053-lrnx4fiuq",
@@ -449,7 +504,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:48:10.435Z",
+    "lastUpdated": "2025-10-27T11:48:43.909Z",
     "version": "1.0.0"
   }
 }
