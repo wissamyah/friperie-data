@@ -188,7 +188,7 @@
       "containerStatus": "closed",
       "quantityAddedToStock": {},
       "createdAt": "2025-10-27T11:34:21.021Z",
-      "updatedAt": "2025-10-27T11:50:11.204Z"
+      "updatedAt": "2025-10-27T11:50:32.386Z"
     }
   ],
   "supplierLedger": [
@@ -251,11 +251,18 @@
       "exchangeRate": 1.163,
       "commissionPercent": 0,
       "amountUSD": 46520,
-      "allocations": [],
-      "unallocatedEUR": 40000,
+      "allocations": [
+        {
+          "containerId": "1761564861021-mq8hi23y8",
+          "containerNumber": "MRKU522125-0",
+          "amountEUR": 40000,
+          "amountUSD": 46520
+        }
+      ],
+      "unallocatedEUR": 0,
       "notes": "",
       "createdAt": "2025-10-27T11:08:24.890Z",
-      "updatedAt": "2025-10-27T11:50:11.202Z"
+      "updatedAt": "2025-10-27T11:50:32.386Z"
     },
     {
       "id": "payment-1761563321186-pdgop7f7h",
@@ -266,11 +273,18 @@
       "exchangeRate": 1.1666666666666667,
       "commissionPercent": 0,
       "amountUSD": 23333.333333333336,
-      "allocations": [],
-      "unallocatedEUR": 20000,
+      "allocations": [
+        {
+          "containerId": "1761564861021-mq8hi23y8",
+          "containerNumber": "MRKU522125-0",
+          "amountEUR": 7056,
+          "amountUSD": 8232.000000000002
+        }
+      ],
+      "unallocatedEUR": 12944,
       "notes": "",
       "createdAt": "2025-10-27T11:08:41.186Z",
-      "updatedAt": "2025-10-27T11:50:11.202Z"
+      "updatedAt": "2025-10-27T11:50:32.386Z"
     },
     {
       "id": "payment-1761563343053-lrnx4fiuq",
@@ -469,7 +483,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:50:12.396Z",
+    "lastUpdated": "2025-10-27T11:50:33.175Z",
     "version": "1.0.0"
   }
 }
