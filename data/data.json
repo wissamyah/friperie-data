@@ -59,18 +59,18 @@
     {
       "id": "1761567198527-7fobkjbib",
       "name": "PLASTICA",
-      "quantity": 24,
+      "quantity": 21,
       "costPerBagUSD": 64.21957912322515,
       "createdAt": "2025-10-27T12:13:18.527Z",
-      "updatedAt": "2025-10-27T12:48:22.621Z"
+      "updatedAt": "2025-10-27T12:48:47.524Z"
     },
     {
       "id": "1761567209950-ecgw41c46",
       "name": "CINTURE (Belts)",
-      "quantity": 8,
+      "quantity": 0,
       "costPerBagUSD": 59.565379871270025,
       "createdAt": "2025-10-27T12:13:29.950Z",
-      "updatedAt": "2025-10-27T12:34:19.568Z"
+      "updatedAt": "2025-10-27T12:48:47.524Z"
     }
   ],
   "suppliers": [
@@ -458,6 +458,47 @@
       "totalAmountUSD": 10076,
       "createdAt": "2025-10-27T12:48:22.621Z",
       "updatedAt": "2025-10-27T12:48:22.621Z"
+    },
+    {
+      "id": "sale-1761569327525-o2yjq8id5",
+      "date": "2025-10-24",
+      "products": [
+        {
+          "productId": "1761567209950-ecgw41c46",
+          "productName": "CINTURE (Belts)",
+          "quantityBags": 8,
+          "sellingPriceUSD": 85,
+          "lineTotal": 680
+        },
+        {
+          "productId": "1761567198527-7fobkjbib",
+          "productName": "PLASTICA",
+          "quantityBags": 3,
+          "sellingPriceUSD": 85,
+          "lineTotal": 255
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1761567209950-ecgw41c46",
+          "productName": "CINTURE (Belts)",
+          "totalQuantity": 8,
+          "averagePrice": 85,
+          "totalAmount": 680,
+          "priceVariations": 1
+        },
+        {
+          "productId": "1761567198527-7fobkjbib",
+          "productName": "PLASTICA",
+          "totalQuantity": 3,
+          "averagePrice": 85,
+          "totalAmount": 255,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 935,
+      "createdAt": "2025-10-27T12:48:47.524Z",
+      "updatedAt": "2025-10-27T12:48:47.524Z"
     }
   ],
   "expenses": [
@@ -571,6 +612,16 @@
       "description": "Sale: CREME HOMME, CREME HOMME, CREME ENFANT, HOMME 1, CREME DAMME, CREME DAMME, PRIMETTA, PRIMETTA, PRIMETTA, PLASTICA",
       "relatedSaleId": "sale-1761569302621-4ockz8vvd",
       "createdAt": "2025-10-27T12:48:22.621Z"
+    },
+    {
+      "id": "cash-1761569327525-8r6ih1of1",
+      "date": "2025-10-24",
+      "type": "sale",
+      "amount": 935,
+      "balance": 11010.999999999996,
+      "description": "Sale: CINTURE (Belts), PLASTICA",
+      "relatedSaleId": "sale-1761569327525-o2yjq8id5",
+      "createdAt": "2025-10-27T12:48:47.524Z"
     }
   ],
   "partners": [
@@ -641,7 +692,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:48:23.778Z",
+    "lastUpdated": "2025-10-27T12:48:48.180Z",
     "version": "1.0.0"
   }
 }
