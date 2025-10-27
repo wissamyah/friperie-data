@@ -74,8 +74,37 @@
     }
   ],
   "containers": [],
-  "supplierLedger": [],
-  "payments": [],
+  "supplierLedger": [
+    {
+      "id": "1761563304898-xuy6bjqwb",
+      "supplierId": "1761178149075-hj5g3efln",
+      "supplierName": "ID MONDO 2011",
+      "type": "payment",
+      "amount": 40000,
+      "balance": 40000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761563304890-gon0oksok",
+      "date": "2025-06-24",
+      "createdAt": "2025-10-27T11:08:24.898Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "payment-1761563304890-gon0oksok",
+      "date": "2025-06-24",
+      "supplierId": "1761178149075-hj5g3efln",
+      "supplierName": "ID MONDO 2011",
+      "amountEUR": 40000,
+      "exchangeRate": 1.163,
+      "commissionPercent": 0,
+      "amountUSD": 46520,
+      "allocations": [],
+      "unallocatedEUR": 40000,
+      "notes": "",
+      "createdAt": "2025-10-27T11:08:24.890Z",
+      "updatedAt": "2025-10-27T11:08:24.890Z"
+    }
+  ],
   "sales": [],
   "expenses": [],
   "cashTransactions": [
@@ -118,6 +147,16 @@
       "description": "Hussein Nachar - injection: Additional Investment - Part payment custom duties 1st container",
       "relatedPartnerTransactionId": "partner-tx-1761562989320-riujccwox",
       "createdAt": "2025-10-27T11:03:09.320Z"
+    },
+    {
+      "id": "cash-1761563304899-33qnnal71",
+      "date": "2025-06-24",
+      "type": "payment",
+      "amount": -46520,
+      "balance": 91750,
+      "description": "Payment to ID MONDO 2011",
+      "relatedPaymentId": "payment-1761563304890-gon0oksok",
+      "createdAt": "2025-10-27T11:08:24.899Z"
     }
   ],
   "partners": [
@@ -188,7 +227,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:03:10.032Z",
+    "lastUpdated": "2025-10-27T11:08:25.507Z",
     "version": "1.0.0"
   }
 }
