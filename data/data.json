@@ -152,20 +152,40 @@
           "quantityBags": 8,
           "priceEUR": 24,
           "lineTotal": 192
+        },
+        {
+          "productId": "1761564873671-yruh8qipq",
+          "productName": "HOMME 1",
+          "quantityBags": 30,
+          "priceEUR": 37.5,
+          "lineTotal": 1125
         }
       ],
       "freightCostEUR": 4315,
-      "paymentAllocations": [],
+      "paymentAllocations": [
+        {
+          "containerId": "",
+          "containerNumber": "MRKU522125-0",
+          "amountEUR": 40000,
+          "amountUSD": 46520
+        },
+        {
+          "containerId": "",
+          "containerNumber": "MRKU522125-0",
+          "amountEUR": 7056,
+          "amountUSD": 8232.000000000002
+        }
+      ],
       "customsDutiesUSD": 22000,
-      "productsTotalEUR": 41616,
-      "grandTotalEUR": 45931,
-      "totalEURPaid": 0,
-      "totalUSDPaid": 0,
-      "totalCostUSD": 22000,
-      "costPerBagUSD": 26.699029126213592,
-      "paymentStatus": "unpaid",
+      "productsTotalEUR": 42741,
+      "grandTotalEUR": 47056,
+      "totalEURPaid": 47056,
+      "totalUSDPaid": 54752,
+      "totalCostUSD": 76752,
+      "costPerBagUSD": 89.8735362997658,
+      "paymentStatus": "paid",
       "customsStatus": "paid",
-      "containerStatus": "open",
+      "containerStatus": "closed",
       "quantityAddedToStock": {
         "1761434408124-r3dvbxo6n": {
           "quantityAdded": 14,
@@ -209,7 +229,7 @@
         }
       },
       "createdAt": "2025-10-27T11:34:21.021Z",
-      "updatedAt": "2025-10-27T11:48:42.649Z"
+      "updatedAt": "2025-10-27T11:49:25.453Z"
     }
   ],
   "supplierLedger": [
@@ -283,7 +303,7 @@
       "unallocatedEUR": 0,
       "notes": "",
       "createdAt": "2025-10-27T11:08:24.890Z",
-      "updatedAt": "2025-10-27T11:48:42.648Z"
+      "updatedAt": "2025-10-27T11:49:25.597Z"
     },
     {
       "id": "payment-1761563321186-pdgop7f7h",
@@ -298,14 +318,14 @@
         {
           "containerId": "1761564861021-mq8hi23y8",
           "containerNumber": "MRKU522125-0",
-          "amountEUR": 5931,
-          "amountUSD": 6919.5
+          "amountEUR": 7056,
+          "amountUSD": 8232.000000000002
         }
       ],
-      "unallocatedEUR": 14069,
+      "unallocatedEUR": 12944,
       "notes": "",
       "createdAt": "2025-10-27T11:08:41.186Z",
-      "updatedAt": "2025-10-27T11:48:42.649Z"
+      "updatedAt": "2025-10-27T11:49:25.597Z"
     },
     {
       "id": "payment-1761563343053-lrnx4fiuq",
@@ -504,7 +524,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:48:43.909Z",
+    "lastUpdated": "2025-10-27T11:49:26.523Z",
     "version": "1.0.0"
   }
 }
