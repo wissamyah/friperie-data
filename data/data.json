@@ -63,6 +63,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-27T12:13:18.527Z",
       "updatedAt": "2025-10-27T12:13:18.527Z"
+    },
+    {
+      "id": "1761567209950-ecgw41c46",
+      "name": "CINTURE (Belts)",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-27T12:13:29.950Z",
+      "updatedAt": "2025-10-27T12:13:29.950Z"
     }
   ],
   "suppliers": [
@@ -216,7 +224,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:13:19.159Z",
+    "lastUpdated": "2025-10-27T12:13:30.518Z",
     "version": "1.0.0"
   }
 }
