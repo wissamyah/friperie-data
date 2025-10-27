@@ -108,15 +108,25 @@
       "description": "Hussein Nachar - injection: Additional Investment",
       "relatedPartnerTransactionId": "partner-tx-1761562957388-euhifwsyl",
       "createdAt": "2025-10-27T11:02:37.388Z"
+    },
+    {
+      "id": "cash-1761562989320-8aosj37md",
+      "date": "2025-10-09",
+      "type": "partner_injection",
+      "amount": 22000,
+      "balance": 138270,
+      "description": "Hussein Nachar - injection: Additional Investment - Part payment custom duties 1st container",
+      "relatedPartnerTransactionId": "partner-tx-1761562989320-riujccwox",
+      "createdAt": "2025-10-27T11:03:09.320Z"
     }
   ],
   "partners": [
     {
       "id": "partner-1761508131192-mv33davxi",
       "name": "Hussein Nachar",
-      "balance": 116270,
+      "balance": 138270,
       "createdAt": "2025-10-26T19:48:51.192Z",
-      "updatedAt": "2025-10-27T11:02:37.388Z"
+      "updatedAt": "2025-10-27T11:03:09.320Z"
     },
     {
       "id": "partner-1761508137422-jtjzzsqx2",
@@ -162,11 +172,23 @@
       "createdAt": "2025-10-27T11:02:37.388Z",
       "updatedAt": "2025-10-27T11:02:37.388Z",
       "relatedCashTransactionId": "cash-1761562957388-cyz2ypxoo"
+    },
+    {
+      "id": "partner-tx-1761562989320-riujccwox",
+      "partnerId": "partner-1761508131192-mv33davxi",
+      "partnerName": "Hussein Nachar",
+      "date": "2025-10-09",
+      "type": "injection",
+      "amountUSD": 22000,
+      "description": "Additional Investment - Part payment custom duties 1st container",
+      "createdAt": "2025-10-27T11:03:09.320Z",
+      "updatedAt": "2025-10-27T11:03:09.320Z",
+      "relatedCashTransactionId": "cash-1761562989320-8aosj37md"
     }
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:02:38.092Z",
+    "lastUpdated": "2025-10-27T11:03:10.032Z",
     "version": "1.0.0"
   }
 }
