@@ -15,6 +15,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-27T12:12:54.914Z",
       "updatedAt": "2025-10-27T12:12:54.914Z"
+    },
+    {
+      "id": "1761567179750-xdyocfika",
+      "name": "CREME ENFANT",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-27T12:12:59.750Z",
+      "updatedAt": "2025-10-27T12:12:59.750Z"
     }
   ],
   "suppliers": [
@@ -168,7 +176,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:12:55.521Z",
+    "lastUpdated": "2025-10-27T12:13:00.328Z",
     "version": "1.0.0"
   }
 }
