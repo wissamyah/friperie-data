@@ -1,5 +1,14 @@
 {
-  "products": [],
+  "products": [
+    {
+      "id": "1761567170267-kmrb5dnfl",
+      "name": "CREME DAMME",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-27T12:12:50.267Z",
+      "updatedAt": "2025-10-27T12:12:50.267Z"
+    }
+  ],
   "suppliers": [
     {
       "id": "1761567155629-79r9goq8m",
@@ -151,7 +160,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:12:39.594Z",
+    "lastUpdated": "2025-10-27T12:12:50.844Z",
     "version": "1.0.0"
   }
 }
