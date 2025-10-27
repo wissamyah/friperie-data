@@ -312,15 +312,6 @@
       "description": "IDMONDO CONT. MRKU522125-0 Custom duties",
       "createdAt": "2025-10-27T12:12:14.885Z",
       "updatedAt": "2025-10-27T12:12:14.885Z"
-    },
-    {
-      "id": "expense-1761567502224-g68ez4v42",
-      "date": "2025-07-21",
-      "category": "Other",
-      "amountUSD": 11666.66,
-      "description": "POLO SPED, Freight advance payment (10k EUR)",
-      "createdAt": "2025-10-27T12:18:22.223Z",
-      "updatedAt": "2025-10-27T12:18:22.223Z"
     }
   ],
   "cashTransactions": [
@@ -403,16 +394,6 @@
       "description": "Payment to JAVEED",
       "relatedPaymentId": "payment-1761567390745-uy1wir9gm",
       "createdAt": "2025-10-27T12:16:30.771Z"
-    },
-    {
-      "id": "cash-1761567502224-m02ec0pq5",
-      "date": "2025-07-21",
-      "type": "expense",
-      "amount": -11666.66,
-      "balance": 0.006666666664386867,
-      "description": "Other: POLO SPED, Freight advance payment (10k EUR)",
-      "relatedExpenseId": "expense-1761567502224-g68ez4v42",
-      "createdAt": "2025-10-27T12:18:22.223Z"
     }
   ],
   "partners": [
@@ -483,7 +464,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:34:20.679Z",
+    "lastUpdated": "2025-10-27T12:35:00.034Z",
     "version": "1.0.0"
   }
 }
