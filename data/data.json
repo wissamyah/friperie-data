@@ -26,15 +26,25 @@
       "description": "Hussein Nachar - injection: Additional Investment",
       "relatedPartnerTransactionId": "partner-tx-1761567051273-ay8vpntzz",
       "createdAt": "2025-10-27T12:10:51.273Z"
+    },
+    {
+      "id": "cash-1761567067812-q6yhffmb9",
+      "date": "2025-08-21",
+      "type": "partner_injection",
+      "amount": 34750,
+      "balance": 116270,
+      "description": "Hussein Nachar - injection: Additional Investment",
+      "relatedPartnerTransactionId": "partner-tx-1761567067812-9lvgo7ci8",
+      "createdAt": "2025-10-27T12:11:07.812Z"
     }
   ],
   "partners": [
     {
       "id": "partner-1761567000220-ud9j50xkb",
       "name": "Hussein Nachar",
-      "balance": 81520,
+      "balance": 116270,
       "createdAt": "2025-10-27T12:10:00.220Z",
-      "updatedAt": "2025-10-27T12:10:51.273Z"
+      "updatedAt": "2025-10-27T12:11:07.812Z"
     },
     {
       "id": "partner-1761567005135-tkgopvfoc",
@@ -68,11 +78,23 @@
       "createdAt": "2025-10-27T12:10:51.273Z",
       "updatedAt": "2025-10-27T12:10:51.273Z",
       "relatedCashTransactionId": "cash-1761567051273-g1p5f22a3"
+    },
+    {
+      "id": "partner-tx-1761567067812-9lvgo7ci8",
+      "partnerId": "partner-1761567000220-ud9j50xkb",
+      "partnerName": "Hussein Nachar",
+      "date": "2025-08-21",
+      "type": "injection",
+      "amountUSD": 34750,
+      "description": "Additional Investment",
+      "createdAt": "2025-10-27T12:11:07.812Z",
+      "updatedAt": "2025-10-27T12:11:07.812Z",
+      "relatedCashTransactionId": "cash-1761567067812-q6yhffmb9"
     }
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:10:51.977Z",
+    "lastUpdated": "2025-10-27T12:11:08.451Z",
     "version": "1.0.0"
   }
 }
