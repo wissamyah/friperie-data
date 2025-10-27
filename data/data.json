@@ -14,12 +14,19 @@
       "balance": 0,
       "createdAt": "2025-10-27T12:10:00.220Z",
       "updatedAt": "2025-10-27T12:10:00.220Z"
+    },
+    {
+      "id": "partner-1761567005135-tkgopvfoc",
+      "name": "Hussein Yahfoufi",
+      "balance": 0,
+      "createdAt": "2025-10-27T12:10:05.135Z",
+      "updatedAt": "2025-10-27T12:10:05.135Z"
     }
   ],
   "partnerTransactions": [],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:10:00.912Z",
+    "lastUpdated": "2025-10-27T12:10:05.868Z",
     "version": "1.0.0"
   }
 }
