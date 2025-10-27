@@ -519,6 +519,15 @@
       "description": "Casuals",
       "createdAt": "2025-10-27T12:51:59.878Z",
       "updatedAt": "2025-10-27T12:52:06.683Z"
+    },
+    {
+      "id": "expense-1761569604062-m9y14995u",
+      "date": "2025-10-24",
+      "category": "Other",
+      "amountUSD": 192,
+      "description": "ANR 40$, Offloading 130$, Office Expenses 22$",
+      "createdAt": "2025-10-27T12:53:24.062Z",
+      "updatedAt": "2025-10-27T12:53:24.062Z"
     }
   ],
   "cashTransactions": [
@@ -641,6 +650,16 @@
       "description": "Daily Expenses on Casuals: Casuals",
       "relatedExpenseId": "expense-1761569519878-70ehx2m6f",
       "createdAt": "2025-10-27T12:51:59.878Z"
+    },
+    {
+      "id": "cash-1761569604062-7kylw0uf5",
+      "date": "2025-10-24",
+      "type": "expense",
+      "amount": -192,
+      "balance": 10763.999999999996,
+      "description": "Other: ANR 40$, Offloading 130$, Office Expenses 22$",
+      "relatedExpenseId": "expense-1761569604062-m9y14995u",
+      "createdAt": "2025-10-27T12:53:24.062Z"
     }
   ],
   "partners": [
@@ -711,7 +730,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:52:07.325Z",
+    "lastUpdated": "2025-10-27T12:53:25.361Z",
     "version": "1.0.0"
   }
 }
