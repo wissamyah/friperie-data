@@ -233,8 +233,8 @@
       "supplierId": "1761567155629-79r9goq8m",
       "supplierName": "ID MONDO 2011",
       "type": "payment",
-      "amount": 10000,
-      "balance": 70000,
+      "amount": 4315,
+      "balance": 64315,
       "description": "Payment received - No notes",
       "relatedPaymentId": "payment-1761568549815-nq1bapj4i",
       "date": "2025-07-21",
@@ -246,7 +246,7 @@
       "supplierName": "ID MONDO 2011",
       "type": "container",
       "amount": -47056,
-      "balance": 22944,
+      "balance": 17259,
       "description": "Container MRKU522125-0 purchase",
       "relatedContainerId": "1761568459312-c4i7igwo9",
       "date": "2025-08-04",
@@ -318,15 +318,15 @@
       "date": "2025-07-21",
       "supplierId": "1761567155629-79r9goq8m",
       "supplierName": "ID MONDO 2011",
-      "amountEUR": 10000,
+      "amountEUR": 4315,
       "exchangeRate": 1.1666666666666667,
       "commissionPercent": 0,
-      "amountUSD": 11666.666666666668,
+      "amountUSD": 5034.166666666667,
       "allocations": [],
-      "unallocatedEUR": 10000,
+      "unallocatedEUR": 4315,
       "notes": "",
       "createdAt": "2025-10-27T12:35:49.815Z",
-      "updatedAt": "2025-10-27T12:35:49.815Z"
+      "updatedAt": "2025-10-27T15:02:28.409Z"
     }
   ],
   "sales": [
@@ -615,8 +615,8 @@
       "id": "cash-1761568549848-2f05ptvv0",
       "date": "2025-07-21",
       "type": "payment",
-      "amount": -11666.666666666668,
-      "balance": -3.637978807091713e-12,
+      "amount": -5034.166666666667,
+      "balance": -74887.50000000001,
       "description": "Payment to ID MONDO 2011",
       "relatedPaymentId": "payment-1761568549815-nq1bapj4i",
       "createdAt": "2025-10-27T12:35:49.848Z"
@@ -730,7 +730,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:53:25.361Z",
+    "lastUpdated": "2025-10-27T15:02:29.443Z",
     "version": "1.0.0"
   }
 }
