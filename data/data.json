@@ -89,108 +89,7 @@
       "updatedAt": "2025-10-26T19:17:54.816Z"
     }
   ],
-  "containers": [
-    {
-      "id": "1761564861021-mq8hi23y8",
-      "containerNumber": "MRKU522125-0",
-      "date": "2025-08-04",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "products": [
-        {
-          "productId": "1761434408124-r3dvbxo6n",
-          "productName": "CREMA HOMME",
-          "quantityBags": 14,
-          "priceEUR": 87.5,
-          "lineTotal": 1225
-        },
-        {
-          "productId": "1761434412916-kb7b81eza",
-          "productName": "CREMA FEMME",
-          "quantityBags": 21,
-          "priceEUR": 87.5,
-          "lineTotal": 1837.5
-        },
-        {
-          "productId": "1761434417315-6oyyj7sfw",
-          "productName": "CREMA ENFANT",
-          "quantityBags": 7,
-          "priceEUR": 87.5,
-          "lineTotal": 612.5
-        },
-        {
-          "productId": "1759954207093-wn9m72r9j",
-          "productName": "MIX I",
-          "quantityBags": 270,
-          "priceEUR": 75,
-          "lineTotal": 20250
-        },
-        {
-          "productId": "1759954216342-ar8gmvaph",
-          "productName": "MIX II",
-          "quantityBags": 258,
-          "priceEUR": 30,
-          "lineTotal": 7740
-        },
-        {
-          "productId": "1759954225494-akushsa9v",
-          "productName": "PRIMETTA",
-          "quantityBags": 198,
-          "priceEUR": 42.5,
-          "lineTotal": 8415
-        },
-        {
-          "productId": "1759954238075-6dvfufk5b",
-          "productName": "PLASTICA",
-          "quantityBags": 48,
-          "priceEUR": 28,
-          "lineTotal": 1344
-        },
-        {
-          "productId": "1761563616187-7ykitbors",
-          "productName": "BELTS",
-          "quantityBags": 8,
-          "priceEUR": 24,
-          "lineTotal": 192
-        },
-        {
-          "productId": "1761564873671-yruh8qipq",
-          "productName": "HOMME 1",
-          "quantityBags": 30,
-          "priceEUR": 37.5,
-          "lineTotal": 1125
-        }
-      ],
-      "freightCostEUR": 4315,
-      "paymentAllocations": [
-        {
-          "containerId": "",
-          "containerNumber": "MRKU522125-0",
-          "amountEUR": 40000,
-          "amountUSD": 46520
-        },
-        {
-          "containerId": "",
-          "containerNumber": "MRKU522125-0",
-          "amountEUR": 7056,
-          "amountUSD": 8232.000000000002
-        }
-      ],
-      "customsDutiesUSD": 22000,
-      "productsTotalEUR": 42741,
-      "grandTotalEUR": 47056,
-      "totalEURPaid": 47056,
-      "totalUSDPaid": 54752,
-      "totalCostUSD": 76752,
-      "costPerBagUSD": 89.8735362997658,
-      "paymentStatus": "paid",
-      "customsStatus": "paid",
-      "containerStatus": "closed",
-      "quantityAddedToStock": {},
-      "createdAt": "2025-10-27T11:34:21.021Z",
-      "updatedAt": "2025-10-27T11:50:32.386Z"
-    }
-  ],
+  "containers": [],
   "supplierLedger": [
     {
       "id": "1761563343060-sagxiwlz5",
@@ -227,18 +126,6 @@
       "relatedPaymentId": "payment-1761563321186-pdgop7f7h",
       "date": "2025-07-21",
       "createdAt": "2025-10-27T11:08:41.193Z"
-    },
-    {
-      "id": "1761564861142-8z5an5fnr",
-      "supplierId": "1761178149075-hj5g3efln",
-      "supplierName": "ID MONDO 2011",
-      "type": "container",
-      "amount": -45931,
-      "balance": 14069,
-      "description": "Container MRKU522125-0 purchase",
-      "relatedContainerId": "1761564861021-mq8hi23y8",
-      "date": "2025-08-04",
-      "createdAt": "2025-10-27T11:34:21.142Z"
     }
   ],
   "payments": [
@@ -251,18 +138,11 @@
       "exchangeRate": 1.163,
       "commissionPercent": 0,
       "amountUSD": 46520,
-      "allocations": [
-        {
-          "containerId": "1761564861021-mq8hi23y8",
-          "containerNumber": "MRKU522125-0",
-          "amountEUR": 40000,
-          "amountUSD": 46520
-        }
-      ],
-      "unallocatedEUR": 0,
+      "allocations": [],
+      "unallocatedEUR": 40000,
       "notes": "",
       "createdAt": "2025-10-27T11:08:24.890Z",
-      "updatedAt": "2025-10-27T11:50:32.386Z"
+      "updatedAt": "2025-10-27T11:50:49.378Z"
     },
     {
       "id": "payment-1761563321186-pdgop7f7h",
@@ -273,18 +153,11 @@
       "exchangeRate": 1.1666666666666667,
       "commissionPercent": 0,
       "amountUSD": 23333.333333333336,
-      "allocations": [
-        {
-          "containerId": "1761564861021-mq8hi23y8",
-          "containerNumber": "MRKU522125-0",
-          "amountEUR": 7056,
-          "amountUSD": 8232.000000000002
-        }
-      ],
-      "unallocatedEUR": 12944,
+      "allocations": [],
+      "unallocatedEUR": 20000,
       "notes": "",
       "createdAt": "2025-10-27T11:08:41.186Z",
-      "updatedAt": "2025-10-27T11:50:32.386Z"
+      "updatedAt": "2025-10-27T11:50:49.378Z"
     },
     {
       "id": "payment-1761563343053-lrnx4fiuq",
@@ -483,7 +356,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:50:33.175Z",
+    "lastUpdated": "2025-10-27T11:50:50.006Z",
     "version": "1.0.0"
   }
 }
