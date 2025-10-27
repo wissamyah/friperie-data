@@ -7,6 +7,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-27T12:12:50.267Z",
       "updatedAt": "2025-10-27T12:12:50.267Z"
+    },
+    {
+      "id": "1761567174914-fq8385i79",
+      "name": "CREME HOMME",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-27T12:12:54.914Z",
+      "updatedAt": "2025-10-27T12:12:54.914Z"
     }
   ],
   "suppliers": [
@@ -160,7 +168,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:12:50.844Z",
+    "lastUpdated": "2025-10-27T12:12:55.521Z",
     "version": "1.0.0"
   }
 }
