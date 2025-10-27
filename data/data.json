@@ -1,6 +1,14 @@
 {
   "products": [],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "id": "1761567155629-79r9goq8m",
+      "name": "ID MONDO 2011",
+      "balance": 0,
+      "createdAt": "2025-10-27T12:12:35.629Z",
+      "updatedAt": "2025-10-27T12:12:35.629Z"
+    }
+  ],
   "containers": [],
   "supplierLedger": [],
   "payments": [],
@@ -136,7 +144,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:12:15.955Z",
+    "lastUpdated": "2025-10-27T12:12:36.424Z",
     "version": "1.0.0"
   }
 }
