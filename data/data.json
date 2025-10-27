@@ -3,26 +3,26 @@
     {
       "id": "1761567170267-kmrb5dnfl",
       "name": "CREME DAMME",
-      "quantity": 19,
+      "quantity": 21,
       "costPerBagUSD": 133.45079299605752,
       "createdAt": "2025-10-27T12:12:50.267Z",
-      "updatedAt": "2025-10-27T12:41:57.238Z"
+      "updatedAt": "2025-10-27T12:42:16.390Z"
     },
     {
       "id": "1761567174914-fq8385i79",
       "name": "CREME HOMME",
-      "quantity": 5,
+      "quantity": 14,
       "costPerBagUSD": 133.45079299605752,
       "createdAt": "2025-10-27T12:12:54.914Z",
-      "updatedAt": "2025-10-27T12:41:57.238Z"
+      "updatedAt": "2025-10-27T12:42:16.390Z"
     },
     {
       "id": "1761567179750-xdyocfika",
       "name": "CREME ENFANT",
-      "quantity": 1,
+      "quantity": 7,
       "costPerBagUSD": 133.45079299605752,
       "createdAt": "2025-10-27T12:12:59.750Z",
-      "updatedAt": "2025-10-27T12:41:57.238Z"
+      "updatedAt": "2025-10-27T12:42:16.390Z"
     },
     {
       "id": "1761567182835-0p0dwzz7d",
@@ -43,26 +43,26 @@
     {
       "id": "1761567189686-8s0lbn3zj",
       "name": "PRIMETTA",
-      "quantity": 190,
+      "quantity": 198,
       "costPerBagUSD": 81.09105141156245,
       "createdAt": "2025-10-27T12:13:09.686Z",
-      "updatedAt": "2025-10-27T12:41:57.238Z"
+      "updatedAt": "2025-10-27T12:42:16.390Z"
     },
     {
       "id": "1761567194457-hlro9xaik",
       "name": "HOMME 1",
-      "quantity": 4,
+      "quantity": 30,
       "costPerBagUSD": 75.27330234661855,
       "createdAt": "2025-10-27T12:13:14.457Z",
-      "updatedAt": "2025-10-27T12:41:57.238Z"
+      "updatedAt": "2025-10-27T12:42:16.390Z"
     },
     {
       "id": "1761567198527-7fobkjbib",
       "name": "PLASTICA",
-      "quantity": 24,
+      "quantity": 48,
       "costPerBagUSD": 64.21957912322515,
       "createdAt": "2025-10-27T12:13:18.527Z",
-      "updatedAt": "2025-10-27T12:41:57.238Z"
+      "updatedAt": "2025-10-27T12:42:16.390Z"
     },
     {
       "id": "1761567209950-ecgw41c46",
@@ -329,137 +329,7 @@
       "updatedAt": "2025-10-27T12:35:49.815Z"
     }
   ],
-  "sales": [
-    {
-      "id": "sale-1761568917238-voqucm7uf",
-      "date": "2025-10-27",
-      "products": [
-        {
-          "productId": "1761567174914-fq8385i79",
-          "productName": "CREME HOMME",
-          "quantityBags": 1,
-          "sellingPriceUSD": 230,
-          "lineTotal": 230
-        },
-        {
-          "productId": "1761567174914-fq8385i79",
-          "productName": "CREME HOMME",
-          "quantityBags": 8,
-          "sellingPriceUSD": 220,
-          "lineTotal": 1760
-        },
-        {
-          "productId": "1761567170267-kmrb5dnfl",
-          "productName": "CREME DAMME",
-          "quantityBags": 1,
-          "sellingPriceUSD": 130,
-          "lineTotal": 130
-        },
-        {
-          "productId": "1761567170267-kmrb5dnfl",
-          "productName": "CREME DAMME",
-          "quantityBags": 1,
-          "sellingPriceUSD": 120,
-          "lineTotal": 120
-        },
-        {
-          "productId": "1761567179750-xdyocfika",
-          "productName": "CREME ENFANT",
-          "quantityBags": 6,
-          "sellingPriceUSD": 170,
-          "lineTotal": 1020
-        },
-        {
-          "productId": "1761567194457-hlro9xaik",
-          "productName": "HOMME 1",
-          "quantityBags": 26,
-          "sellingPriceUSD": 150,
-          "lineTotal": 3900
-        },
-        {
-          "productId": "1761567189686-8s0lbn3zj",
-          "productName": "PRIMETTA",
-          "quantityBags": 1,
-          "sellingPriceUSD": 115,
-          "lineTotal": 115
-        },
-        {
-          "productId": "1761567189686-8s0lbn3zj",
-          "productName": "PRIMETTA",
-          "quantityBags": 4,
-          "sellingPriceUSD": 110,
-          "lineTotal": 440
-        },
-        {
-          "productId": "1761567189686-8s0lbn3zj",
-          "productName": "PRIMETTA",
-          "quantityBags": 3,
-          "sellingPriceUSD": 10,
-          "lineTotal": 30
-        },
-        {
-          "productId": "1761567198527-7fobkjbib",
-          "productName": "PLASTICA",
-          "quantityBags": 24,
-          "sellingPriceUSD": 85,
-          "lineTotal": 2040
-        }
-      ],
-      "productSummary": [
-        {
-          "productId": "1761567174914-fq8385i79",
-          "productName": "CREME HOMME",
-          "totalQuantity": 9,
-          "averagePrice": 221.11111111111111,
-          "totalAmount": 1990,
-          "priceVariations": 2
-        },
-        {
-          "productId": "1761567170267-kmrb5dnfl",
-          "productName": "CREME DAMME",
-          "totalQuantity": 2,
-          "averagePrice": 125,
-          "totalAmount": 250,
-          "priceVariations": 2
-        },
-        {
-          "productId": "1761567179750-xdyocfika",
-          "productName": "CREME ENFANT",
-          "totalQuantity": 6,
-          "averagePrice": 170,
-          "totalAmount": 1020,
-          "priceVariations": 1
-        },
-        {
-          "productId": "1761567194457-hlro9xaik",
-          "productName": "HOMME 1",
-          "totalQuantity": 26,
-          "averagePrice": 150,
-          "totalAmount": 3900,
-          "priceVariations": 1
-        },
-        {
-          "productId": "1761567189686-8s0lbn3zj",
-          "productName": "PRIMETTA",
-          "totalQuantity": 8,
-          "averagePrice": 73.125,
-          "totalAmount": 585,
-          "priceVariations": 3
-        },
-        {
-          "productId": "1761567198527-7fobkjbib",
-          "productName": "PLASTICA",
-          "totalQuantity": 24,
-          "averagePrice": 85,
-          "totalAmount": 2040,
-          "priceVariations": 1
-        }
-      ],
-      "totalAmountUSD": 9785,
-      "createdAt": "2025-10-27T12:41:57.238Z",
-      "updatedAt": "2025-10-27T12:41:57.238Z"
-    }
-  ],
+  "sales": [],
   "expenses": [
     {
       "id": "expense-1761567134885-xefsbazva",
@@ -561,16 +431,6 @@
       "description": "Payment to ID MONDO 2011",
       "relatedPaymentId": "payment-1761568549815-nq1bapj4i",
       "createdAt": "2025-10-27T12:35:49.848Z"
-    },
-    {
-      "id": "cash-1761568917238-5een3m7wl",
-      "date": "2025-10-27",
-      "type": "sale",
-      "amount": 9785,
-      "balance": 9784.999999999996,
-      "description": "Sale: CREME HOMME, CREME HOMME, CREME DAMME, CREME DAMME, CREME ENFANT, HOMME 1, PRIMETTA, PRIMETTA, PRIMETTA, PLASTICA",
-      "relatedSaleId": "sale-1761568917238-voqucm7uf",
-      "createdAt": "2025-10-27T12:41:57.238Z"
     }
   ],
   "partners": [
@@ -641,7 +501,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:41:58.409Z",
+    "lastUpdated": "2025-10-27T12:42:17.110Z",
     "version": "1.0.0"
   }
 }
