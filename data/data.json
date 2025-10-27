@@ -528,6 +528,15 @@
       "description": "ANR 40$, Offloading 130$, Office Expenses 22$",
       "createdAt": "2025-10-27T12:53:24.062Z",
       "updatedAt": "2025-10-27T12:53:24.062Z"
+    },
+    {
+      "id": "expense-1761605128395-mcgrtjuvl",
+      "date": "2025-10-27",
+      "category": "Daily Expenses on Casuals",
+      "amountUSD": 25,
+      "description": "Casuals (Journaliers)",
+      "createdAt": "2025-10-27T22:45:28.395Z",
+      "updatedAt": "2025-10-27T22:45:28.395Z"
     }
   ],
   "cashTransactions": [
@@ -660,6 +669,16 @@
       "description": "Other: ANR 40$, Offloading 130$, Office Expenses 22$",
       "relatedExpenseId": "expense-1761569604062-m9y14995u",
       "createdAt": "2025-10-27T12:53:24.062Z"
+    },
+    {
+      "id": "cash-1761605128395-y95lx5b0p",
+      "date": "2025-10-27",
+      "type": "expense",
+      "amount": -25,
+      "balance": 17371.499999999996,
+      "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
+      "relatedExpenseId": "expense-1761605128395-mcgrtjuvl",
+      "createdAt": "2025-10-27T22:45:28.395Z"
     }
   ],
   "partners": [
@@ -730,7 +749,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T15:02:29.443Z",
+    "lastUpdated": "2025-10-27T22:45:29.030Z",
     "version": "1.0.0"
   }
 }
