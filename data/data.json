@@ -513,12 +513,12 @@
     },
     {
       "id": "expense-1761569519878-70ehx2m6f",
-      "date": "2025-10-24",
+      "date": "2025-10-25",
       "category": "Daily Expenses on Casuals",
       "amountUSD": 55,
       "description": "Casuals",
       "createdAt": "2025-10-27T12:51:59.878Z",
-      "updatedAt": "2025-10-27T12:51:59.878Z"
+      "updatedAt": "2025-10-27T12:52:06.683Z"
     }
   ],
   "cashTransactions": [
@@ -634,7 +634,7 @@
     },
     {
       "id": "cash-1761569519878-khgnmjn9j",
-      "date": "2025-10-24",
+      "date": "2025-10-25",
       "type": "expense",
       "amount": -55,
       "balance": 10955.999999999996,
@@ -711,7 +711,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:52:01.048Z",
+    "lastUpdated": "2025-10-27T12:52:07.325Z",
     "version": "1.0.0"
   }
 }
