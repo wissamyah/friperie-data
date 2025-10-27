@@ -31,6 +31,14 @@
       "costPerBagUSD": 0,
       "createdAt": "2025-10-27T12:13:02.835Z",
       "updatedAt": "2025-10-27T12:13:02.835Z"
+    },
+    {
+      "id": "1761567186233-3dox0ct71",
+      "name": "MIX II",
+      "quantity": 0,
+      "costPerBagUSD": 0,
+      "createdAt": "2025-10-27T12:13:06.233Z",
+      "updatedAt": "2025-10-27T12:13:06.233Z"
     }
   ],
   "suppliers": [
@@ -184,7 +192,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:13:03.857Z",
+    "lastUpdated": "2025-10-27T12:13:06.909Z",
     "version": "1.0.0"
   }
 }
