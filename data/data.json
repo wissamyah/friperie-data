@@ -169,6 +169,15 @@
       "description": "Freight advance payment to POLO SPED via transfer",
       "createdAt": "2025-10-27T11:10:41.521Z",
       "updatedAt": "2025-10-27T11:10:52.879Z"
+    },
+    {
+      "id": "expense-1761563509433-icfi699y2",
+      "date": "2025-10-09",
+      "category": "Custom Duties Payment",
+      "amountUSD": 22000,
+      "description": "ID MONDO 1st container custom duties",
+      "createdAt": "2025-10-27T11:11:49.433Z",
+      "updatedAt": "2025-10-27T11:11:49.433Z"
     }
   ],
   "cashTransactions": [
@@ -251,6 +260,16 @@
       "description": "Other: Freight advance payment to POLO SPED via transfer",
       "relatedExpenseId": "expense-1761563441521-i7rn3ntaa",
       "createdAt": "2025-10-27T11:10:41.521Z"
+    },
+    {
+      "id": "cash-1761563509433-3fnshc37x",
+      "date": "2025-10-09",
+      "type": "expense",
+      "amount": -22000,
+      "balance": -0.0033333333412883803,
+      "description": "Custom Duties Payment: ID MONDO 1st container custom duties",
+      "relatedExpenseId": "expense-1761563509433-icfi699y2",
+      "createdAt": "2025-10-27T11:11:49.433Z"
     }
   ],
   "partners": [
@@ -321,7 +340,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:10:53.495Z",
+    "lastUpdated": "2025-10-27T11:11:50.451Z",
     "version": "1.0.0"
   }
 }
