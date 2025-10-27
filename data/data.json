@@ -5,7 +5,17 @@
   "supplierLedger": [],
   "payments": [],
   "sales": [],
-  "expenses": [],
+  "expenses": [
+    {
+      "id": "expense-1761567134885-xefsbazva",
+      "date": "2025-10-09",
+      "category": "Custom Duties Payment",
+      "amountUSD": 22000,
+      "description": "IDMONDO CONT. MRKU522125-0 Custom duties",
+      "createdAt": "2025-10-27T12:12:14.885Z",
+      "updatedAt": "2025-10-27T12:12:14.885Z"
+    }
+  ],
   "cashTransactions": [
     {
       "id": "cash-1761567035123-2titf1li3",
@@ -46,6 +56,16 @@
       "description": "Hussein Nachar - injection: Additional Investment - 1st container custom duties",
       "relatedPartnerTransactionId": "partner-tx-1761567088773-34g14fv87",
       "createdAt": "2025-10-27T12:11:28.773Z"
+    },
+    {
+      "id": "cash-1761567134885-ejk9visvm",
+      "date": "2025-10-09",
+      "type": "expense",
+      "amount": -22000,
+      "balance": 116270,
+      "description": "Custom Duties Payment: IDMONDO CONT. MRKU522125-0 Custom duties",
+      "relatedExpenseId": "expense-1761567134885-xefsbazva",
+      "createdAt": "2025-10-27T12:12:14.885Z"
     }
   ],
   "partners": [
@@ -116,7 +136,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T12:11:29.406Z",
+    "lastUpdated": "2025-10-27T12:12:15.955Z",
     "version": "1.0.0"
   }
 }
