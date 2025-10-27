@@ -156,19 +156,19 @@
       ],
       "freightCostEUR": 4315,
       "paymentAllocations": [],
-      "customsDutiesUSD": 22500,
+      "customsDutiesUSD": 22000,
       "productsTotalEUR": 41616,
       "grandTotalEUR": 45931,
       "totalEURPaid": 0,
       "totalUSDPaid": 0,
-      "totalCostUSD": 22500,
-      "costPerBagUSD": 27.305825242718445,
+      "totalCostUSD": 22000,
+      "costPerBagUSD": 26.699029126213592,
       "paymentStatus": "unpaid",
       "customsStatus": "paid",
       "containerStatus": "open",
       "quantityAddedToStock": {},
       "createdAt": "2025-10-27T11:34:21.021Z",
-      "updatedAt": "2025-10-27T11:34:21.021Z"
+      "updatedAt": "2025-10-27T11:48:09.382Z"
     }
   ],
   "supplierLedger": [
@@ -449,7 +449,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:34:34.276Z",
+    "lastUpdated": "2025-10-27T11:48:10.435Z",
     "version": "1.0.0"
   }
 }
