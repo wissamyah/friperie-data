@@ -160,7 +160,17 @@
     }
   ],
   "sales": [],
-  "expenses": [],
+  "expenses": [
+    {
+      "id": "expense-1761563441521-i7rn3ntaa",
+      "date": "2025-10-27",
+      "category": "Other",
+      "amountUSD": 11666.66,
+      "description": "Freight advance payment to POLO SPED via transfer",
+      "createdAt": "2025-10-27T11:10:41.521Z",
+      "updatedAt": "2025-10-27T11:10:41.521Z"
+    }
+  ],
   "cashTransactions": [
     {
       "id": "cash-1761512568560-nq18d6zyy",
@@ -231,6 +241,16 @@
       "description": "Payment to JAVEED",
       "relatedPaymentId": "payment-1761563343053-lrnx4fiuq",
       "createdAt": "2025-10-27T11:09:03.061Z"
+    },
+    {
+      "id": "cash-1761563441521-11u6ecepq",
+      "date": "2025-10-27",
+      "type": "expense",
+      "amount": -11666.66,
+      "balance": 22000.006666666657,
+      "description": "Other: Freight advance payment to POLO SPED via transfer",
+      "relatedExpenseId": "expense-1761563441521-i7rn3ntaa",
+      "createdAt": "2025-10-27T11:10:41.521Z"
     }
   ],
   "partners": [
@@ -301,7 +321,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:09:04.038Z",
+    "lastUpdated": "2025-10-27T11:10:42.646Z",
     "version": "1.0.0"
   }
 }
