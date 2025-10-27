@@ -165,10 +165,10 @@
       "id": "expense-1761563441521-i7rn3ntaa",
       "date": "2025-10-27",
       "category": "Other",
-      "amountUSD": 11666.66,
+      "amountUSD": 11666.67,
       "description": "Freight advance payment to POLO SPED via transfer",
       "createdAt": "2025-10-27T11:10:41.521Z",
-      "updatedAt": "2025-10-27T11:10:41.521Z"
+      "updatedAt": "2025-10-27T11:10:52.879Z"
     }
   ],
   "cashTransactions": [
@@ -246,8 +246,8 @@
       "id": "cash-1761563441521-11u6ecepq",
       "date": "2025-10-27",
       "type": "expense",
-      "amount": -11666.66,
-      "balance": 22000.006666666657,
+      "amount": -11666.67,
+      "balance": 21999.99666666666,
       "description": "Other: Freight advance payment to POLO SPED via transfer",
       "relatedExpenseId": "expense-1761563441521-i7rn3ntaa",
       "createdAt": "2025-10-27T11:10:41.521Z"
@@ -321,7 +321,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T11:10:42.646Z",
+    "lastUpdated": "2025-10-27T11:10:53.495Z",
     "version": "1.0.0"
   }
 }
