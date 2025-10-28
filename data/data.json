@@ -43,10 +43,10 @@
     {
       "id": "1761567189686-8s0lbn3zj",
       "name": "PRIMETTA",
-      "quantity": 168,
+      "quantity": 157,
       "costPerBagUSD": 81.09105141156245,
       "createdAt": "2025-10-27T12:13:09.686Z",
-      "updatedAt": "2025-10-27T22:46:47.785Z"
+      "updatedAt": "2025-10-28T21:31:54.138Z"
     },
     {
       "id": "1761567194457-hlro9xaik",
@@ -569,6 +569,46 @@
       "totalAmountUSD": 2996,
       "createdAt": "2025-10-27T22:46:47.785Z",
       "updatedAt": "2025-10-27T22:46:47.785Z"
+    },
+    {
+      "id": "sale-1761687114138-k3sg79q4r",
+      "date": "2025-10-28",
+      "products": [
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 1,
+          "sellingPriceUSD": 150,
+          "lineTotal": 150
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 7,
+          "sellingPriceUSD": 110,
+          "lineTotal": 770
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 3,
+          "sellingPriceUSD": 107,
+          "lineTotal": 321
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "totalQuantity": 11,
+          "averagePrice": 112.81818181818181,
+          "totalAmount": 1241,
+          "priceVariations": 3
+        }
+      ],
+      "totalAmountUSD": 1241,
+      "createdAt": "2025-10-28T21:31:54.138Z",
+      "updatedAt": "2025-10-28T21:31:54.138Z"
     }
   ],
   "expenses": [
@@ -759,6 +799,16 @@
       "description": "Sale: CREME DAMME, PRIMETTA, PRIMETTA, PRIMETTA, PLASTICA",
       "relatedSaleId": "sale-1761605207785-xa3he5ydi",
       "createdAt": "2025-10-27T22:46:47.785Z"
+    },
+    {
+      "id": "cash-1761687114138-jop67j7tu",
+      "date": "2025-10-28",
+      "type": "sale",
+      "amount": 1241,
+      "balance": 21608.499999999996,
+      "description": "Sale: PRIMETTA, PRIMETTA, PRIMETTA",
+      "relatedSaleId": "sale-1761687114138-k3sg79q4r",
+      "createdAt": "2025-10-28T21:31:54.138Z"
     }
   ],
   "partners": [
@@ -829,7 +879,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-27T22:46:48.434Z",
+    "lastUpdated": "2025-10-28T21:31:55.533Z",
     "version": "1.0.0"
   }
 }
