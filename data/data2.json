@@ -2117,6 +2117,15 @@
       "description": "Casuals",
       "createdAt": "2025-10-27T22:44:43.321Z",
       "updatedAt": "2025-10-27T22:44:43.321Z"
+    },
+    {
+      "id": "expense-1761687055617-25yaz2fro",
+      "date": "2025-10-28",
+      "category": "Salaries",
+      "amountUSD": 12,
+      "description": "Casuals",
+      "createdAt": "2025-10-28T21:30:55.617Z",
+      "updatedAt": "2025-10-28T21:30:55.617Z"
     }
   ],
   "cashTransactions": [
@@ -2849,6 +2858,16 @@
       "description": "Sale: MIX I, MIX II, MIX II, PRIMETTA",
       "relatedSaleId": "sale-1761687039017-n2jeukrka",
       "createdAt": "2025-10-28T21:30:39.017Z"
+    },
+    {
+      "id": "cash-1761687055617-yceaytz52",
+      "date": "2025-10-28",
+      "type": "expense",
+      "amount": -12,
+      "balance": 28997,
+      "description": "Salaries: Casuals",
+      "relatedExpenseId": "expense-1761687055617-25yaz2fro",
+      "createdAt": "2025-10-28T21:30:55.617Z"
     }
   ],
   "partners": [
@@ -2919,7 +2938,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-28T21:30:40.339Z",
+    "lastUpdated": "2025-10-28T21:30:56.617Z",
     "version": "1.0.0"
   }
 }
