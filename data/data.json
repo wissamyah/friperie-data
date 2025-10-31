@@ -974,15 +974,25 @@
       "description": "Payment to JAVEED",
       "relatedPaymentId": "payment-1761944646352-76jwp0m3c",
       "createdAt": "2025-10-31T21:04:06.365Z"
+    },
+    {
+      "id": "cash-1761944712928-pzkicqnc6",
+      "date": "2025-10-30",
+      "type": "partner_injection",
+      "amount": 81880,
+      "balance": 45576.5,
+      "description": "Hussein Nachar - injection: Additional Investment - 30k Miloud, 20k Javeed",
+      "relatedPartnerTransactionId": "partner-tx-1761944712928-jpsdajx37",
+      "createdAt": "2025-10-31T21:05:12.928Z"
     }
   ],
   "partners": [
     {
       "id": "partner-1761567000220-ud9j50xkb",
       "name": "Hussein Nachar",
-      "balance": 138270,
+      "balance": 220150,
       "createdAt": "2025-10-27T12:10:00.220Z",
-      "updatedAt": "2025-10-27T12:11:28.773Z"
+      "updatedAt": "2025-10-31T21:05:12.928Z"
     },
     {
       "id": "partner-1761567005135-tkgopvfoc",
@@ -1040,11 +1050,23 @@
       "createdAt": "2025-10-27T12:11:28.773Z",
       "updatedAt": "2025-10-27T12:11:28.773Z",
       "relatedCashTransactionId": "cash-1761567088773-6ygzyo2ed"
+    },
+    {
+      "id": "partner-tx-1761944712928-jpsdajx37",
+      "partnerId": "partner-1761567000220-ud9j50xkb",
+      "partnerName": "Hussein Nachar",
+      "date": "2025-10-30",
+      "type": "injection",
+      "amountUSD": 81880,
+      "description": "Additional Investment - 30k Miloud, 20k Javeed",
+      "createdAt": "2025-10-31T21:05:12.928Z",
+      "updatedAt": "2025-10-31T21:05:12.928Z",
+      "relatedCashTransactionId": "cash-1761944712928-pzkicqnc6"
     }
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-31T21:04:07.649Z",
+    "lastUpdated": "2025-10-31T21:05:15.037Z",
     "version": "1.0.0"
   }
 }
