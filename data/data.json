@@ -766,61 +766,11 @@
   ],
   "cashTransactions": [
     {
-      "id": "cash-1761567035123-2titf1li3",
-      "date": "2025-08-21",
-      "type": "partner_injection",
-      "amount": 46520,
-      "balance": 46520,
-      "description": "Hussein Nachar - injection: Initial Investment",
-      "relatedPartnerTransactionId": "partner-tx-1761567035123-c7lcpxrm2",
-      "createdAt": "2025-10-27T12:10:35.123Z"
-    },
-    {
-      "id": "cash-1761567051273-g1p5f22a3",
-      "date": "2025-08-21",
-      "type": "partner_injection",
-      "amount": 35000,
-      "balance": 81520,
-      "description": "Hussein Nachar - injection: Additional Investment",
-      "relatedPartnerTransactionId": "partner-tx-1761567051273-ay8vpntzz",
-      "createdAt": "2025-10-27T12:10:51.273Z"
-    },
-    {
-      "id": "cash-1761567067812-q6yhffmb9",
-      "date": "2025-08-21",
-      "type": "partner_injection",
-      "amount": 34750,
-      "balance": 116270,
-      "description": "Hussein Nachar - injection: Additional Investment",
-      "relatedPartnerTransactionId": "partner-tx-1761567067812-9lvgo7ci8",
-      "createdAt": "2025-10-27T12:11:07.812Z"
-    },
-    {
-      "id": "cash-1761567088773-6ygzyo2ed",
-      "date": "2025-10-09",
-      "type": "partner_injection",
-      "amount": 22000,
-      "balance": 138270,
-      "description": "Hussein Nachar - injection: Additional Investment - 1st container custom duties",
-      "relatedPartnerTransactionId": "partner-tx-1761567088773-34g14fv87",
-      "createdAt": "2025-10-27T12:11:28.773Z"
-    },
-    {
-      "id": "cash-1761567134885-ejk9visvm",
-      "date": "2025-10-09",
-      "type": "expense",
-      "amount": -22000,
-      "balance": 116270,
-      "description": "Custom Duties Payment: IDMONDO CONT. MRKU522125-0 Custom duties",
-      "relatedExpenseId": "expense-1761567134885-xefsbazva",
-      "createdAt": "2025-10-27T12:12:14.885Z"
-    },
-    {
       "id": "cash-1761567248244-e3n8ymwi2",
       "date": "2025-06-24",
       "type": "payment",
       "amount": -46520,
-      "balance": 69750,
+      "balance": -46520,
       "description": "Payment to ID MONDO 2011",
       "relatedPaymentId": "payment-1761567248225-v7edv1aby",
       "createdAt": "2025-10-27T12:14:08.244Z"
@@ -830,20 +780,10 @@
       "date": "2025-07-21",
       "type": "payment",
       "amount": -23333.333333333336,
-      "balance": 46416.666666666664,
+      "balance": -69853.33333333334,
       "description": "Payment to ID MONDO 2011",
       "relatedPaymentId": "payment-1761567366595-bqnlggc8l",
       "createdAt": "2025-10-27T12:16:06.619Z"
-    },
-    {
-      "id": "cash-1761567390771-x4x6k3vyo",
-      "date": "2025-07-24",
-      "type": "payment",
-      "amount": -34750,
-      "balance": 11666.666666666664,
-      "description": "Payment to JAVEED",
-      "relatedPaymentId": "payment-1761567390745-uy1wir9gm",
-      "createdAt": "2025-10-27T12:16:30.771Z"
     },
     {
       "id": "cash-1761568549848-2f05ptvv0",
@@ -856,51 +796,111 @@
       "createdAt": "2025-10-27T12:35:49.848Z"
     },
     {
-      "id": "cash-1761569302621-flr2omkxr",
-      "date": "2025-10-25",
-      "type": "sale",
-      "amount": 10076,
-      "balance": 10075.999999999996,
-      "description": "Sale: CREME HOMME, CREME HOMME, CREME ENFANT, HOMME 1, CREME DAMME, CREME DAMME, PRIMETTA, PRIMETTA, PRIMETTA, PLASTICA",
-      "relatedSaleId": "sale-1761569302621-4ockz8vvd",
-      "createdAt": "2025-10-27T12:48:22.621Z"
+      "id": "cash-1761567390771-x4x6k3vyo",
+      "date": "2025-07-24",
+      "type": "payment",
+      "amount": -34750,
+      "balance": -109637.50000000001,
+      "description": "Payment to JAVEED",
+      "relatedPaymentId": "payment-1761567390745-uy1wir9gm",
+      "createdAt": "2025-10-27T12:16:30.771Z"
+    },
+    {
+      "id": "cash-1761567035123-2titf1li3",
+      "date": "2025-08-21",
+      "type": "partner_injection",
+      "amount": 46520,
+      "balance": -63117.500000000015,
+      "description": "Hussein Nachar - injection: Initial Investment",
+      "relatedPartnerTransactionId": "partner-tx-1761567035123-c7lcpxrm2",
+      "createdAt": "2025-10-27T12:10:35.123Z"
+    },
+    {
+      "id": "cash-1761567051273-g1p5f22a3",
+      "date": "2025-08-21",
+      "type": "partner_injection",
+      "amount": 35000,
+      "balance": -28117.500000000015,
+      "description": "Hussein Nachar - injection: Additional Investment",
+      "relatedPartnerTransactionId": "partner-tx-1761567051273-ay8vpntzz",
+      "createdAt": "2025-10-27T12:10:51.273Z"
+    },
+    {
+      "id": "cash-1761567067812-q6yhffmb9",
+      "date": "2025-08-21",
+      "type": "partner_injection",
+      "amount": 34750,
+      "balance": 6632.499999999985,
+      "description": "Hussein Nachar - injection: Additional Investment",
+      "relatedPartnerTransactionId": "partner-tx-1761567067812-9lvgo7ci8",
+      "createdAt": "2025-10-27T12:11:07.812Z"
+    },
+    {
+      "id": "cash-1761567088773-6ygzyo2ed",
+      "date": "2025-10-09",
+      "type": "partner_injection",
+      "amount": 22000,
+      "balance": 28632.499999999985,
+      "description": "Hussein Nachar - injection: Additional Investment - 1st container custom duties",
+      "relatedPartnerTransactionId": "partner-tx-1761567088773-34g14fv87",
+      "createdAt": "2025-10-27T12:11:28.773Z"
+    },
+    {
+      "id": "cash-1761567134885-ejk9visvm",
+      "date": "2025-10-09",
+      "type": "expense",
+      "amount": -22000,
+      "balance": 6632.499999999985,
+      "description": "Custom Duties Payment: IDMONDO CONT. MRKU522125-0 Custom duties",
+      "relatedExpenseId": "expense-1761567134885-xefsbazva",
+      "createdAt": "2025-10-27T12:12:14.885Z"
     },
     {
       "id": "cash-1761569327525-8r6ih1of1",
       "date": "2025-10-24",
       "type": "sale",
       "amount": 935,
-      "balance": 11010.999999999996,
+      "balance": 7567.499999999985,
       "description": "Sale: CINTURE (Belts), PLASTICA",
       "relatedSaleId": "sale-1761569327525-o2yjq8id5",
       "createdAt": "2025-10-27T12:48:47.524Z"
-    },
-    {
-      "id": "cash-1761569519878-khgnmjn9j",
-      "date": "2025-10-25",
-      "type": "expense",
-      "amount": -55,
-      "balance": 10955.999999999996,
-      "description": "Daily Expenses on Casuals: Casuals",
-      "relatedExpenseId": "expense-1761569519878-70ehx2m6f",
-      "createdAt": "2025-10-27T12:51:59.878Z"
     },
     {
       "id": "cash-1761569604062-7kylw0uf5",
       "date": "2025-10-24",
       "type": "expense",
       "amount": -192,
-      "balance": 10763.999999999996,
+      "balance": 7375.499999999985,
       "description": "Other: ANR 40$, Offloading 130$, Office Expenses 22$",
       "relatedExpenseId": "expense-1761569604062-m9y14995u",
       "createdAt": "2025-10-27T12:53:24.062Z"
+    },
+    {
+      "id": "cash-1761569302621-flr2omkxr",
+      "date": "2025-10-25",
+      "type": "sale",
+      "amount": 10076,
+      "balance": 17451.499999999985,
+      "description": "Sale: CREME HOMME, CREME HOMME, CREME ENFANT, HOMME 1, CREME DAMME, CREME DAMME, PRIMETTA, PRIMETTA, PRIMETTA, PLASTICA",
+      "relatedSaleId": "sale-1761569302621-4ockz8vvd",
+      "createdAt": "2025-10-27T12:48:22.621Z"
+    },
+    {
+      "id": "cash-1761569519878-khgnmjn9j",
+      "date": "2025-10-25",
+      "type": "expense",
+      "amount": -55,
+      "balance": 17396.499999999985,
+      "description": "Daily Expenses on Casuals: Casuals",
+      "relatedExpenseId": "expense-1761569519878-70ehx2m6f",
+      "createdAt": "2025-10-27T12:51:59.878Z"
     },
     {
       "id": "cash-1761605128395-y95lx5b0p",
       "date": "2025-10-27",
       "type": "expense",
       "amount": -25,
-      "balance": 17371.499999999996,
+      "balance": 17371.499999999985,
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1761605128395-mcgrtjuvl",
       "createdAt": "2025-10-27T22:45:28.395Z"
@@ -910,7 +910,7 @@
       "date": "2025-10-27",
       "type": "sale",
       "amount": 2996,
-      "balance": 20367.499999999996,
+      "balance": 20367.499999999985,
       "description": "Sale: CREME DAMME, PRIMETTA, PRIMETTA, PRIMETTA, PLASTICA",
       "relatedSaleId": "sale-1761605207785-xa3he5ydi",
       "createdAt": "2025-10-27T22:46:47.785Z"
@@ -920,7 +920,7 @@
       "date": "2025-10-28",
       "type": "sale",
       "amount": 1241,
-      "balance": 21608.499999999996,
+      "balance": 21608.499999999985,
       "description": "Sale: PRIMETTA, PRIMETTA, PRIMETTA",
       "relatedSaleId": "sale-1761687114138-k3sg79q4r",
       "createdAt": "2025-10-28T21:31:54.138Z"
@@ -930,7 +930,7 @@
       "date": "2025-10-28",
       "type": "expense",
       "amount": -13,
-      "balance": 21595.499999999996,
+      "balance": 21595.499999999985,
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1761687136069-7p5vdlcng",
       "createdAt": "2025-10-28T21:32:16.069Z"
@@ -940,27 +940,17 @@
       "date": "2025-10-29",
       "type": "sale",
       "amount": 321,
-      "balance": 21916.499999999996,
+      "balance": 21916.499999999985,
       "description": "Sale: PRIMETTA",
       "relatedSaleId": "sale-1761767509454-w9l0ugi3y",
       "createdAt": "2025-10-29T19:51:49.454Z"
-    },
-    {
-      "id": "cash-1761944541887-ndj6ne8zh",
-      "date": "2025-10-31",
-      "type": "sale",
-      "amount": 300,
-      "balance": 22216.499999999996,
-      "description": "Sale: PRIMETTA",
-      "relatedSaleId": "sale-1761944541887-o73bfjp5e",
-      "createdAt": "2025-10-31T21:02:21.887Z"
     },
     {
       "id": "cash-1761944603627-8aaesfz6v",
       "date": "2025-10-30",
       "type": "payment",
       "amount": -35160,
-      "balance": -12943.500000000004,
+      "balance": -13243.500000000015,
       "description": "Payment to ID MONDO 2011",
       "relatedPaymentId": "payment-1761944603614-4swa5qifa",
       "createdAt": "2025-10-31T21:03:23.627Z"
@@ -970,7 +960,7 @@
       "date": "2025-10-30",
       "type": "payment",
       "amount": -23360,
-      "balance": -36303.5,
+      "balance": -36603.500000000015,
       "description": "Payment to JAVEED",
       "relatedPaymentId": "payment-1761944646352-76jwp0m3c",
       "createdAt": "2025-10-31T21:04:06.365Z"
@@ -979,20 +969,30 @@
       "id": "cash-1761944712928-pzkicqnc6",
       "date": "2025-10-30",
       "type": "partner_injection",
-      "amount": 81880,
-      "balance": 45576.5,
+      "amount": 58520,
+      "balance": 21916.499999999985,
       "description": "Hussein Nachar - injection: Additional Investment - 30k Miloud, 20k Javeed",
       "relatedPartnerTransactionId": "partner-tx-1761944712928-jpsdajx37",
       "createdAt": "2025-10-31T21:05:12.928Z"
+    },
+    {
+      "id": "cash-1761944541887-ndj6ne8zh",
+      "date": "2025-10-31",
+      "type": "sale",
+      "amount": 300,
+      "balance": 22216.499999999985,
+      "description": "Sale: PRIMETTA",
+      "relatedSaleId": "sale-1761944541887-o73bfjp5e",
+      "createdAt": "2025-10-31T21:02:21.887Z"
     }
   ],
   "partners": [
     {
       "id": "partner-1761567000220-ud9j50xkb",
       "name": "Hussein Nachar",
-      "balance": 220150,
+      "balance": 196790,
       "createdAt": "2025-10-27T12:10:00.220Z",
-      "updatedAt": "2025-10-31T21:05:12.928Z"
+      "updatedAt": "2025-10-31T21:06:45.200Z"
     },
     {
       "id": "partner-1761567005135-tkgopvfoc",
@@ -1057,16 +1057,16 @@
       "partnerName": "Hussein Nachar",
       "date": "2025-10-30",
       "type": "injection",
-      "amountUSD": 81880,
+      "amountUSD": 58520,
       "description": "Additional Investment - 30k Miloud, 20k Javeed",
       "createdAt": "2025-10-31T21:05:12.928Z",
-      "updatedAt": "2025-10-31T21:05:12.928Z",
+      "updatedAt": "2025-10-31T21:06:45.200Z",
       "relatedCashTransactionId": "cash-1761944712928-pzkicqnc6"
     }
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-31T21:05:15.037Z",
+    "lastUpdated": "2025-10-31T21:06:46.505Z",
     "version": "1.0.0"
   }
 }
