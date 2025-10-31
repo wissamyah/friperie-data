@@ -193,18 +193,6 @@
   ],
   "supplierLedger": [
     {
-      "id": "ledger-1761567390771-2956esa1o",
-      "supplierId": "1761567158983-v6gbo99ie",
-      "supplierName": "JAVEED",
-      "type": "payment",
-      "amount": 30000,
-      "balance": 30000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761567390745-uy1wir9gm",
-      "date": "2025-07-24",
-      "createdAt": "2025-10-27T12:16:30.771Z"
-    },
-    {
       "id": "ledger-1761567248243-4tpke7s2o",
       "supplierId": "1761567155629-79r9goq8m",
       "supplierName": "ID MONDO 2011",
@@ -263,6 +251,30 @@
       "relatedPaymentId": "payment-1761944603614-4swa5qifa",
       "date": "2025-10-30",
       "createdAt": "2025-10-31T21:03:23.627Z"
+    },
+    {
+      "id": "ledger-1761567390771-2956esa1o",
+      "supplierId": "1761567158983-v6gbo99ie",
+      "supplierName": "JAVEED",
+      "type": "payment",
+      "amount": 30000,
+      "balance": 30000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761567390745-uy1wir9gm",
+      "date": "2025-07-24",
+      "createdAt": "2025-10-27T12:16:30.771Z"
+    },
+    {
+      "id": "ledger-1761944646365-dgphz96xc",
+      "supplierId": "1761567158983-v6gbo99ie",
+      "supplierName": "JAVEED",
+      "type": "payment",
+      "amount": 20000,
+      "balance": 50000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761944646352-76jwp0m3c",
+      "date": "2025-10-30",
+      "createdAt": "2025-10-31T21:04:06.365Z"
     }
   ],
   "payments": [
@@ -354,6 +366,21 @@
       "notes": "",
       "createdAt": "2025-10-31T21:03:23.614Z",
       "updatedAt": "2025-10-31T21:03:23.614Z"
+    },
+    {
+      "id": "payment-1761944646352-76jwp0m3c",
+      "date": "2025-10-30",
+      "supplierId": "1761567158983-v6gbo99ie",
+      "supplierName": "JAVEED",
+      "amountEUR": 20000,
+      "exchangeRate": 1.168,
+      "commissionPercent": 0,
+      "amountUSD": 23360,
+      "allocations": [],
+      "unallocatedEUR": 20000,
+      "notes": "",
+      "createdAt": "2025-10-31T21:04:06.352Z",
+      "updatedAt": "2025-10-31T21:04:06.352Z"
     }
   ],
   "sales": [
@@ -937,6 +964,16 @@
       "description": "Payment to ID MONDO 2011",
       "relatedPaymentId": "payment-1761944603614-4swa5qifa",
       "createdAt": "2025-10-31T21:03:23.627Z"
+    },
+    {
+      "id": "cash-1761944646365-73sw6r0ob",
+      "date": "2025-10-30",
+      "type": "payment",
+      "amount": -23360,
+      "balance": -36303.5,
+      "description": "Payment to JAVEED",
+      "relatedPaymentId": "payment-1761944646352-76jwp0m3c",
+      "createdAt": "2025-10-31T21:04:06.365Z"
     }
   ],
   "partners": [
@@ -1007,7 +1044,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-31T21:03:25.057Z",
+    "lastUpdated": "2025-10-31T21:04:07.649Z",
     "version": "1.0.0"
   }
 }
