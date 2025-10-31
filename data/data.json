@@ -251,6 +251,18 @@
       "relatedContainerId": "1761568459312-c4i7igwo9",
       "date": "2025-08-04",
       "createdAt": "2025-10-27T12:34:19.461Z"
+    },
+    {
+      "id": "ledger-1761944603627-rm02m039x",
+      "supplierId": "1761567155629-79r9goq8m",
+      "supplierName": "ID MONDO 2011",
+      "type": "payment",
+      "amount": 30000,
+      "balance": 47259,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761944603614-4swa5qifa",
+      "date": "2025-10-30",
+      "createdAt": "2025-10-31T21:03:23.627Z"
     }
   ],
   "payments": [
@@ -327,6 +339,21 @@
       "notes": "",
       "createdAt": "2025-10-27T12:35:49.815Z",
       "updatedAt": "2025-10-27T15:02:28.409Z"
+    },
+    {
+      "id": "payment-1761944603614-4swa5qifa",
+      "date": "2025-10-30",
+      "supplierId": "1761567155629-79r9goq8m",
+      "supplierName": "ID MONDO 2011",
+      "amountEUR": 30000,
+      "exchangeRate": 1.172,
+      "commissionPercent": 0,
+      "amountUSD": 35160,
+      "allocations": [],
+      "unallocatedEUR": 30000,
+      "notes": "",
+      "createdAt": "2025-10-31T21:03:23.614Z",
+      "updatedAt": "2025-10-31T21:03:23.614Z"
     }
   ],
   "sales": [
@@ -900,6 +927,16 @@
       "description": "Sale: PRIMETTA",
       "relatedSaleId": "sale-1761944541887-o73bfjp5e",
       "createdAt": "2025-10-31T21:02:21.887Z"
+    },
+    {
+      "id": "cash-1761944603627-8aaesfz6v",
+      "date": "2025-10-30",
+      "type": "payment",
+      "amount": -35160,
+      "balance": -12943.500000000004,
+      "description": "Payment to ID MONDO 2011",
+      "relatedPaymentId": "payment-1761944603614-4swa5qifa",
+      "createdAt": "2025-10-31T21:03:23.627Z"
     }
   ],
   "partners": [
@@ -970,7 +1007,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-10-31T21:02:23.471Z",
+    "lastUpdated": "2025-10-31T21:03:25.057Z",
     "version": "1.0.0"
   }
 }
