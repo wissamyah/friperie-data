@@ -895,6 +895,15 @@
       "description": "Shawumba Depot",
       "createdAt": "2025-11-04T09:56:46.217Z",
       "updatedAt": "2025-11-04T09:56:46.217Z"
+    },
+    {
+      "id": "expense-1762250220975-xt6dpakef",
+      "date": "2025-11-03",
+      "category": "Salaries",
+      "amountUSD": 250,
+      "description": "Salaries",
+      "createdAt": "2025-11-04T09:57:00.975Z",
+      "updatedAt": "2025-11-04T09:57:00.975Z"
     }
   ],
   "cashTransactions": [
@@ -1177,6 +1186,16 @@
       "description": "Rent: Shawumba Depot",
       "relatedExpenseId": "expense-1762250206217-5ipye729f",
       "createdAt": "2025-11-04T09:56:46.217Z"
+    },
+    {
+      "id": "cash-1762250220975-klqhun8pg",
+      "date": "2025-11-03",
+      "type": "expense",
+      "amount": -250,
+      "balance": 23106.499999999985,
+      "description": "Salaries: Salaries",
+      "relatedExpenseId": "expense-1762250220975-xt6dpakef",
+      "createdAt": "2025-11-04T09:57:00.975Z"
     }
   ],
   "partners": [
@@ -1259,7 +1278,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-04T09:56:46.825Z",
+    "lastUpdated": "2025-11-04T09:57:01.850Z",
     "version": "1.0.0"
   }
 }
