@@ -2397,6 +2397,15 @@
       "description": "Salaries",
       "createdAt": "2025-11-04T10:00:22.894Z",
       "updatedAt": "2025-11-04T10:00:22.894Z"
+    },
+    {
+      "id": "expense-1762250495547-qumv74a5i",
+      "date": "2025-11-03",
+      "category": "Commission on Transfer",
+      "amountUSD": 600,
+      "description": "Frais transfert pour 30k USD",
+      "createdAt": "2025-11-04T10:01:35.547Z",
+      "updatedAt": "2025-11-04T10:01:35.547Z"
     }
   ],
   "cashTransactions": [
@@ -3239,6 +3248,16 @@
       "description": "Salaries: Salaries",
       "relatedExpenseId": "expense-1762250422894-bhx4vigyf",
       "createdAt": "2025-11-04T10:00:22.894Z"
+    },
+    {
+      "id": "cash-1762250495547-oox64df08",
+      "date": "2025-11-03",
+      "type": "expense",
+      "amount": -600,
+      "balance": 34309.5,
+      "description": "Commission on Transfer: Frais transfert pour 30k USD",
+      "relatedExpenseId": "expense-1762250495547-qumv74a5i",
+      "createdAt": "2025-11-04T10:01:35.547Z"
     }
   ],
   "partners": [
@@ -3309,7 +3328,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-04T10:00:23.699Z",
+    "lastUpdated": "2025-11-04T10:01:36.337Z",
     "version": "1.0.0"
   }
 }
