@@ -3258,6 +3258,16 @@
       "description": "Commission on Transfer: Frais transfert pour 30k USD",
       "relatedExpenseId": "expense-1762250495547-qumv74a5i",
       "createdAt": "2025-11-04T10:01:35.547Z"
+    },
+    {
+      "id": "cash-1762251776653-2y1nit7gd",
+      "date": "2025-11-03",
+      "type": "partner_withdrawal",
+      "amount": -30000,
+      "balance": 4309.5,
+      "description": "Haj Nader - withdrawal: Repayment (600$ comm. on transfer)",
+      "relatedPartnerTransactionId": "partner-tx-1762251776653-7gam04gcd",
+      "createdAt": "2025-11-04T10:22:56.653Z"
     }
   ],
   "partners": [
@@ -3271,9 +3281,9 @@
     {
       "id": "partner-1760312137563-1yt75ha4n",
       "name": "Haj Nader",
-      "balance": -40000,
+      "balance": -70000,
       "createdAt": "2025-10-12T23:35:37.563Z",
-      "updatedAt": "2025-10-13T22:59:16.289Z"
+      "updatedAt": "2025-11-04T10:22:56.653Z"
     }
   ],
   "partnerTransactions": [
@@ -3324,11 +3334,23 @@
       "createdAt": "2025-10-19T13:47:37.043Z",
       "updatedAt": "2025-10-19T13:47:37.043Z",
       "relatedCashTransactionId": "cash-1760881657043-1nwjptiio"
+    },
+    {
+      "id": "partner-tx-1762251776653-7gam04gcd",
+      "partnerId": "partner-1760312137563-1yt75ha4n",
+      "partnerName": "Haj Nader",
+      "date": "2025-11-03",
+      "type": "withdrawal",
+      "amountUSD": 30000,
+      "description": "Repayment (600$ comm. on transfer)",
+      "createdAt": "2025-11-04T10:22:56.653Z",
+      "updatedAt": "2025-11-04T10:22:56.653Z",
+      "relatedCashTransactionId": "cash-1762251776653-2y1nit7gd"
     }
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-04T10:01:36.337Z",
+    "lastUpdated": "2025-11-04T10:23:01.302Z",
     "version": "1.0.0"
   }
 }
