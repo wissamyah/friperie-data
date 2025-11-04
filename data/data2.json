@@ -3,18 +3,18 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 40,
+      "quantity": 34,
       "costPerBagUSD": 112.97919642857144,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-11-04T09:59:11.444Z"
+      "updatedAt": "2025-11-04T22:10:52.678Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 147,
+      "quantity": 144,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-11-04T09:59:11.444Z"
+      "updatedAt": "2025-11-04T22:10:52.678Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -2008,6 +2008,61 @@
       "totalAmountUSD": 1122.5,
       "createdAt": "2025-11-04T09:59:11.444Z",
       "updatedAt": "2025-11-04T09:59:11.444Z"
+    },
+    {
+      "id": "sale-1762294252678-nrvn989zy",
+      "date": "2025-11-04",
+      "products": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 1,
+          "sellingPriceUSD": 65,
+          "lineTotal": 65
+        },
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 1,
+          "sellingPriceUSD": 135,
+          "lineTotal": 135
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 2,
+          "sellingPriceUSD": 62.5,
+          "lineTotal": 125
+        },
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 5,
+          "sellingPriceUSD": 145,
+          "lineTotal": 725
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 3,
+          "averagePrice": 63.333333333333336,
+          "totalAmount": 190,
+          "priceVariations": 2
+        },
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "totalQuantity": 6,
+          "averagePrice": 143.33333333333334,
+          "totalAmount": 860,
+          "priceVariations": 2
+        }
+      ],
+      "totalAmountUSD": 1050,
+      "createdAt": "2025-11-04T22:10:52.678Z",
+      "updatedAt": "2025-11-04T22:10:52.678Z"
     }
   ],
   "expenses": [
@@ -3268,6 +3323,16 @@
       "description": "Haj Nader - withdrawal: Repayment (600$ comm. on transfer)",
       "relatedPartnerTransactionId": "partner-tx-1762251776653-7gam04gcd",
       "createdAt": "2025-11-04T10:22:56.653Z"
+    },
+    {
+      "id": "cash-1762294252678-lgf0hmjee",
+      "date": "2025-11-04",
+      "type": "sale",
+      "amount": 1050,
+      "balance": 5359.5,
+      "description": "Sale: MIX II, MIX I, MIX II, MIX I",
+      "relatedSaleId": "sale-1762294252678-nrvn989zy",
+      "createdAt": "2025-11-04T22:10:52.678Z"
     }
   ],
   "partners": [
@@ -3350,7 +3415,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-04T10:23:01.302Z",
+    "lastUpdated": "2025-11-04T22:10:53.855Z",
     "version": "1.0.0"
   }
 }
