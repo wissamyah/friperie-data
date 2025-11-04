@@ -43,10 +43,10 @@
     {
       "id": "1761567189686-8s0lbn3zj",
       "name": "PRIMETTA",
-      "quantity": 151,
+      "quantity": 145,
       "costPerBagUSD": 81.09105141156245,
       "createdAt": "2025-10-27T12:13:09.686Z",
-      "updatedAt": "2025-11-02T21:10:51.197Z"
+      "updatedAt": "2025-11-04T09:56:10.124Z"
     },
     {
       "id": "1761567194457-hlro9xaik",
@@ -786,6 +786,32 @@
       "totalAmountUSD": 1595,
       "createdAt": "2025-11-02T21:10:51.197Z",
       "updatedAt": "2025-11-02T21:10:51.197Z"
+    },
+    {
+      "id": "sale-1762250170124-l09td58gd",
+      "date": "2025-11-03",
+      "products": [
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 6,
+          "sellingPriceUSD": 105,
+          "lineTotal": 630
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "totalQuantity": 6,
+          "averagePrice": 105,
+          "totalAmount": 630,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 630,
+      "createdAt": "2025-11-04T09:56:10.124Z",
+      "updatedAt": "2025-11-04T09:56:10.124Z"
     }
   ],
   "expenses": [
@@ -1103,6 +1129,16 @@
       "description": "Other: Avocat SAM",
       "relatedExpenseId": "expense-1762117968922-p9r5x5b77",
       "createdAt": "2025-11-02T21:12:48.922Z"
+    },
+    {
+      "id": "cash-1762250170124-8t0fm24lo",
+      "date": "2025-11-03",
+      "type": "sale",
+      "amount": 630,
+      "balance": 24366.499999999985,
+      "description": "Sale: PRIMETTA",
+      "relatedSaleId": "sale-1762250170124-l09td58gd",
+      "createdAt": "2025-11-04T09:56:10.124Z"
     }
   ],
   "partners": [
@@ -1185,7 +1221,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-02T21:12:52.315Z",
+    "lastUpdated": "2025-11-04T09:56:10.742Z",
     "version": "1.0.0"
   }
 }
