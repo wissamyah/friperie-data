@@ -886,6 +886,15 @@
       "description": "Casuals",
       "createdAt": "2025-11-04T09:56:28.361Z",
       "updatedAt": "2025-11-04T09:56:28.361Z"
+    },
+    {
+      "id": "expense-1762250206217-5ipye729f",
+      "date": "2025-11-03",
+      "category": "Rent",
+      "amountUSD": 1000,
+      "description": "Shawumba Depot",
+      "createdAt": "2025-11-04T09:56:46.217Z",
+      "updatedAt": "2025-11-04T09:56:46.217Z"
     }
   ],
   "cashTransactions": [
@@ -1158,6 +1167,16 @@
       "description": "Daily Expenses on Casuals: Casuals",
       "relatedExpenseId": "expense-1762250188361-m07gmv9sn",
       "createdAt": "2025-11-04T09:56:28.361Z"
+    },
+    {
+      "id": "cash-1762250206217-b1emydlrq",
+      "date": "2025-11-03",
+      "type": "expense",
+      "amount": -1000,
+      "balance": 23356.499999999985,
+      "description": "Rent: Shawumba Depot",
+      "relatedExpenseId": "expense-1762250206217-5ipye729f",
+      "createdAt": "2025-11-04T09:56:46.217Z"
     }
   ],
   "partners": [
@@ -1240,7 +1259,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-04T09:56:29.090Z",
+    "lastUpdated": "2025-11-04T09:56:46.825Z",
     "version": "1.0.0"
   }
 }
