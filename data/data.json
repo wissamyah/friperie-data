@@ -877,6 +877,15 @@
       "description": "Avocat SAM",
       "createdAt": "2025-11-02T21:12:48.922Z",
       "updatedAt": "2025-11-02T21:12:48.922Z"
+    },
+    {
+      "id": "expense-1762250188361-m07gmv9sn",
+      "date": "2025-11-03",
+      "category": "Daily Expenses on Casuals",
+      "amountUSD": 10,
+      "description": "Casuals",
+      "createdAt": "2025-11-04T09:56:28.361Z",
+      "updatedAt": "2025-11-04T09:56:28.361Z"
     }
   ],
   "cashTransactions": [
@@ -1139,6 +1148,16 @@
       "description": "Sale: PRIMETTA",
       "relatedSaleId": "sale-1762250170124-l09td58gd",
       "createdAt": "2025-11-04T09:56:10.124Z"
+    },
+    {
+      "id": "cash-1762250188361-68vsfgd2u",
+      "date": "2025-11-03",
+      "type": "expense",
+      "amount": -10,
+      "balance": 24356.499999999985,
+      "description": "Daily Expenses on Casuals: Casuals",
+      "relatedExpenseId": "expense-1762250188361-m07gmv9sn",
+      "createdAt": "2025-11-04T09:56:28.361Z"
     }
   ],
   "partners": [
@@ -1221,7 +1240,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-04T09:56:10.742Z",
+    "lastUpdated": "2025-11-04T09:56:29.090Z",
     "version": "1.0.0"
   }
 }
