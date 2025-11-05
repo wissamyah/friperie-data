@@ -936,9 +936,9 @@
       "date": "2025-11-05",
       "category": "Daily Expenses on Casuals",
       "amountUSD": 10,
-      "description": "Journaliers",
+      "description": "Casuals",
       "createdAt": "2025-11-05T23:11:25.594Z",
-      "updatedAt": "2025-11-05T23:11:25.594Z"
+      "updatedAt": "2025-11-05T23:11:40.882Z"
     }
   ],
   "cashTransactions": [
@@ -1248,7 +1248,7 @@
       "type": "expense",
       "amount": -10,
       "balance": 23414.499999999985,
-      "description": "Daily Expenses on Casuals: Journaliers",
+      "description": "Daily Expenses on Casuals: Casuals",
       "relatedExpenseId": "expense-1762384285594-qp2v0f3lu",
       "createdAt": "2025-11-05T23:11:25.594Z"
     }
@@ -1333,7 +1333,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-05T23:11:26.271Z",
+    "lastUpdated": "2025-11-05T23:11:41.571Z",
     "version": "1.0.0"
   }
 }
