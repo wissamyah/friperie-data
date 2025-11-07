@@ -895,11 +895,11 @@
     {
       "id": "expense-1761569604062-m9y14995u",
       "date": "2025-10-24",
-      "category": "Financial",
-      "amountUSD": 192,
+      "category": "Operations",
+      "amountUSD": 170,
       "description": "ANR 40$, Offloading 130$, Office Expenses 22$",
       "createdAt": "2025-10-27T12:53:24.062Z",
-      "updatedAt": "2025-11-07T22:12:47.694Z"
+      "updatedAt": "2025-11-07T22:16:49.197Z"
     },
     {
       "id": "expense-1761605128395-mcgrtjuvl",
@@ -1097,9 +1097,9 @@
       "id": "cash-1761569604062-7kylw0uf5",
       "date": "2025-10-24",
       "type": "expense",
-      "amount": -192,
-      "balance": 7375.499999999985,
-      "description": "Financial: ANR 40$, Offloading 130$, Office Expenses 22$",
+      "amount": -170,
+      "balance": 7397.499999999985,
+      "description": "Operations: ANR 40$, Offloading 130$, Office Expenses 22$",
       "relatedExpenseId": "expense-1761569604062-m9y14995u",
       "createdAt": "2025-10-27T12:53:24.062Z"
     },
@@ -1414,7 +1414,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-07T22:12:48.471Z",
+    "lastUpdated": "2025-11-07T22:16:50.767Z",
     "version": "1.0.0"
   }
 }
