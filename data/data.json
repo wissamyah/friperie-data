@@ -897,9 +897,9 @@
       "date": "2025-10-24",
       "category": "Operations",
       "amountUSD": 170,
-      "description": "ANR 40$, Offloading 130$, Office Expenses 22$",
+      "description": "ANR 40$, Offloading 130$",
       "createdAt": "2025-10-27T12:53:24.062Z",
-      "updatedAt": "2025-11-07T22:16:49.197Z"
+      "updatedAt": "2025-11-07T22:17:46.311Z"
     },
     {
       "id": "expense-1761605128395-mcgrtjuvl",
@@ -1108,7 +1108,7 @@
       "type": "expense",
       "amount": -170,
       "balance": 7397.499999999985,
-      "description": "Operations: ANR 40$, Offloading 130$, Office Expenses 22$",
+      "description": "Operations: ANR 40$, Offloading 130$",
       "relatedExpenseId": "expense-1761569604062-m9y14995u",
       "createdAt": "2025-10-27T12:53:24.062Z"
     },
@@ -1433,7 +1433,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-07T22:17:23.180Z",
+    "lastUpdated": "2025-11-07T22:17:47.043Z",
     "version": "1.0.0"
   }
 }
