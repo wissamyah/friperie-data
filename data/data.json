@@ -981,6 +981,15 @@
       "description": "DEMIAP",
       "createdAt": "2025-11-07T21:50:52.945Z",
       "updatedAt": "2025-11-07T21:50:52.945Z"
+    },
+    {
+      "id": "expense-1762552265010-7g3hu6mns",
+      "date": "2025-11-07",
+      "category": "Daily Expenses on Casuals",
+      "amountUSD": 20,
+      "description": "Casuals (Journaliers)",
+      "createdAt": "2025-11-07T21:51:05.010Z",
+      "updatedAt": "2025-11-07T21:51:05.010Z"
     }
   ],
   "cashTransactions": [
@@ -1313,6 +1322,16 @@
       "description": "Other: DEMIAP",
       "relatedExpenseId": "expense-1762552252945-834tdr1t8",
       "createdAt": "2025-11-07T21:50:52.945Z"
+    },
+    {
+      "id": "cash-1762552265010-mzkvrrnak",
+      "date": "2025-11-07",
+      "type": "expense",
+      "amount": -20,
+      "balance": 25299.499999999985,
+      "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
+      "relatedExpenseId": "expense-1762552265010-7g3hu6mns",
+      "createdAt": "2025-11-07T21:51:05.010Z"
     }
   ],
   "partners": [
@@ -1395,7 +1414,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-07T21:50:53.594Z",
+    "lastUpdated": "2025-11-07T21:51:05.833Z",
     "version": "1.0.0"
   }
 }
