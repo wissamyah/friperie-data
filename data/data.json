@@ -972,6 +972,15 @@
       "description": "Casuals (Journaliers)",
       "createdAt": "2025-11-05T23:11:25.594Z",
       "updatedAt": "2025-11-05T23:12:18.158Z"
+    },
+    {
+      "id": "expense-1762552252945-834tdr1t8",
+      "date": "2025-11-07",
+      "category": "Other",
+      "amountUSD": 30,
+      "description": "DEMIAP",
+      "createdAt": "2025-11-07T21:50:52.945Z",
+      "updatedAt": "2025-11-07T21:50:52.945Z"
     }
   ],
   "cashTransactions": [
@@ -1294,6 +1303,16 @@
       "description": "Sale: PRIMETTA, PRIMETTA",
       "relatedSaleId": "sale-1762552227950-6s26ff0ey",
       "createdAt": "2025-11-07T21:50:27.949Z"
+    },
+    {
+      "id": "cash-1762552252945-sb1ucuk0c",
+      "date": "2025-11-07",
+      "type": "expense",
+      "amount": -30,
+      "balance": 25319.499999999985,
+      "description": "Other: DEMIAP",
+      "relatedExpenseId": "expense-1762552252945-834tdr1t8",
+      "createdAt": "2025-11-07T21:50:52.945Z"
     }
   ],
   "partners": [
@@ -1376,7 +1395,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-07T21:50:29.524Z",
+    "lastUpdated": "2025-11-07T21:50:53.594Z",
     "version": "1.0.0"
   }
 }
