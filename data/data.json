@@ -976,11 +976,11 @@
     {
       "id": "expense-1762552252945-834tdr1t8",
       "date": "2025-11-07",
-      "category": "Other",
+      "category": "Financial",
       "amountUSD": 30,
       "description": "DEMIAP",
       "createdAt": "2025-11-07T21:50:52.945Z",
-      "updatedAt": "2025-11-07T21:50:52.945Z"
+      "updatedAt": "2025-11-07T22:12:24.302Z"
     },
     {
       "id": "expense-1762552265010-7g3hu6mns",
@@ -1319,7 +1319,7 @@
       "type": "expense",
       "amount": -30,
       "balance": 25319.499999999985,
-      "description": "Other: DEMIAP",
+      "description": "Financial: DEMIAP",
       "relatedExpenseId": "expense-1762552252945-834tdr1t8",
       "createdAt": "2025-11-07T21:50:52.945Z"
     },
@@ -1414,7 +1414,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-07T21:51:05.833Z",
+    "lastUpdated": "2025-11-07T22:12:25.120Z",
     "version": "1.0.0"
   }
 }
