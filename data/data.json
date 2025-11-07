@@ -931,11 +931,11 @@
     {
       "id": "expense-1762117968922-p9r5x5b77",
       "date": "2025-11-01",
-      "category": "Other",
+      "category": "Financial",
       "amountUSD": 50,
       "description": "Avocat SAM",
       "createdAt": "2025-11-02T21:12:48.922Z",
-      "updatedAt": "2025-11-02T21:12:48.922Z"
+      "updatedAt": "2025-11-07T22:12:37.503Z"
     },
     {
       "id": "expense-1762250188361-m07gmv9sn",
@@ -1239,7 +1239,7 @@
       "type": "expense",
       "amount": -50,
       "balance": 23736.499999999985,
-      "description": "Other: Avocat SAM",
+      "description": "Financial: Avocat SAM",
       "relatedExpenseId": "expense-1762117968922-p9r5x5b77",
       "createdAt": "2025-11-02T21:12:48.922Z"
     },
@@ -1414,7 +1414,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-07T22:12:25.120Z",
+    "lastUpdated": "2025-11-07T22:12:38.631Z",
     "version": "1.0.0"
   }
 }
