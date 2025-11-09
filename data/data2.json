@@ -2572,9 +2572,9 @@
       "date": "2025-11-08",
       "category": "Salaries",
       "amountUSD": 25,
-      "description": "Casualls (Journaliers)",
+      "description": "Casuals",
       "createdAt": "2025-11-09T21:23:02.274Z",
-      "updatedAt": "2025-11-09T21:23:02.274Z"
+      "updatedAt": "2025-11-09T21:23:17.457Z"
     }
   ],
   "cashTransactions": [
@@ -3514,7 +3514,7 @@
       "type": "expense",
       "amount": -25,
       "balance": 6295.5,
-      "description": "Salaries: Casualls (Journaliers)",
+      "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1762723382274-3gbbwcea9",
       "createdAt": "2025-11-09T21:23:02.274Z"
     }
@@ -3599,7 +3599,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-09T21:23:03.895Z",
+    "lastUpdated": "2025-11-09T21:23:18.866Z",
     "version": "1.0.0"
   }
 }
