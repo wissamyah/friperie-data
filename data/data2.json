@@ -11,10 +11,10 @@
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 122,
+      "quantity": 100,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-11-12T15:05:09.749Z"
+      "updatedAt": "2025-11-15T10:35:50.827Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -2285,6 +2285,32 @@
       "totalAmountUSD": 1060,
       "createdAt": "2025-11-12T15:05:09.749Z",
       "updatedAt": "2025-11-12T15:05:09.749Z"
+    },
+    {
+      "id": "sale-1763202950827-2o0inm30g",
+      "date": "2025-11-13",
+      "products": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 22,
+          "sellingPriceUSD": 60,
+          "lineTotal": 1320
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 22,
+          "averagePrice": 60,
+          "totalAmount": 1320,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 1320,
+      "createdAt": "2025-11-15T10:35:50.827Z",
+      "updatedAt": "2025-11-15T10:35:50.827Z"
     }
   ],
   "expenses": [
@@ -3748,6 +3774,16 @@
       "description": "Utilities: Electricity",
       "relatedExpenseId": "expense-1762959959969-uma14im0y",
       "createdAt": "2025-11-12T15:05:59.969Z"
+    },
+    {
+      "id": "cash-1763202950827-wo47z8ihx",
+      "date": "2025-11-13",
+      "type": "sale",
+      "amount": 1320,
+      "balance": 11144,
+      "description": "Sale: MIX II",
+      "relatedSaleId": "sale-1763202950827-2o0inm30g",
+      "createdAt": "2025-11-15T10:35:50.827Z"
     }
   ],
   "partners": [
@@ -3830,7 +3866,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-12T15:06:01.015Z",
+    "lastUpdated": "2025-11-15T10:35:51.731Z",
     "version": "1.0.0"
   }
 }
