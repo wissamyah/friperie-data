@@ -3803,15 +3803,25 @@
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1763202967628-q6pnfue1e",
       "createdAt": "2025-11-15T10:36:07.628Z"
+    },
+    {
+      "id": "cash-1763204162460-yzphkpx6g",
+      "date": "2025-11-13",
+      "type": "partner_withdrawal",
+      "amount": -3781,
+      "balance": 7343,
+      "description": "Haj Hussein - withdrawal: Personal Expenses (Difference de caisse)",
+      "relatedPartnerTransactionId": "partner-tx-1763204162460-8h22v39i8",
+      "createdAt": "2025-11-15T10:56:02.460Z"
     }
   ],
   "partners": [
     {
       "id": "partner-1760312126737-z1qeg7pd1",
       "name": "Haj Hussein",
-      "balance": 7839,
+      "balance": 4058,
       "createdAt": "2025-10-12T23:35:26.737Z",
-      "updatedAt": "2025-10-19T13:47:37.043Z"
+      "updatedAt": "2025-11-15T10:56:02.460Z"
     },
     {
       "id": "partner-1760312137563-1yt75ha4n",
@@ -3881,11 +3891,23 @@
       "createdAt": "2025-11-04T10:22:56.653Z",
       "updatedAt": "2025-11-04T10:22:56.653Z",
       "relatedCashTransactionId": "cash-1762251776653-2y1nit7gd"
+    },
+    {
+      "id": "partner-tx-1763204162460-8h22v39i8",
+      "partnerId": "partner-1760312126737-z1qeg7pd1",
+      "partnerName": "Haj Hussein",
+      "date": "2025-11-13",
+      "type": "withdrawal",
+      "amountUSD": 3781,
+      "description": "Personal Expenses (Difference de caisse)",
+      "createdAt": "2025-11-15T10:56:02.460Z",
+      "updatedAt": "2025-11-15T10:56:02.460Z",
+      "relatedCashTransactionId": "cash-1763204162460-yzphkpx6g"
     }
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-15T10:36:08.632Z",
+    "lastUpdated": "2025-11-15T10:56:03.758Z",
     "version": "1.0.0"
   }
 }
