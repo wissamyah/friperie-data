@@ -2772,6 +2772,15 @@
       "description": "Electricity",
       "createdAt": "2025-11-12T15:05:59.969Z",
       "updatedAt": "2025-11-12T15:05:59.969Z"
+    },
+    {
+      "id": "expense-1763202967628-q6pnfue1e",
+      "date": "2025-11-13",
+      "category": "Salaries",
+      "amountUSD": 20,
+      "description": "Casuals",
+      "createdAt": "2025-11-15T10:36:07.628Z",
+      "updatedAt": "2025-11-15T10:36:07.628Z"
     }
   ],
   "cashTransactions": [
@@ -3784,6 +3793,16 @@
       "description": "Sale: MIX II",
       "relatedSaleId": "sale-1763202950827-2o0inm30g",
       "createdAt": "2025-11-15T10:35:50.827Z"
+    },
+    {
+      "id": "cash-1763202967628-do9slw7mc",
+      "date": "2025-11-13",
+      "type": "expense",
+      "amount": -20,
+      "balance": 11124,
+      "description": "Salaries: Casuals",
+      "relatedExpenseId": "expense-1763202967628-q6pnfue1e",
+      "createdAt": "2025-11-15T10:36:07.628Z"
     }
   ],
   "partners": [
@@ -3866,7 +3885,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-15T10:35:51.731Z",
+    "lastUpdated": "2025-11-15T10:36:08.632Z",
     "version": "1.0.0"
   }
 }
