@@ -1081,6 +1081,15 @@
       "description": "Casuals (Journaliers)",
       "createdAt": "2025-11-07T22:17:21.884Z",
       "updatedAt": "2025-11-07T22:17:21.884Z"
+    },
+    {
+      "id": "expense-1763330846728-ht397tlew",
+      "date": "2025-11-15",
+      "category": "Daily Expenses on Casuals",
+      "amountUSD": 10,
+      "description": "Casuals (journaliers)",
+      "createdAt": "2025-11-16T22:07:26.728Z",
+      "updatedAt": "2025-11-16T22:07:26.728Z"
     }
   ],
   "cashTransactions": [
@@ -1453,6 +1462,16 @@
       "description": "Sale: PLASTICA, PRIMETTA",
       "relatedSaleId": "sale-1763330834269-tk2mntka5",
       "createdAt": "2025-11-16T22:07:14.269Z"
+    },
+    {
+      "id": "cash-1763330846728-pw0rd0lnp",
+      "date": "2025-11-15",
+      "type": "expense",
+      "amount": -10,
+      "balance": 26750.499999999985,
+      "description": "Daily Expenses on Casuals: Casuals (journaliers)",
+      "relatedExpenseId": "expense-1763330846728-ht397tlew",
+      "createdAt": "2025-11-16T22:07:26.728Z"
     }
   ],
   "partners": [
@@ -1535,7 +1554,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-16T22:07:14.939Z",
+    "lastUpdated": "2025-11-16T22:07:27.495Z",
     "version": "1.0.0"
   }
 }
