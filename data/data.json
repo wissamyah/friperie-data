@@ -43,10 +43,10 @@
     {
       "id": "1761567189686-8s0lbn3zj",
       "name": "PRIMETTA",
-      "quantity": 124,
+      "quantity": 121,
       "costPerBagUSD": 81.09105141156245,
       "createdAt": "2025-10-27T12:13:09.686Z",
-      "updatedAt": "2025-11-07T21:50:27.949Z"
+      "updatedAt": "2025-11-16T22:07:14.269Z"
     },
     {
       "id": "1761567194457-hlro9xaik",
@@ -59,10 +59,10 @@
     {
       "id": "1761567198527-7fobkjbib",
       "name": "PLASTICA",
-      "quantity": 6,
+      "quantity": 3,
       "costPerBagUSD": 64.21957912322515,
       "createdAt": "2025-10-27T12:13:18.527Z",
-      "updatedAt": "2025-11-09T21:25:13.504Z"
+      "updatedAt": "2025-11-16T22:07:14.269Z"
     },
     {
       "id": "1761567209950-ecgw41c46",
@@ -912,6 +912,47 @@
       "totalAmountUSD": 885,
       "createdAt": "2025-11-09T21:25:13.504Z",
       "updatedAt": "2025-11-09T21:25:13.504Z"
+    },
+    {
+      "id": "sale-1763330834269-tk2mntka5",
+      "date": "2025-11-15",
+      "products": [
+        {
+          "productId": "1761567198527-7fobkjbib",
+          "productName": "PLASTICA",
+          "quantityBags": 3,
+          "sellingPriceUSD": 85,
+          "lineTotal": 255
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 3,
+          "sellingPriceUSD": 107,
+          "lineTotal": 321
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1761567198527-7fobkjbib",
+          "productName": "PLASTICA",
+          "totalQuantity": 3,
+          "averagePrice": 85,
+          "totalAmount": 255,
+          "priceVariations": 1
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "totalQuantity": 3,
+          "averagePrice": 107,
+          "totalAmount": 321,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 576,
+      "createdAt": "2025-11-16T22:07:14.269Z",
+      "updatedAt": "2025-11-16T22:07:14.269Z"
     }
   ],
   "expenses": [
@@ -1402,6 +1443,16 @@
       "description": "Sale: CREME HOMME, PLASTICA",
       "relatedSaleId": "sale-1762723513504-effncbg3w",
       "createdAt": "2025-11-09T21:25:13.504Z"
+    },
+    {
+      "id": "cash-1763330834269-82xmno2dl",
+      "date": "2025-11-15",
+      "type": "sale",
+      "amount": 576,
+      "balance": 26760.499999999985,
+      "description": "Sale: PLASTICA, PRIMETTA",
+      "relatedSaleId": "sale-1763330834269-tk2mntka5",
+      "createdAt": "2025-11-16T22:07:14.269Z"
     }
   ],
   "partners": [
@@ -1484,7 +1535,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-09T21:25:14.950Z",
+    "lastUpdated": "2025-11-16T22:07:14.939Z",
     "version": "1.0.0"
   }
 }
