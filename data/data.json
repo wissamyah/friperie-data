@@ -27,10 +27,10 @@
     {
       "id": "1761567182835-0p0dwzz7d",
       "name": "MIX I",
-      "quantity": 269,
+      "quantity": 259,
       "costPerBagUSD": 118.90642033369777,
       "createdAt": "2025-10-27T12:13:02.835Z",
-      "updatedAt": "2025-11-02T21:10:51.197Z"
+      "updatedAt": "2025-11-18T00:12:15.054Z"
     },
     {
       "id": "1761567186233-3dox0ct71",
@@ -43,10 +43,10 @@
     {
       "id": "1761567189686-8s0lbn3zj",
       "name": "PRIMETTA",
-      "quantity": 121,
+      "quantity": 106,
       "costPerBagUSD": 81.09105141156245,
       "createdAt": "2025-10-27T12:13:09.686Z",
-      "updatedAt": "2025-11-16T22:07:14.269Z"
+      "updatedAt": "2025-11-18T00:12:15.054Z"
     },
     {
       "id": "1761567194457-hlro9xaik",
@@ -953,6 +953,54 @@
       "totalAmountUSD": 576,
       "createdAt": "2025-11-16T22:07:14.269Z",
       "updatedAt": "2025-11-16T22:07:14.269Z"
+    },
+    {
+      "id": "sale-1763424735055-qydvj7nlp",
+      "date": "2025-11-17",
+      "products": [
+        {
+          "productId": "1761567182835-0p0dwzz7d",
+          "productName": "MIX I",
+          "quantityBags": 10,
+          "sellingPriceUSD": 160,
+          "lineTotal": 1600
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 6,
+          "sellingPriceUSD": 110,
+          "lineTotal": 660
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "quantityBags": 9,
+          "sellingPriceUSD": 106,
+          "lineTotal": 954
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1761567182835-0p0dwzz7d",
+          "productName": "MIX I",
+          "totalQuantity": 10,
+          "averagePrice": 160,
+          "totalAmount": 1600,
+          "priceVariations": 1
+        },
+        {
+          "productId": "1761567189686-8s0lbn3zj",
+          "productName": "PRIMETTA",
+          "totalQuantity": 15,
+          "averagePrice": 107.6,
+          "totalAmount": 1614,
+          "priceVariations": 2
+        }
+      ],
+      "totalAmountUSD": 3214,
+      "createdAt": "2025-11-18T00:12:15.054Z",
+      "updatedAt": "2025-11-18T00:12:15.054Z"
     }
   ],
   "expenses": [
@@ -1491,6 +1539,16 @@
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1763424643146-6sp0z7dv8",
       "createdAt": "2025-11-18T00:10:43.146Z"
+    },
+    {
+      "id": "cash-1763424735055-splcc9z34",
+      "date": "2025-11-17",
+      "type": "sale",
+      "amount": 3214,
+      "balance": 29949.499999999985,
+      "description": "Sale: MIX I, PRIMETTA, PRIMETTA",
+      "relatedSaleId": "sale-1763424735055-qydvj7nlp",
+      "createdAt": "2025-11-18T00:12:15.054Z"
     }
   ],
   "partners": [
@@ -1573,7 +1631,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-18T00:10:43.841Z",
+    "lastUpdated": "2025-11-18T00:12:15.896Z",
     "version": "1.0.0"
   }
 }
