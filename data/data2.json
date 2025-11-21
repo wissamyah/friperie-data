@@ -11,10 +11,10 @@
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 88,
+      "quantity": 77,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-11-18T00:13:57.041Z"
+      "updatedAt": "2025-11-21T14:10:43.375Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -2400,6 +2400,39 @@
       "totalAmountUSD": 445,
       "createdAt": "2025-11-18T00:13:57.041Z",
       "updatedAt": "2025-11-18T00:13:57.041Z"
+    },
+    {
+      "id": "sale-1763734243376-0b603s0nh",
+      "date": "2025-11-18",
+      "products": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 1,
+          "sellingPriceUSD": 65,
+          "lineTotal": 65
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 10,
+          "sellingPriceUSD": 60,
+          "lineTotal": 600
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 11,
+          "averagePrice": 60.45454545454545,
+          "totalAmount": 665,
+          "priceVariations": 2
+        }
+      ],
+      "totalAmountUSD": 665,
+      "createdAt": "2025-11-21T14:10:43.375Z",
+      "updatedAt": "2025-11-21T14:10:43.375Z"
     }
   ],
   "expenses": [
@@ -3960,6 +3993,16 @@
       "description": "Sale: MIX I, MIX II",
       "relatedSaleId": "sale-1763424837041-udrj0rljk",
       "createdAt": "2025-11-18T00:13:57.041Z"
+    },
+    {
+      "id": "cash-1763734243376-99y37fvpk",
+      "date": "2025-11-18",
+      "type": "sale",
+      "amount": 665,
+      "balance": 9118,
+      "description": "Sale: MIX II, MIX II",
+      "relatedSaleId": "sale-1763734243376-0b603s0nh",
+      "createdAt": "2025-11-21T14:10:43.375Z"
     }
   ],
   "partners": [
@@ -4054,7 +4097,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-18T00:13:57.921Z",
+    "lastUpdated": "2025-11-21T14:10:45.090Z",
     "version": "1.0.0"
   }
 }
