@@ -1147,10 +1147,10 @@
       "id": "expense-1762250206217-5ipye729f",
       "date": "2025-11-03",
       "category": "Rent",
-      "amountUSD": 1000,
+      "amountUSD": 750,
       "description": "Shawumba Depot",
       "createdAt": "2025-11-04T09:56:46.217Z",
-      "updatedAt": "2025-11-04T09:56:46.217Z"
+      "updatedAt": "2025-11-21T14:28:29.757Z"
     },
     {
       "id": "expense-1762250220975-xt6dpakef",
@@ -1509,8 +1509,8 @@
       "id": "cash-1762250206217-b1emydlrq",
       "date": "2025-11-03",
       "type": "expense",
-      "amount": -1000,
-      "balance": 23356.499999999985,
+      "amount": -750,
+      "balance": 23606.499999999985,
       "description": "Rent: Shawumba Depot",
       "relatedExpenseId": "expense-1762250206217-5ipye729f",
       "createdAt": "2025-11-04T09:56:46.217Z"
@@ -1756,7 +1756,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-21T14:02:46.417Z",
+    "lastUpdated": "2025-11-21T14:28:31.481Z",
     "version": "1.0.0"
   }
 }
