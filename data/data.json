@@ -1296,12 +1296,12 @@
     },
     {
       "id": "expense-1763935749295-k6x7pz4mm",
-      "date": "2025-11-23",
+      "date": "2025-11-22",
       "category": "Daily Expenses on Casuals",
       "amountUSD": 15,
       "description": "Casuals (Journaliers)",
       "createdAt": "2025-11-23T22:09:09.295Z",
-      "updatedAt": "2025-11-23T22:09:09.295Z"
+      "updatedAt": "2025-11-23T22:09:16.920Z"
     }
   ],
   "cashTransactions": [
@@ -1777,7 +1777,7 @@
     },
     {
       "id": "cash-1763935749295-ctejgsco7",
-      "date": "2025-11-23",
+      "date": "2025-11-22",
       "type": "expense",
       "amount": -15,
       "balance": 34199.499999999985,
@@ -1866,7 +1866,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-23T22:09:10.923Z",
+    "lastUpdated": "2025-11-23T22:09:17.618Z",
     "version": "1.0.0"
   }
 }
