@@ -59,10 +59,10 @@
     {
       "id": "1761567198527-7fobkjbib",
       "name": "PLASTICA",
-      "quantity": 3,
+      "quantity": 1,
       "costPerBagUSD": 64.21957912322515,
       "createdAt": "2025-10-27T12:13:18.527Z",
-      "updatedAt": "2025-11-16T22:07:14.269Z"
+      "updatedAt": "2025-11-23T22:08:28.037Z"
     },
     {
       "id": "1761567209950-ecgw41c46",
@@ -1094,6 +1094,32 @@
       "totalAmountUSD": 480,
       "createdAt": "2025-11-21T19:45:25.677Z",
       "updatedAt": "2025-11-21T19:45:25.677Z"
+    },
+    {
+      "id": "sale-1763935708037-jasj8wgs0",
+      "date": "2025-11-22",
+      "products": [
+        {
+          "productId": "1761567198527-7fobkjbib",
+          "productName": "PLASTICA",
+          "quantityBags": 2,
+          "sellingPriceUSD": 85,
+          "lineTotal": 170
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1761567198527-7fobkjbib",
+          "productName": "PLASTICA",
+          "totalQuantity": 2,
+          "averagePrice": 85,
+          "totalAmount": 170,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 170,
+      "createdAt": "2025-11-23T22:08:28.037Z",
+      "updatedAt": "2025-11-23T22:08:28.037Z"
     }
   ],
   "expenses": [
@@ -1729,6 +1755,16 @@
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1763754337801-zng9vkp7t",
       "createdAt": "2025-11-21T19:45:37.801Z"
+    },
+    {
+      "id": "cash-1763935708038-sspfuvcnm",
+      "date": "2025-11-22",
+      "type": "sale",
+      "amount": 170,
+      "balance": 34214.499999999985,
+      "description": "Sale: PLASTICA",
+      "relatedSaleId": "sale-1763935708037-jasj8wgs0",
+      "createdAt": "2025-11-23T22:08:28.037Z"
     }
   ],
   "partners": [
@@ -1811,7 +1847,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-21T19:45:38.585Z",
+    "lastUpdated": "2025-11-23T22:08:29.289Z",
     "version": "1.0.0"
   }
 }
