@@ -11,10 +11,10 @@
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 77,
+      "quantity": 69,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-11-21T14:10:43.375Z"
+      "updatedAt": "2025-11-23T22:09:45.209Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -2433,6 +2433,32 @@
       "totalAmountUSD": 665,
       "createdAt": "2025-11-21T14:10:43.375Z",
       "updatedAt": "2025-11-21T14:10:43.375Z"
+    },
+    {
+      "id": "sale-1763935785209-y68trwnk6",
+      "date": "2025-11-22",
+      "products": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 8,
+          "sellingPriceUSD": 60,
+          "lineTotal": 480
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 8,
+          "averagePrice": 60,
+          "totalAmount": 480,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 480,
+      "createdAt": "2025-11-23T22:09:45.209Z",
+      "updatedAt": "2025-11-23T22:09:45.209Z"
     }
   ],
   "expenses": [
@@ -4060,6 +4086,16 @@
       "description": "Rent: Rent Shaumba warehouse",
       "relatedExpenseId": "expense-1763735345342-g3mqodk6u",
       "createdAt": "2025-11-21T14:29:05.342Z"
+    },
+    {
+      "id": "cash-1763935785209-8qbhhap81",
+      "date": "2025-11-22",
+      "type": "sale",
+      "amount": 480,
+      "balance": 8808,
+      "description": "Sale: MIX II",
+      "relatedSaleId": "sale-1763935785209-y68trwnk6",
+      "createdAt": "2025-11-23T22:09:45.209Z"
     }
   ],
   "partners": [
@@ -4154,7 +4190,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-21T14:29:06.158Z",
+    "lastUpdated": "2025-11-23T22:09:47.007Z",
     "version": "1.0.0"
   }
 }
