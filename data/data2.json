@@ -2974,6 +2974,15 @@
       "description": "Rent Shaumba warehouse",
       "createdAt": "2025-11-21T14:29:05.342Z",
       "updatedAt": "2025-11-21T14:29:05.342Z"
+    },
+    {
+      "id": "expense-1763935798388-y8ll6afa4",
+      "date": "2025-11-22",
+      "category": "Salaries",
+      "amountUSD": 15,
+      "description": "Casuals",
+      "createdAt": "2025-11-23T22:09:58.388Z",
+      "updatedAt": "2025-11-23T22:09:58.388Z"
     }
   ],
   "cashTransactions": [
@@ -4096,6 +4105,16 @@
       "description": "Sale: MIX II",
       "relatedSaleId": "sale-1763935785209-y68trwnk6",
       "createdAt": "2025-11-23T22:09:45.209Z"
+    },
+    {
+      "id": "cash-1763935798388-t0qfx5310",
+      "date": "2025-11-22",
+      "type": "expense",
+      "amount": -15,
+      "balance": 8793,
+      "description": "Salaries: Casuals",
+      "relatedExpenseId": "expense-1763935798388-y8ll6afa4",
+      "createdAt": "2025-11-23T22:09:58.388Z"
     }
   ],
   "partners": [
@@ -4190,7 +4209,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-23T22:09:47.007Z",
+    "lastUpdated": "2025-11-23T22:10:00.256Z",
     "version": "1.0.0"
   }
 }
