@@ -11,10 +11,10 @@
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 69,
+      "quantity": 65,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2025-11-23T22:09:45.209Z"
+      "updatedAt": "2025-11-26T20:45:00.587Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -2459,6 +2459,39 @@
       "totalAmountUSD": 480,
       "createdAt": "2025-11-23T22:09:45.209Z",
       "updatedAt": "2025-11-23T22:09:45.209Z"
+    },
+    {
+      "id": "sale-1764189900588-ni3thc9dn",
+      "date": "2025-11-24",
+      "products": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 3,
+          "sellingPriceUSD": 60,
+          "lineTotal": 180
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 1,
+          "sellingPriceUSD": 65,
+          "lineTotal": 65
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 4,
+          "averagePrice": 61.25,
+          "totalAmount": 245,
+          "priceVariations": 2
+        }
+      ],
+      "totalAmountUSD": 245,
+      "createdAt": "2025-11-26T20:45:00.587Z",
+      "updatedAt": "2025-11-26T20:45:00.587Z"
     }
   ],
   "expenses": [
@@ -4115,6 +4148,16 @@
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1763935798388-y8ll6afa4",
       "createdAt": "2025-11-23T22:09:58.388Z"
+    },
+    {
+      "id": "cash-1764189900588-fj1dg6mhu",
+      "date": "2025-11-24",
+      "type": "sale",
+      "amount": 245,
+      "balance": 9038,
+      "description": "Sale: MIX II, MIX II",
+      "relatedSaleId": "sale-1764189900588-ni3thc9dn",
+      "createdAt": "2025-11-26T20:45:00.587Z"
     }
   ],
   "partners": [
@@ -4209,7 +4252,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-23T22:10:00.256Z",
+    "lastUpdated": "2025-11-26T20:45:02.025Z",
     "version": "1.0.0"
   }
 }
