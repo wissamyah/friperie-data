@@ -1383,6 +1383,15 @@
       "description": "Casuals (Journaliers)",
       "createdAt": "2025-11-23T22:09:09.295Z",
       "updatedAt": "2025-11-23T22:09:16.920Z"
+    },
+    {
+      "id": "expense-1764189286680-7o59trwgd",
+      "date": "2025-11-24",
+      "category": "Daily Expenses on Casuals",
+      "amountUSD": 30,
+      "description": "Casuals (Journaliers)",
+      "createdAt": "2025-11-26T20:34:46.679Z",
+      "updatedAt": "2025-11-26T20:34:46.679Z"
     }
   ],
   "cashTransactions": [
@@ -1885,6 +1894,16 @@
       "description": "Sale: MIX I, PRIMETTA, PRIMETTA, PRIMETTA",
       "relatedSaleId": "sale-1764189269225-m9k14b1kj",
       "createdAt": "2025-11-26T20:34:29.225Z"
+    },
+    {
+      "id": "cash-1764189286680-vkoa18ay5",
+      "date": "2025-11-24",
+      "type": "expense",
+      "amount": -30,
+      "balance": 39885.499999999985,
+      "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
+      "relatedExpenseId": "expense-1764189286680-7o59trwgd",
+      "createdAt": "2025-11-26T20:34:46.679Z"
     }
   ],
   "partners": [
@@ -1967,7 +1986,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-26T20:34:30.555Z",
+    "lastUpdated": "2025-11-26T20:34:47.449Z",
     "version": "1.0.0"
   }
 }
