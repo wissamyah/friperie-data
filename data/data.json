@@ -43,18 +43,18 @@
     {
       "id": "1761567189686-8s0lbn3zj",
       "name": "PRIMETTA",
-      "quantity": 94,
+      "quantity": 96,
       "costPerBagUSD": 81.09105141156245,
       "createdAt": "2025-10-27T12:13:09.686Z",
-      "updatedAt": "2025-11-26T20:34:29.225Z"
+      "updatedAt": "2025-11-30T14:03:15.670Z"
     },
     {
       "id": "1761567194457-hlro9xaik",
       "name": "HOMME 1",
-      "quantity": 3,
+      "quantity": 1,
       "costPerBagUSD": 75.27330234661855,
       "createdAt": "2025-10-27T12:13:14.457Z",
-      "updatedAt": "2025-11-30T14:02:39.193Z"
+      "updatedAt": "2025-11-30T14:03:15.670Z"
     },
     {
       "id": "1761567198527-7fobkjbib",
@@ -695,8 +695,8 @@
       "date": "2025-10-31",
       "products": [
         {
-          "productId": "1761567189686-8s0lbn3zj",
-          "productName": "PRIMETTA",
+          "productId": "1761567194457-hlro9xaik",
+          "productName": "HOMME 1",
           "quantityBags": 2,
           "sellingPriceUSD": 150,
           "lineTotal": 300
@@ -704,8 +704,8 @@
       ],
       "productSummary": [
         {
-          "productId": "1761567189686-8s0lbn3zj",
-          "productName": "PRIMETTA",
+          "productId": "1761567194457-hlro9xaik",
+          "productName": "HOMME 1",
           "totalQuantity": 2,
           "averagePrice": 150,
           "totalAmount": 300,
@@ -714,7 +714,7 @@
       ],
       "totalAmountUSD": 300,
       "createdAt": "2025-10-31T21:02:21.887Z",
-      "updatedAt": "2025-10-31T21:02:21.887Z"
+      "updatedAt": "2025-11-30T14:03:15.670Z"
     },
     {
       "id": "sale-1762117851197-wv2qipwlt",
@@ -1630,7 +1630,7 @@
       "type": "sale",
       "amount": 300,
       "balance": 22216.499999999985,
-      "description": "Sale: PRIMETTA",
+      "description": "Sale: HOMME 1",
       "relatedSaleId": "sale-1761944541887-o73bfjp5e",
       "createdAt": "2025-10-31T21:02:21.887Z"
     },
@@ -2005,7 +2005,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-11-30T14:02:40.594Z",
+    "lastUpdated": "2025-11-30T14:03:17.080Z",
     "version": "1.0.0"
   }
 }
