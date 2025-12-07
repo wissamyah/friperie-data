@@ -1724,6 +1724,15 @@
       "description": "Casuals (Journaliers)",
       "createdAt": "2025-12-07T23:08:29.912Z",
       "updatedAt": "2025-12-07T23:08:29.912Z"
+    },
+    {
+      "id": "expense-1765148927008-f9ubctn5o",
+      "date": "2025-12-03",
+      "category": "Supplies",
+      "amountUSD": 5,
+      "description": "Marqueurs",
+      "createdAt": "2025-12-07T23:08:47.008Z",
+      "updatedAt": "2025-12-07T23:08:47.008Z"
     }
   ],
   "cashTransactions": [
@@ -2366,6 +2375,16 @@
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1765148909912-pwdk3ecn8",
       "createdAt": "2025-12-07T23:08:29.912Z"
+    },
+    {
+      "id": "cash-1765148927008-d1mi0t15c",
+      "date": "2025-12-03",
+      "type": "expense",
+      "amount": -5,
+      "balance": 15489.499999999985,
+      "description": "Supplies: Marqueurs",
+      "relatedExpenseId": "expense-1765148927008-f9ubctn5o",
+      "createdAt": "2025-12-07T23:08:47.008Z"
     }
   ],
   "partners": [
@@ -2448,7 +2467,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-07T23:08:30.679Z",
+    "lastUpdated": "2025-12-07T23:08:48.581Z",
     "version": "1.0.0"
   }
 }
