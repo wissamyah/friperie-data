@@ -27,18 +27,18 @@
     {
       "id": "1761567182835-0p0dwzz7d",
       "name": "MIX I",
-      "quantity": 160,
+      "quantity": 151,
       "costPerBagUSD": 118.90642033369777,
       "createdAt": "2025-10-27T12:13:02.835Z",
-      "updatedAt": "2025-12-07T23:06:10.701Z"
+      "updatedAt": "2025-12-07T23:06:39.717Z"
     },
     {
       "id": "1761567186233-3dox0ct71",
       "name": "MIX II",
-      "quantity": 242,
+      "quantity": 230,
       "costPerBagUSD": 66.5466787492027,
       "createdAt": "2025-10-27T12:13:06.233Z",
-      "updatedAt": "2025-12-07T23:06:10.701Z"
+      "updatedAt": "2025-12-07T23:06:39.717Z"
     },
     {
       "id": "1761567189686-8s0lbn3zj",
@@ -1429,6 +1429,47 @@
       "totalAmountUSD": 2040,
       "createdAt": "2025-12-07T23:06:10.701Z",
       "updatedAt": "2025-12-07T23:06:10.701Z"
+    },
+    {
+      "id": "sale-1765148799717-cbr8wdkac",
+      "date": "2025-12-05",
+      "products": [
+        {
+          "productId": "1761567182835-0p0dwzz7d",
+          "productName": "MIX I",
+          "quantityBags": 9,
+          "sellingPriceUSD": 160,
+          "lineTotal": 1440
+        },
+        {
+          "productId": "1761567186233-3dox0ct71",
+          "productName": "MIX II",
+          "quantityBags": 12,
+          "sellingPriceUSD": 100,
+          "lineTotal": 1200
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1761567182835-0p0dwzz7d",
+          "productName": "MIX I",
+          "totalQuantity": 9,
+          "averagePrice": 160,
+          "totalAmount": 1440,
+          "priceVariations": 1
+        },
+        {
+          "productId": "1761567186233-3dox0ct71",
+          "productName": "MIX II",
+          "totalQuantity": 12,
+          "averagePrice": 100,
+          "totalAmount": 1200,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 2640,
+      "createdAt": "2025-12-07T23:06:39.717Z",
+      "updatedAt": "2025-12-07T23:06:39.717Z"
     }
   ],
   "expenses": [
@@ -2239,6 +2280,16 @@
       "description": "Sale: MIX II, CREME DAMME, MIX I",
       "relatedSaleId": "sale-1765148770701-otrfe6lu3",
       "createdAt": "2025-12-07T23:06:10.701Z"
+    },
+    {
+      "id": "cash-1765148799717-4jwgpq5ca",
+      "date": "2025-12-05",
+      "type": "sale",
+      "amount": 2640,
+      "balance": 17044.499999999985,
+      "description": "Sale: MIX I, MIX II",
+      "relatedSaleId": "sale-1765148799717-cbr8wdkac",
+      "createdAt": "2025-12-07T23:06:39.717Z"
     }
   ],
   "partners": [
@@ -2321,7 +2372,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-07T23:06:12.328Z",
+    "lastUpdated": "2025-12-07T23:06:40.431Z",
     "version": "1.0.0"
   }
 }
