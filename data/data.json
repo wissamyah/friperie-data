@@ -1706,6 +1706,15 @@
       "description": "Depot Shaumba",
       "createdAt": "2025-12-07T23:07:51.338Z",
       "updatedAt": "2025-12-07T23:07:51.338Z"
+    },
+    {
+      "id": "expense-1765148888880-lophxu501",
+      "date": "2025-12-02",
+      "category": "Salaries",
+      "amountUSD": 490,
+      "description": "Salaires",
+      "createdAt": "2025-12-07T23:08:08.880Z",
+      "updatedAt": "2025-12-07T23:08:08.880Z"
     }
   ],
   "cashTransactions": [
@@ -2328,6 +2337,16 @@
       "description": "Rent: Depot Shaumba",
       "relatedExpenseId": "expense-1765148871338-nbp6bnipo",
       "createdAt": "2025-12-07T23:07:51.338Z"
+    },
+    {
+      "id": "cash-1765148888880-74p4p3kii",
+      "date": "2025-12-02",
+      "type": "expense",
+      "amount": -490,
+      "balance": 15524.499999999985,
+      "description": "Salaries: Salaires",
+      "relatedExpenseId": "expense-1765148888880-lophxu501",
+      "createdAt": "2025-12-07T23:08:08.880Z"
     }
   ],
   "partners": [
@@ -2410,7 +2429,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-07T23:07:52.091Z",
+    "lastUpdated": "2025-12-07T23:08:09.723Z",
     "version": "1.0.0"
   }
 }
