@@ -1733,6 +1733,15 @@
       "description": "Marqueurs",
       "createdAt": "2025-12-07T23:08:47.008Z",
       "updatedAt": "2025-12-07T23:08:47.008Z"
+    },
+    {
+      "id": "expense-1765148975566-76hrg6ux7",
+      "date": "2025-12-02",
+      "category": "Commission on Transfer",
+      "amountUSD": 815,
+      "description": "Commission transfer 35185$ Equivalent of 30k Euro to ID MONDO 2011",
+      "createdAt": "2025-12-07T23:09:35.566Z",
+      "updatedAt": "2025-12-07T23:09:35.566Z"
     }
   ],
   "cashTransactions": [
@@ -2385,6 +2394,16 @@
       "description": "Supplies: Marqueurs",
       "relatedExpenseId": "expense-1765148927008-f9ubctn5o",
       "createdAt": "2025-12-07T23:08:47.008Z"
+    },
+    {
+      "id": "cash-1765148975566-0y26o46cw",
+      "date": "2025-12-02",
+      "type": "expense",
+      "amount": -815,
+      "balance": 14674.499999999985,
+      "description": "Commission on Transfer: Commission transfer 35185$ Equivalent of 30k Euro to ID MONDO 2011",
+      "relatedExpenseId": "expense-1765148975566-76hrg6ux7",
+      "createdAt": "2025-12-07T23:09:35.566Z"
     }
   ],
   "partners": [
@@ -2467,7 +2486,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-07T23:08:48.581Z",
+    "lastUpdated": "2025-12-07T23:09:36.323Z",
     "version": "1.0.0"
   }
 }
