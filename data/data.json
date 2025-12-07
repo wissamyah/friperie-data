@@ -400,14 +400,14 @@
       "supplierId": "1761567155629-79r9goq8m",
       "supplierName": "ID MONDO 2011",
       "amountEUR": 30000,
-      "exchangeRate": 1.005167,
+      "exchangeRate": 1.17283333,
       "commissionPercent": 0,
-      "amountUSD": 30155.01,
+      "amountUSD": 35184.9999,
       "allocations": [],
       "unallocatedEUR": 30000,
       "notes": "",
       "createdAt": "2025-12-07T14:25:26.381Z",
-      "updatedAt": "2025-12-07T23:15:44.510Z"
+      "updatedAt": "2025-12-07T23:16:27.936Z"
     }
   ],
   "sales": [
@@ -2318,8 +2318,8 @@
       "id": "cash-1765117526386-14lpbbxot",
       "date": "2025-12-02",
       "type": "payment",
-      "amount": -30155.01,
-      "balance": 16264.489999999987,
+      "amount": -35184.9999,
+      "balance": 11234.500099999983,
       "description": "Payment to ID MONDO 2011",
       "relatedPaymentId": "payment-1765117526381-aegi5d30j",
       "createdAt": "2025-12-07T14:25:26.386Z"
@@ -2505,7 +2505,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-07T23:15:45.380Z",
+    "lastUpdated": "2025-12-07T23:16:28.742Z",
     "version": "1.0.0"
   }
 }
