@@ -193,6 +193,30 @@
   ],
   "supplierLedger": [
     {
+      "id": "ledger-1761567390771-2956esa1o",
+      "supplierId": "1761567158983-v6gbo99ie",
+      "supplierName": "JAVEED",
+      "type": "payment",
+      "amount": 30000,
+      "balance": 30000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761567390745-uy1wir9gm",
+      "date": "2025-07-24",
+      "createdAt": "2025-10-27T12:16:30.771Z"
+    },
+    {
+      "id": "ledger-1761944646365-dgphz96xc",
+      "supplierId": "1761567158983-v6gbo99ie",
+      "supplierName": "JAVEED",
+      "type": "payment",
+      "amount": 20000,
+      "balance": 50000,
+      "description": "Payment received - No notes",
+      "relatedPaymentId": "payment-1761944646352-76jwp0m3c",
+      "date": "2025-10-30",
+      "createdAt": "2025-10-31T21:04:06.365Z"
+    },
+    {
       "id": "ledger-1761567248243-4tpke7s2o",
       "supplierId": "1761567155629-79r9goq8m",
       "supplierName": "ID MONDO 2011",
@@ -253,28 +277,16 @@
       "createdAt": "2025-10-31T21:03:23.627Z"
     },
     {
-      "id": "ledger-1761567390771-2956esa1o",
-      "supplierId": "1761567158983-v6gbo99ie",
-      "supplierName": "JAVEED",
+      "id": "ledger-1765117526386-krb1i8j5w",
+      "supplierId": "1761567155629-79r9goq8m",
+      "supplierName": "ID MONDO 2011",
       "type": "payment",
       "amount": 30000,
-      "balance": 30000,
+      "balance": 77259,
       "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761567390745-uy1wir9gm",
-      "date": "2025-07-24",
-      "createdAt": "2025-10-27T12:16:30.771Z"
-    },
-    {
-      "id": "ledger-1761944646365-dgphz96xc",
-      "supplierId": "1761567158983-v6gbo99ie",
-      "supplierName": "JAVEED",
-      "type": "payment",
-      "amount": 20000,
-      "balance": 50000,
-      "description": "Payment received - No notes",
-      "relatedPaymentId": "payment-1761944646352-76jwp0m3c",
-      "date": "2025-10-30",
-      "createdAt": "2025-10-31T21:04:06.365Z"
+      "relatedPaymentId": "payment-1765117526381-aegi5d30j",
+      "date": "2025-12-02",
+      "createdAt": "2025-12-07T14:25:26.386Z"
     }
   ],
   "payments": [
@@ -381,6 +393,21 @@
       "notes": "",
       "createdAt": "2025-10-31T21:04:06.352Z",
       "updatedAt": "2025-10-31T21:04:06.352Z"
+    },
+    {
+      "id": "payment-1765117526381-aegi5d30j",
+      "date": "2025-12-02",
+      "supplierId": "1761567155629-79r9goq8m",
+      "supplierName": "ID MONDO 2011",
+      "amountEUR": 30000,
+      "exchangeRate": 1.2,
+      "commissionPercent": 0,
+      "amountUSD": 36000,
+      "allocations": [],
+      "unallocatedEUR": 30000,
+      "notes": "",
+      "createdAt": "2025-12-07T14:25:26.381Z",
+      "updatedAt": "2025-12-07T14:25:26.381Z"
     }
   ],
   "sales": [
@@ -2063,6 +2090,16 @@
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1764630284270-1h5r8myyw",
       "createdAt": "2025-12-01T23:04:44.270Z"
+    },
+    {
+      "id": "cash-1765117526386-14lpbbxot",
+      "date": "2025-12-02",
+      "type": "payment",
+      "amount": -36000,
+      "balance": 10419.499999999985,
+      "description": "Payment to ID MONDO 2011",
+      "relatedPaymentId": "payment-1765117526381-aegi5d30j",
+      "createdAt": "2025-12-07T14:25:26.386Z"
     }
   ],
   "partners": [
@@ -2145,7 +2182,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-01T23:04:45.937Z",
+    "lastUpdated": "2025-12-07T14:25:28.256Z",
     "version": "1.0.0"
   }
 }
