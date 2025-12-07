@@ -1697,6 +1697,15 @@
       "description": "Casuals (Journaliers)",
       "createdAt": "2025-12-07T23:07:29.763Z",
       "updatedAt": "2025-12-07T23:07:29.763Z"
+    },
+    {
+      "id": "expense-1765148871338-nbp6bnipo",
+      "date": "2025-12-02",
+      "category": "Rent",
+      "amountUSD": 1000,
+      "description": "Depot Shaumba",
+      "createdAt": "2025-12-07T23:07:51.338Z",
+      "updatedAt": "2025-12-07T23:07:51.338Z"
     }
   ],
   "cashTransactions": [
@@ -2309,6 +2318,16 @@
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1765148849763-cyud8dp4v",
       "createdAt": "2025-12-07T23:07:29.763Z"
+    },
+    {
+      "id": "cash-1765148871338-yttgyysla",
+      "date": "2025-12-02",
+      "type": "expense",
+      "amount": -1000,
+      "balance": 16014.499999999985,
+      "description": "Rent: Depot Shaumba",
+      "relatedExpenseId": "expense-1765148871338-nbp6bnipo",
+      "createdAt": "2025-12-07T23:07:51.338Z"
     }
   ],
   "partners": [
@@ -2391,7 +2410,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-07T23:07:30.816Z",
+    "lastUpdated": "2025-12-07T23:07:52.091Z",
     "version": "1.0.0"
   }
 }
