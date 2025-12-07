@@ -1742,6 +1742,15 @@
       "description": "Commission transfer 35185$ Equivalent of 30k Euro to ID MONDO 2011",
       "createdAt": "2025-12-07T23:09:35.566Z",
       "updatedAt": "2025-12-07T23:09:35.566Z"
+    },
+    {
+      "id": "expense-1765148989388-hniielnbd",
+      "date": "2025-12-05",
+      "category": "Daily Expenses on Casuals",
+      "amountUSD": 30,
+      "description": "Casuals (Journaliers)",
+      "createdAt": "2025-12-07T23:09:49.388Z",
+      "updatedAt": "2025-12-07T23:09:49.388Z"
     }
   ],
   "cashTransactions": [
@@ -2404,6 +2413,16 @@
       "description": "Commission on Transfer: Commission transfer 35185$ Equivalent of 30k Euro to ID MONDO 2011",
       "relatedExpenseId": "expense-1765148975566-76hrg6ux7",
       "createdAt": "2025-12-07T23:09:35.566Z"
+    },
+    {
+      "id": "cash-1765148989388-ywui2le2h",
+      "date": "2025-12-05",
+      "type": "expense",
+      "amount": -30,
+      "balance": 14644.499999999985,
+      "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
+      "relatedExpenseId": "expense-1765148989388-hniielnbd",
+      "createdAt": "2025-12-07T23:09:49.388Z"
     }
   ],
   "partners": [
@@ -2486,7 +2505,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-07T23:09:36.323Z",
+    "lastUpdated": "2025-12-07T23:09:50.347Z",
     "version": "1.0.0"
   }
 }
