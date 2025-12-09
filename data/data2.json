@@ -3,10 +3,10 @@
     {
       "id": "1760302321311-58x5mwug9",
       "name": "MIX I",
-      "quantity": 6,
+      "quantity": 5,
       "costPerBagUSD": 112.97919642857144,
       "createdAt": "2025-10-12T20:52:01.311Z",
-      "updatedAt": "2025-12-01T23:03:29.469Z"
+      "updatedAt": "2025-12-09T22:49:56.302Z"
     },
     {
       "id": "1760302325092-evg1qwqzw",
@@ -2652,6 +2652,32 @@
       "totalAmountUSD": 1080,
       "createdAt": "2025-12-09T22:49:30.092Z",
       "updatedAt": "2025-12-09T22:49:30.092Z"
+    },
+    {
+      "id": "sale-1765320596302-lowa3z1m5",
+      "date": "2025-12-08",
+      "products": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "quantityBags": 1,
+          "sellingPriceUSD": 145,
+          "lineTotal": 145
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302321311-58x5mwug9",
+          "productName": "MIX I",
+          "totalQuantity": 1,
+          "averagePrice": 145,
+          "totalAmount": 145,
+          "priceVariations": 1
+        }
+      ],
+      "totalAmountUSD": 145,
+      "createdAt": "2025-12-09T22:49:56.302Z",
+      "updatedAt": "2025-12-09T22:49:56.302Z"
     }
   ],
   "expenses": [
@@ -4406,6 +4432,16 @@
       "description": "Sale: MIX II",
       "relatedSaleId": "sale-1765320570092-cky8fq9ec",
       "createdAt": "2025-12-09T22:49:30.092Z"
+    },
+    {
+      "id": "cash-1765320596302-eq42d9vn3",
+      "date": "2025-12-08",
+      "type": "sale",
+      "amount": 145,
+      "balance": 12113,
+      "description": "Sale: MIX I",
+      "relatedSaleId": "sale-1765320596302-lowa3z1m5",
+      "createdAt": "2025-12-09T22:49:56.302Z"
     }
   ],
   "partners": [
@@ -4500,7 +4536,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-09T22:49:31.424Z",
+    "lastUpdated": "2025-12-09T22:49:56.864Z",
     "version": "1.0.0"
   }
 }
