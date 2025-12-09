@@ -3262,6 +3262,15 @@
       "description": "Casuals",
       "createdAt": "2025-12-09T22:51:01.821Z",
       "updatedAt": "2025-12-09T22:51:01.821Z"
+    },
+    {
+      "id": "expense-1765320698374-4ijnff5m9",
+      "date": "2025-12-05",
+      "category": "Salaries",
+      "amountUSD": 25,
+      "description": "Casuals",
+      "createdAt": "2025-12-09T22:51:38.374Z",
+      "updatedAt": "2025-12-09T22:51:38.374Z"
     }
   ],
   "cashTransactions": [
@@ -4504,6 +4513,16 @@
       "description": "Salaries: Casuals",
       "relatedExpenseId": "expense-1765320661821-r4ctwspe2",
       "createdAt": "2025-12-09T22:51:01.821Z"
+    },
+    {
+      "id": "cash-1765320698374-xilgiu2ye",
+      "date": "2025-12-05",
+      "type": "expense",
+      "amount": -25,
+      "balance": 12351,
+      "description": "Salaries: Casuals",
+      "relatedExpenseId": "expense-1765320698374-4ijnff5m9",
+      "createdAt": "2025-12-09T22:51:38.374Z"
     }
   ],
   "partners": [
@@ -4598,7 +4617,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-09T22:51:02.554Z",
+    "lastUpdated": "2025-12-09T22:51:39.419Z",
     "version": "1.0.0"
   }
 }
