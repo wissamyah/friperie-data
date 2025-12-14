@@ -1954,6 +1954,15 @@
       "description": "Electricity",
       "createdAt": "2025-12-14T23:30:52.653Z",
       "updatedAt": "2025-12-14T23:34:54.851Z"
+    },
+    {
+      "id": "expense-1765755309915-isz683n6e",
+      "date": "2025-12-12",
+      "category": "Daily Expenses on Casuals",
+      "amountUSD": 35,
+      "description": "Casuals (Journaliers)",
+      "createdAt": "2025-12-14T23:35:09.914Z",
+      "updatedAt": "2025-12-14T23:35:09.914Z"
     }
   ],
   "cashTransactions": [
@@ -2696,6 +2705,16 @@
       "description": "Utilities: Electricity",
       "relatedExpenseId": "expense-1765755052653-dxifp2dop",
       "createdAt": "2025-12-14T23:30:52.653Z"
+    },
+    {
+      "id": "cash-1765755309915-slbm6ue0v",
+      "date": "2025-12-12",
+      "type": "expense",
+      "amount": -35,
+      "balance": 22658.500099999983,
+      "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
+      "relatedExpenseId": "expense-1765755309915-isz683n6e",
+      "createdAt": "2025-12-14T23:35:09.914Z"
     }
   ],
   "partners": [
@@ -2778,7 +2797,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-14T23:34:55.592Z",
+    "lastUpdated": "2025-12-14T23:35:10.804Z",
     "version": "1.0.0"
   }
 }
