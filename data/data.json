@@ -1948,12 +1948,12 @@
     },
     {
       "id": "expense-1765755052653-dxifp2dop",
-      "date": "2025-12-12",
+      "date": "2025-12-11",
       "category": "Utilities",
       "amountUSD": 50,
       "description": "Electricity",
       "createdAt": "2025-12-14T23:30:52.653Z",
-      "updatedAt": "2025-12-14T23:30:52.653Z"
+      "updatedAt": "2025-12-14T23:34:54.851Z"
     }
   ],
   "cashTransactions": [
@@ -2689,10 +2689,10 @@
     },
     {
       "id": "cash-1765755052653-ow4cb3egf",
-      "date": "2025-12-12",
+      "date": "2025-12-11",
       "type": "expense",
       "amount": -50,
-      "balance": 22693.500099999983,
+      "balance": 21653.500099999983,
       "description": "Utilities: Electricity",
       "relatedExpenseId": "expense-1765755052653-dxifp2dop",
       "createdAt": "2025-12-14T23:30:52.653Z"
@@ -2778,7 +2778,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-14T23:34:46.025Z",
+    "lastUpdated": "2025-12-14T23:34:55.592Z",
     "version": "1.0.0"
   }
 }
