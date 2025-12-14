@@ -1939,12 +1939,12 @@
     },
     {
       "id": "expense-1765755035883-psatb1ve7",
-      "date": "2025-12-12",
+      "date": "2025-12-11",
       "category": "Daily Expenses on Casuals",
       "amountUSD": 40,
       "description": "Casuals (Journaliers)",
       "createdAt": "2025-12-14T23:30:35.883Z",
-      "updatedAt": "2025-12-14T23:30:35.883Z"
+      "updatedAt": "2025-12-14T23:34:44.713Z"
     },
     {
       "id": "expense-1765755052653-dxifp2dop",
@@ -2679,10 +2679,10 @@
     },
     {
       "id": "cash-1765755035883-t7d0x7jh6",
-      "date": "2025-12-12",
+      "date": "2025-12-11",
       "type": "expense",
       "amount": -40,
-      "balance": 22743.500099999983,
+      "balance": 21703.500099999983,
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1765755035883-psatb1ve7",
       "createdAt": "2025-12-14T23:30:35.883Z"
@@ -2778,7 +2778,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-14T23:30:53.539Z",
+    "lastUpdated": "2025-12-14T23:34:46.025Z",
     "version": "1.0.0"
   }
 }
