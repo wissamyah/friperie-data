@@ -1577,7 +1577,7 @@
     },
     {
       "id": "sale-1765755006090-owccgjob9",
-      "date": "2025-12-12",
+      "date": "2025-12-11",
       "products": [
         {
           "productId": "1761567182835-0p0dwzz7d",
@@ -1636,7 +1636,7 @@
       ],
       "totalAmountUSD": 1040,
       "createdAt": "2025-12-14T23:30:06.090Z",
-      "updatedAt": "2025-12-14T23:30:06.090Z"
+      "updatedAt": "2025-12-14T23:35:24.049Z"
     }
   ],
   "expenses": [
@@ -2541,37 +2541,17 @@
       "date": "2025-12-02",
       "type": "sale",
       "amount": 1945,
-      "balance": 12364.499999999985,
+      "balance": 13179.500099999983,
       "description": "Sale: MIX I, MIX II, PLASTICA, MIX II",
       "relatedSaleId": "sale-1765148705202-viled5ja4",
       "createdAt": "2025-12-07T23:05:05.202Z"
-    },
-    {
-      "id": "cash-1765148770701-uw9f0irsc",
-      "date": "2025-12-03",
-      "type": "sale",
-      "amount": 2040,
-      "balance": 14404.499999999985,
-      "description": "Sale: MIX II, CREME DAMME, MIX I",
-      "relatedSaleId": "sale-1765148770701-otrfe6lu3",
-      "createdAt": "2025-12-07T23:06:10.701Z"
-    },
-    {
-      "id": "cash-1765148799717-4jwgpq5ca",
-      "date": "2025-12-05",
-      "type": "sale",
-      "amount": 2640,
-      "balance": 17044.499999999985,
-      "description": "Sale: MIX I, MIX II",
-      "relatedSaleId": "sale-1765148799717-cbr8wdkac",
-      "createdAt": "2025-12-07T23:06:39.717Z"
     },
     {
       "id": "cash-1765148849763-gsek30m18",
       "date": "2025-12-02",
       "type": "expense",
       "amount": -30,
-      "balance": 17014.499999999985,
+      "balance": 13149.500099999983,
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1765148849763-cyud8dp4v",
       "createdAt": "2025-12-07T23:07:29.763Z"
@@ -2581,7 +2561,7 @@
       "date": "2025-12-02",
       "type": "expense",
       "amount": -1000,
-      "balance": 16014.499999999985,
+      "balance": 12149.500099999983,
       "description": "Rent: Depot Shaumba",
       "relatedExpenseId": "expense-1765148871338-nbp6bnipo",
       "createdAt": "2025-12-07T23:07:51.338Z"
@@ -2591,17 +2571,37 @@
       "date": "2025-12-02",
       "type": "expense",
       "amount": -490,
-      "balance": 15524.499999999985,
+      "balance": 11659.500099999983,
       "description": "Salaries: Salaires",
       "relatedExpenseId": "expense-1765148888880-lophxu501",
       "createdAt": "2025-12-07T23:08:08.880Z"
+    },
+    {
+      "id": "cash-1765148975566-0y26o46cw",
+      "date": "2025-12-02",
+      "type": "expense",
+      "amount": -815,
+      "balance": 10844.500099999983,
+      "description": "Commission on Transfer: Commission transfer 35185$ Equivalent of 30k Euro to ID MONDO 2011",
+      "relatedExpenseId": "expense-1765148975566-76hrg6ux7",
+      "createdAt": "2025-12-07T23:09:35.566Z"
+    },
+    {
+      "id": "cash-1765148770701-uw9f0irsc",
+      "date": "2025-12-03",
+      "type": "sale",
+      "amount": 2040,
+      "balance": 12884.500099999983,
+      "description": "Sale: MIX II, CREME DAMME, MIX I",
+      "relatedSaleId": "sale-1765148770701-otrfe6lu3",
+      "createdAt": "2025-12-07T23:06:10.701Z"
     },
     {
       "id": "cash-1765148909913-z6ezuf7eq",
       "date": "2025-12-03",
       "type": "expense",
       "amount": -30,
-      "balance": 15494.499999999985,
+      "balance": 12854.500099999983,
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1765148909912-pwdk3ecn8",
       "createdAt": "2025-12-07T23:08:29.912Z"
@@ -2611,27 +2611,27 @@
       "date": "2025-12-03",
       "type": "expense",
       "amount": -5,
-      "balance": 15489.499999999985,
+      "balance": 12849.500099999983,
       "description": "Supplies: Marqueurs",
       "relatedExpenseId": "expense-1765148927008-f9ubctn5o",
       "createdAt": "2025-12-07T23:08:47.008Z"
     },
     {
-      "id": "cash-1765148975566-0y26o46cw",
-      "date": "2025-12-02",
-      "type": "expense",
-      "amount": -815,
-      "balance": 14674.499999999985,
-      "description": "Commission on Transfer: Commission transfer 35185$ Equivalent of 30k Euro to ID MONDO 2011",
-      "relatedExpenseId": "expense-1765148975566-76hrg6ux7",
-      "createdAt": "2025-12-07T23:09:35.566Z"
+      "id": "cash-1765148799717-4jwgpq5ca",
+      "date": "2025-12-05",
+      "type": "sale",
+      "amount": 2640,
+      "balance": 15489.500099999983,
+      "description": "Sale: MIX I, MIX II",
+      "relatedSaleId": "sale-1765148799717-cbr8wdkac",
+      "createdAt": "2025-12-07T23:06:39.717Z"
     },
     {
       "id": "cash-1765148989388-ywui2le2h",
       "date": "2025-12-05",
       "type": "expense",
       "amount": -30,
-      "balance": 14644.499999999985,
+      "balance": 15459.500099999983,
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1765148989388-hniielnbd",
       "createdAt": "2025-12-07T23:09:49.388Z"
@@ -2647,24 +2647,24 @@
       "createdAt": "2025-12-09T22:28:25.805Z"
     },
     {
-      "id": "cash-1765319337400-fa7syyfno",
-      "date": "2025-12-09",
-      "type": "sale",
-      "amount": 4100,
-      "balance": 21800.500099999983,
-      "description": "Sale: MIX I, MIX II",
-      "relatedSaleId": "sale-1765319337400-b49qcc241",
-      "createdAt": "2025-12-09T22:28:57.400Z"
-    },
-    {
       "id": "cash-1765319359050-uf9z3lizh",
       "date": "2025-12-08",
       "type": "expense",
       "amount": -27,
-      "balance": 21773.500099999983,
+      "balance": 17673.500099999983,
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1765319359050-7ln37fd92",
       "createdAt": "2025-12-09T22:29:19.050Z"
+    },
+    {
+      "id": "cash-1765319337400-fa7syyfno",
+      "date": "2025-12-09",
+      "type": "sale",
+      "amount": 4100,
+      "balance": 21773.500099999983,
+      "description": "Sale: MIX I, MIX II",
+      "relatedSaleId": "sale-1765319337400-b49qcc241",
+      "createdAt": "2025-12-09T22:28:57.400Z"
     },
     {
       "id": "cash-1765319364930-vx1dqm910",
@@ -2678,7 +2678,7 @@
     },
     {
       "id": "cash-1765755006090-xcldx2ot2",
-      "date": "2025-12-12",
+      "date": "2025-12-11",
       "type": "sale",
       "amount": 1040,
       "balance": 22783.500099999983,
@@ -2691,7 +2691,7 @@
       "date": "2025-12-11",
       "type": "expense",
       "amount": -40,
-      "balance": 21703.500099999983,
+      "balance": 22743.500099999983,
       "description": "Daily Expenses on Casuals: Casuals (Journaliers)",
       "relatedExpenseId": "expense-1765755035883-psatb1ve7",
       "createdAt": "2025-12-14T23:30:35.883Z"
@@ -2701,7 +2701,7 @@
       "date": "2025-12-11",
       "type": "expense",
       "amount": -50,
-      "balance": 21653.500099999983,
+      "balance": 22693.500099999983,
       "description": "Utilities: Electricity",
       "relatedExpenseId": "expense-1765755052653-dxifp2dop",
       "createdAt": "2025-12-14T23:30:52.653Z"
@@ -2797,7 +2797,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-14T23:35:10.804Z",
+    "lastUpdated": "2025-12-14T23:35:24.643Z",
     "version": "1.0.0"
   }
 }
