@@ -2140,6 +2140,15 @@
       "description": "Casuals (Journaliers 2 jours)",
       "createdAt": "2025-12-19T14:36:43.480Z",
       "updatedAt": "2025-12-19T14:36:43.480Z"
+    },
+    {
+      "id": "expense-1766155100816-m82vuwkse",
+      "date": "2025-12-18",
+      "category": "Rent",
+      "amountUSD": 9600,
+      "description": "7200$ Garantie 6 mois, 1 mois loyer, 1 mois commission\nLoyer commence a partir du 1er Janvier 2026.",
+      "createdAt": "2025-12-19T14:38:20.816Z",
+      "updatedAt": "2025-12-19T14:38:20.816Z"
     }
   ],
   "cashTransactions": [
@@ -2942,6 +2951,16 @@
       "description": "Daily Expenses on Casuals: Casuals (Journaliers 2 jours)",
       "relatedExpenseId": "expense-1766155003480-l3c0z87u9",
       "createdAt": "2025-12-19T14:36:43.480Z"
+    },
+    {
+      "id": "cash-1766155100816-4v2fec58e",
+      "date": "2025-12-18",
+      "type": "expense",
+      "amount": -9600,
+      "balance": 18647.500099999983,
+      "description": "Rent: 7200$ Garantie 6 mois, 1 mois loyer, 1 mois commission\nLoyer commence a partir du 1er Janvier 2026.",
+      "relatedExpenseId": "expense-1766155100816-m82vuwkse",
+      "createdAt": "2025-12-19T14:38:20.816Z"
     }
   ],
   "partners": [
@@ -3024,7 +3043,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-19T14:36:44.110Z",
+    "lastUpdated": "2025-12-19T14:38:22.570Z",
     "version": "1.0.0"
   }
 }
