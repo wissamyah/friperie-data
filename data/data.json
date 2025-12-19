@@ -2158,6 +2158,15 @@
       "description": "Credit bank account for license 4 containers MCG TEXTILE",
       "createdAt": "2025-12-19T17:59:53.204Z",
       "updatedAt": "2025-12-19T17:59:53.204Z"
+    },
+    {
+      "id": "expense-1766167225188-pzorto8u1",
+      "date": "2025-12-01",
+      "category": "Financial",
+      "amountUSD": 4000,
+      "description": "Credit bank account for 7 containers 2 license, 4 cont. Miloud and 3 cont. Javeed",
+      "createdAt": "2025-12-19T18:00:25.188Z",
+      "updatedAt": "2025-12-19T18:00:25.188Z"
     }
   ],
   "cashTransactions": [
@@ -2980,6 +2989,16 @@
       "description": "Financial: Credit bank account for license 4 containers MCG TEXTILE",
       "relatedExpenseId": "expense-1766167193204-grfjmnv2m",
       "createdAt": "2025-12-19T17:59:53.204Z"
+    },
+    {
+      "id": "cash-1766167225188-8l4s0wpcx",
+      "date": "2025-12-01",
+      "type": "expense",
+      "amount": -4000,
+      "balance": 13647.500099999983,
+      "description": "Financial: Credit bank account for 7 containers 2 license, 4 cont. Miloud and 3 cont. Javeed",
+      "relatedExpenseId": "expense-1766167225188-pzorto8u1",
+      "createdAt": "2025-12-19T18:00:25.188Z"
     }
   ],
   "partners": [
@@ -3062,7 +3081,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-19T17:59:54.812Z",
+    "lastUpdated": "2025-12-19T18:00:25.915Z",
     "version": "1.0.0"
   }
 }
