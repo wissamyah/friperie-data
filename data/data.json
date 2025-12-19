@@ -2149,6 +2149,15 @@
       "description": "7200$ Garantie 6 mois, 1 mois loyer, 1 mois commission\nLoyer commence a partir du 1er Janvier 2026.",
       "createdAt": "2025-12-19T14:38:20.816Z",
       "updatedAt": "2025-12-19T14:38:20.816Z"
+    },
+    {
+      "id": "expense-1766167193204-grfjmnv2m",
+      "date": "2025-12-22",
+      "category": "Financial",
+      "amountUSD": 1000,
+      "description": "Credit bank account for license 4 containers MCG TEXTILE",
+      "createdAt": "2025-12-19T17:59:53.204Z",
+      "updatedAt": "2025-12-19T17:59:53.204Z"
     }
   ],
   "cashTransactions": [
@@ -2961,6 +2970,16 @@
       "description": "Rent: 7200$ Garantie 6 mois, 1 mois loyer, 1 mois commission\nLoyer commence a partir du 1er Janvier 2026.",
       "relatedExpenseId": "expense-1766155100816-m82vuwkse",
       "createdAt": "2025-12-19T14:38:20.816Z"
+    },
+    {
+      "id": "cash-1766167193204-at7f79g7e",
+      "date": "2025-12-22",
+      "type": "expense",
+      "amount": -1000,
+      "balance": 17647.500099999983,
+      "description": "Financial: Credit bank account for license 4 containers MCG TEXTILE",
+      "relatedExpenseId": "expense-1766167193204-grfjmnv2m",
+      "createdAt": "2025-12-19T17:59:53.204Z"
     }
   ],
   "partners": [
@@ -3043,7 +3062,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-19T14:38:22.570Z",
+    "lastUpdated": "2025-12-19T17:59:54.812Z",
     "version": "1.0.0"
   }
 }
