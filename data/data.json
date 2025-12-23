@@ -2230,6 +2230,15 @@
       "description": "Credit bank account for 7 containers 2 license, 4 cont. Miloud and 3 cont. Javeed",
       "createdAt": "2025-12-19T18:00:25.188Z",
       "updatedAt": "2025-12-19T18:00:25.188Z"
+    },
+    {
+      "id": "expense-1766494801815-aqmmxmxd8",
+      "date": "2025-12-22",
+      "category": "Daily Expenses on Casuals",
+      "amountUSD": 75,
+      "description": "Casuals (Journaliers sur 3 jours, 19-20-22)",
+      "createdAt": "2025-12-23T13:00:01.815Z",
+      "updatedAt": "2025-12-23T13:00:01.815Z"
     }
   ],
   "cashTransactions": [
@@ -3072,6 +3081,16 @@
       "description": "Sale: MIX I, PRIMETTA, MIX II, PRIMETTA",
       "relatedSaleId": "sale-1766494746849-3ua0uyexe",
       "createdAt": "2025-12-23T12:59:06.849Z"
+    },
+    {
+      "id": "cash-1766494801815-o7frgm58a",
+      "date": "2025-12-22",
+      "type": "expense",
+      "amount": -75,
+      "balance": 17027.500099999983,
+      "description": "Daily Expenses on Casuals: Casuals (Journaliers sur 3 jours, 19-20-22)",
+      "relatedExpenseId": "expense-1766494801815-aqmmxmxd8",
+      "createdAt": "2025-12-23T13:00:01.815Z"
     }
   ],
   "partners": [
@@ -3154,7 +3173,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2025-12-23T12:59:08.235Z",
+    "lastUpdated": "2025-12-23T13:00:04.006Z",
     "version": "1.0.0"
   }
 }
