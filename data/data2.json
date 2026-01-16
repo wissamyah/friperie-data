@@ -11,10 +11,10 @@
     {
       "id": "1760302325092-evg1qwqzw",
       "name": "MIX II",
-      "quantity": 17,
+      "quantity": 12,
       "costPerBagUSD": 56.22919642857143,
       "createdAt": "2025-10-12T20:52:05.092Z",
-      "updatedAt": "2026-01-16T21:58:21.815Z"
+      "updatedAt": "2026-01-16T22:00:21.729Z"
     },
     {
       "id": "1760302329315-0kr1e0aar",
@@ -2830,6 +2830,39 @@
       "totalAmountUSD": 145,
       "createdAt": "2026-01-16T21:59:37.771Z",
       "updatedAt": "2026-01-16T21:59:37.771Z"
+    },
+    {
+      "id": "sale-1768600821729-cwg9zlw3i",
+      "date": "2025-12-29",
+      "products": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 3,
+          "sellingPriceUSD": 55,
+          "lineTotal": 165
+        },
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "quantityBags": 2,
+          "sellingPriceUSD": 80,
+          "lineTotal": 160
+        }
+      ],
+      "productSummary": [
+        {
+          "productId": "1760302325092-evg1qwqzw",
+          "productName": "MIX II",
+          "totalQuantity": 5,
+          "averagePrice": 65,
+          "totalAmount": 325,
+          "priceVariations": 2
+        }
+      ],
+      "totalAmountUSD": 325,
+      "createdAt": "2026-01-16T22:00:21.729Z",
+      "updatedAt": "2026-01-16T22:00:21.729Z"
     }
   ],
   "expenses": [
@@ -4739,6 +4772,16 @@
       "description": "Sale: MIX I",
       "relatedSaleId": "sale-1768600777771-033yjiyr0",
       "createdAt": "2026-01-16T21:59:37.771Z"
+    },
+    {
+      "id": "cash-1768600821729-2mb3clp7m",
+      "date": "2025-12-29",
+      "type": "sale",
+      "amount": 325,
+      "balance": 13735,
+      "description": "Sale: MIX II, MIX II",
+      "relatedSaleId": "sale-1768600821729-cwg9zlw3i",
+      "createdAt": "2026-01-16T22:00:21.729Z"
     }
   ],
   "partners": [
@@ -4833,7 +4876,7 @@
   ],
   "stockAdjustments": [],
   "metadata": {
-    "lastUpdated": "2026-01-16T21:59:38.694Z",
+    "lastUpdated": "2026-01-16T22:00:23.256Z",
     "version": "1.0.0"
   }
 }
